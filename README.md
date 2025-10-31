@@ -63,7 +63,10 @@ Internally, eXa integrates:
    - *ProntoQA* and *ProofWriter* are split into several numbered files due to their size.  
    - *FOLIO* is provided in two versions:  
      - `FOLIO_dev (FULL)` — full development set  
-     - `FOLIO_dev (ARTICLE)` — 182 selected examples used in the paper
+     - `FOLIO_dev (ARTICLE)` — 182 selected examples used in the paper  
+   - `QA_TESTS1` — various examples  
+   - `Syllogisms` — examples of syllogistic reasoning  
+   - `QA with learning (eXaGol)` — relational learning examples using the eXaGol module  
 
 4. **Execution buttons**
    - **eXa** — full pipeline *(semantic parsing + Prolog reasoning)*  
