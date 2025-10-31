@@ -7,19 +7,27 @@
 
 ---
 
-## 🧠 What is eXa-LM?
+##  What is eXa-LM?
 
-**eXa-LM** (or simply **eXa**) is a *controlled natural language interface* that translates **French** text into executable **First-Order Logic** programs.  
-It serves as a bridge between natural-language reasoning and symbolic inference, enabling formal reasoning and benchmark evaluation on **FOLIO**, **ProofWriter**, and **ProntoQA**.
+eXa is a controlled natural language interface
+that translates controlled French text into executable First-Order Logic programs.
+It connects natural-language reasoning with symbolic inference
+and supports evaluation on logic benchmarks such as FOLIO, ProofWriter,
+and ProntoQA.
+
+Modules included:
+- eXaSem: symbolic parser for semantic analysis
+- eXaLog: Prolog meta-interpreter for logical reasoning
+- eXaGol: optional relational learner for hypothesis generation
 
 Internally, eXa integrates:
-- 🧩 **Symbolic parser:** `eXaSem` module (semantic analysis)  
-- ⚙️ **Prolog meta-interpreter:** `eXaLog` module (logical reasoning)  
-- 🔍 **Relational learner:** `eXaGol` module (optional hypothesis generation)
+-  **Symbolic parser:** `eXaSem` module (semantic analysis)  
+-  **Prolog meta-interpreter:** `eXaLog` module (logical reasoning)  
+-  **Relational learner:** `eXaGol` module (optional hypothesis generation)
 
 ---
 
-## ⚖️ License Information
+##  License Information
 
 - **eXa-LM** is distributed under the **MIT License**.  
   You may use, modify, and redistribute it under these terms, provided the copyright
@@ -31,7 +39,7 @@ Internally, eXa integrates:
 
 ---
 
-## 💻 Requirements
+##  Requirements
 
 - **Operating System:** Windows 10 or Windows 11 (64-bit)  
 - **Database Engine:**  
@@ -41,7 +49,7 @@ Internally, eXa integrates:
 
 ---
 
-## 📦 Installation
+##  Installation
 
 1. Download the latest version:  
    [https://github.com/FFrydman/eXa-LM/archive/refs/heads/main.zip](https://github.com/FFrydman/eXa-LM/archive/refs/heads/main.zip)
@@ -50,7 +58,7 @@ Internally, eXa integrates:
 
 ---
 
-## 🚀 Usage
+##  Usage
 
 1. **Launch the program**  
    Run `eXa.exe`.
@@ -85,13 +93,13 @@ Internally, eXa integrates:
 
 ---
 
-## 📫 Contact
+##  Contact
 
 Repository and contact: [https://github.com/FFrydman/eXa-LM](https://github.com/FFrydman/eXa-LM)
 
 ---
 
-### 📄 Citation
+###  Citation
 
 If you use **eXa-LM** in academic work, please cite:
 
