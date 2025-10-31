@@ -1,0 +1,723 @@
+<TEST 1>
+Prolog est un langage de programmation déclaratif.
+Basic et Fortran sont des langages de programmation impératifs.
+Quels sont les langages de programmation déclaratifs?
+Quels sont les langages de programmation impératifs?
+<ATTENDURESULTAT>
+Q: Quels sont les langages de programmation déclaratifs ?
+R: Prolog. 
+
+Q: Quels sont les langages de programmation impératifs ?
+R: Basic, Fortran.
+<OU>
+Q: Quels sont les langages de programmation déclaratifs ?
+R: Prolog. 
+
+Q: Quels sont les langages de programmation impératifs ?
+R: Fortran, Basic.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 2>
+Le petit cube rouge est dans la grande boîte noire.
+Où est le petit cube rouge?
+Qu'est-ce qui est dans la grande boîte noire?
+Dans quoi est le petit cube rouge?
+<ATTENDURESULTAT>
+Q: Où est le petit cube rouge ?
+R: dans la grande boîte noire. 
+
+Q: Qu'est-ce qui est dans la grande boîte noire ?
+R: le petit cube rouge. 
+
+Q: Dans quoi est le petit cube rouge ?
+R: dans la grande boîte noire.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 3>
+Le petit cube rouge est en général plus petit que la grande pyramide bleue.
+Le petit cube rouge est en général plus petit que quoi?
+Qu'est-ce qui est en général plus petit que la grande pyramide bleue?
+<ATTENDURESULTAT>
+Q: Le petit cube rouge est en général plus petit que quoi ?
+R: la grande pyramide bleue. 
+
+Q: Qu'est-ce qui est en général plus petit que la grande pyramide bleue ?
+R: le petit cube rouge.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 4>
+Paul a été mordu par le chien.
+Qui a mordu Paul?
+Qui a été mordu par le chien?
+Qui le chien a-t-il mordu?
+Qui a mordu le chien?
+<ATTENDURESULTAT>
+Q: Qui a mordu Paul ?
+R: le chien. 
+
+Q: Qui a été mordu par le chien ?
+R: Paul. 
+
+Q: Qui le chien a-t-il mordu ?
+R: Paul. 
+
+Q: Qui a mordu le chien ?
+R: Inconnu.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 5>
+La France est un pays.
+Le territoire métropolitain de la France est situé en Europe de l’Ouest.
+Un pays dont le territoire métropolitain est situé en Europe de l’Ouest est un état souverain.
+La France est-elle un état souverain?
+Pourquoi?
+Où le territoire métropolitain de la France se situe-t-il?
+Où est situé le territoire métropolitain de la France?
+Où se situe le territoire métropolitain de la France?
+Qu'est-ce qu'un état souverain?
+Qu'est-ce qui est situé en Europe de l'Ouest?
+<ATTENDURESULTAT>
+Q: La France est-elle un état souverain ?
+R: Oui.
+
+Q: Pourquoi?
+R: Car le territoire métropolitain de la France est situé en Europe de l'Ouest, la France est un pays, or un pays dont le territoire métropolitain est situé en Europe de l'Ouest est un état souverain.
+
+Q: Où le territoire métropolitain de la France se situe-t-il ?
+R: en Europe de l'Ouest. 
+
+Q: Où est situé le territoire métropolitain de la France ?
+R: en Europe de l'Ouest. 
+
+Q: Où se situe le territoire métropolitain de la France ?
+R: en Europe de l'Ouest. 
+
+Q: Qu'est-ce qui est situé en Europe de l'Ouest ?
+R: le territoire métropolitain de la France. 
+
+Q: Qu'est-ce qu'un état souverain ?
+R: C'est un pays.
+
+<OU>
+Q: La France est-elle un état souverain ?
+R: Oui.
+
+Q: Pourquoi?
+R: Car le territoire métropolitain de la France est situé en Europe de l'Ouest, la France est un pays, or un pays dont le territoire métropolitain est situé en Europe de l'Ouest est un état souverain.
+
+Q: Où le territoire métropolitain de la France se situe-t-il ?
+R: en Europe de l'Ouest. 
+
+Q: Où est situé le territoire métropolitain de la France ?
+R: en Europe de l'Ouest. 
+
+Q: Où se situe le territoire métropolitain de la France ?
+R: en Europe de l'Ouest. 
+
+Q: Qu'est-ce qui est situé en Europe de l'Ouest ?
+R: le territoire métropolitain de la France. 
+
+Q: Qu'est-ce qu'un état souverain ?
+R: C'est un pays, la France.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 6>
+Jean mange des sardines.
+Qui mange des sardines?
+Que mange Jean?
+Qui mange Jean?
+<ATTENDURESULTAT>
+Q: Qui mange des sardines ?
+R: Jean. 
+
+Q: Que mange Jean ?
+R: des sardines. 
+
+Q: Qui mange Jean ?
+R: Inconnu.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 7>
+Max est le père de Louis.
+Le père de Louis aime Marcelle.
+Qui aime Marcelle?
+Qui le père de Louis aime-t-il?
+Qui Max aime-t-il?
+<ATTENDURESULTAT>
+Q: Qui aime Marcelle ?
+R: le père de Louis, Max. 
+
+Q: Qui le père de Louis aime-t-il ?
+R: Marcelle. 
+
+Q: Qui Max aime-t-il ?
+R: Marcelle.
+<OU>
+Q: Qui aime Marcelle ?
+R: Max, le père de Louis. 
+
+Q: Qui le père de Louis aime-t-il ?
+R: Marcelle. 
+
+Q: Qui Max aime-t-il ?
+R: Marcelle.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 8>
+Emmanuel Macron est le président de la France.
+Le président de la France est élu au suffrage universel.
+Qui est élu au suffrage universel?
+Qui est élu?
+Comment le président de la France est-il élu?
+Emmanuel Macron est-il élu au suffrage universel?
+<ATTENDURESULTAT>
+Q: Comment le président de la France est-il élu ?
+R: à suffrage universel. 
+
+Q: Emmanuel Macron est-il élu au suffrage universel ?
+R: Oui.
+
+Q: Qui est élu au suffrage universel ?
+R: le président de la France, Emmanuel Macron. 
+
+Q: Qui est élu ?
+R: le président de la France, Emmanuel Macron.
+<OU>
+Q: Comment le président de la France est-il élu ?
+R: à suffrage universel. 
+
+Q: Emmanuel Macron est-il élu au suffrage universel ?
+R: Oui.
+
+Q: Qui est élu au suffrage universel ?
+R: Emmanuel Macron, le président de la France. 
+
+Q: Qui est élu ?
+R: Emmanuel Macron, le président de la France.
+<OU>
+Q: Comment le président de la France est-il élu ?
+R: à suffrage universel. 
+
+Q: Emmanuel Macron est-il élu au suffrage universel ?
+R: Oui.
+
+Q: Qui est élu au suffrage universel ?
+R: le président de la France, Emmanuel Macron. 
+
+Q: Qui est élu ?
+R: le président de la France.
+<OU>
+Q: Comment le président de la France est-il élu ?
+R: à suffrage universel. 
+
+Q: Emmanuel Macron est-il élu au suffrage universel ?
+R: Oui.
+
+Q: Qui est élu au suffrage universel ?
+R: Emmanuel Macron, le président de la France. 
+
+Q: Qui est élu ?
+R: le président de la France.  
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 9>
+La France se situe au nord de l'Espagne et au sud de la Belgique.
+Où se situe la France?
+Où est située la France ?
+Où la France est-elle située?
+Qu'est-ce qui est situé au nord de l'Espagne et au sud de la Belgique?
+<ATTENDURESULTAT>
+Q: Où se situe la France ?
+R: à nord de l'Espagne, à sud de la Belgique. 
+
+Q: Où est située la France ?
+R: à nord de l'Espagne, à sud de la Belgique. 
+
+Q: Où la France est-elle située ?
+R: à nord de l'Espagne, à sud de la Belgique. 
+
+Q: Qu'est-ce qui est situé au nord de l'Espagne et au sud de la Belgique ?
+R: la France.
+<OU>
+Q: Où se situe la France ?
+R: à sud de la Belgique, à nord de l'Espagne. 
+
+Q: Où est située la France ?
+R: à sud de la Belgique, à nord de l'Espagne. 
+
+Q: Où la France est-elle située ?
+R: à sud de la Belgique, à nord de l'Espagne. 
+
+Q: Qu'est-ce qui est situé au nord de l'Espagne et au sud de la Belgique ?
+R: la France.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 10>
+La grippe est caractérisée par de la fièvre et des myalgies.
+Par quoi la grippe est-elle caractérisée?
+La grippe est caractérisée par quoi?
+Qu'est-ce qui est caractérisé par de la fièvre et des myalgies?
+Qu'est-ce qui caractérise la grippe?
+<ATTENDURESULTAT>
+Q: la grippe est-elle caractérisée  par quoi ?
+R: de la fièvre, des myalgies. 
+
+Q: La grippe est caractérisée par quoi ?
+R: de la fièvre, des myalgies. 
+
+Q: Qu'est-ce qui est caractérisé par de la fièvre et des myalgies ?
+R: la grippe. 
+
+Q: Qu'est-ce qui caractérise la grippe ?
+R: de la fièvre, des myalgies.
+<OU>
+Q: la grippe est-elle caractérisée  par quoi ?
+R: des myalgies, de la fièvre. 
+
+Q: La grippe est caractérisée par quoi ?
+R: des myalgies, de la fièvre. 
+
+Q: Qu'est-ce qui est caractérisé par de la fièvre et des myalgies ?
+R: la grippe. 
+
+Q: Qu'est-ce qui caractérise la grippe ?
+R: des myalgies, de la fièvre.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 11>
+Jean achète du pain.
+Par qui le pain est-il acheté?
+Le pain est acheté par qui?
+Qui achète du pain?
+<ATTENDURESULTAT>
+Q: le pain est-il acheté  par qui ?
+R: Jean. 
+
+Q: Le pain est acheté par qui ?
+R: Jean. 
+
+Q: Qui achète du pain ?
+R: Jean.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 12>
+Jean est le père de Paul et de Louis.
+Paul est le père de Marc.
+Qui est le père de Paul?
+Qui est le père de qui?
+De qui Jean est-il le père?
+Jean est-il le père de Paul?
+Jean est-il le père de Max?
+Qui est le père du père de Marc?
+Pourquoi?
+
+Si X est le père de Y et X est le père de Z alors Y est le frère de Z.
+Qui est le frère de qui?
+Pourquoi?
+
+Si X est le père de Y alors Y est le fils de X.
+Qui sont les fils de Jean?
+Pourquoi?
+
+Marcel est le père de François.
+Qui est le père du fils de Marcel?
+Pourquoi?
+
+Paul est un homme.
+Qui est Paul?
+<ATTENDURESULTAT>
+Q: De qui Jean est-il le père ?
+R: de Louis, de Paul, homme. 
+
+Q: Jean est-il le père de Paul ?
+R: Oui.
+
+Q: Jean est-il le père de Max ?
+R: Non.
+
+Q: Qui est le père de Paul ?
+R: C'est un homme, Jean. 
+
+Q: Qui est le père de qui ?
+R: Jean est le père de Louis, Jean est le père de Paul, Paul est le père de Marc, Marcel est le père de François, Jean est le père de homme. 
+
+Q: Qui est le père du père de Marc ?
+R: Jean.
+
+Q: Pourquoi?
+R: Car Jean est le père de Paul et de Louis, Paul est le père de Marc.
+
+Q: Qui est le frère de qui ?
+R: Marc est le frère de Marc, Louis est le frère de Louis, Louis est le frère de Paul, Paul est le frère de Louis, Paul est le frère de Paul, François est le frère de François, Louis est le frère de homme, Paul est le frère de homme.
+
+Q: Pourquoi?
+R: Car Paul est le père de Marc, or si X est le père de Y et X est le père de Z alors Y est le frère de Z, Jean est le père de Paul et de Louis, or si X est le père de Y et X est le père de Z alors Y est le frère de Z, Marcel est le père de François, or si X est le père de Y et X est le père de Z alors Y est le frère de Z, Paul est un homme, or si X est le père de Y et X est le père de Z alors Y est le frère de Z.
+
+Q: Qui sont les fils de Jean ?
+R: de Louis, Paul, homme.
+
+Q: Pourquoi?
+R: Car Jean est le père de Paul et de Louis, or si X est le père de Y alors Y est le fils de X, Paul est un homme, or si X est un Y et Z Relation0 X alors Z Relation0 Y, or si X est le père de Y alors Y est le fils de X, or si X est un Y et Z Relation0 X alors Z Relation0 Y, or si X est le père de Y alors Y est le fils de X, or si X est un Y et Z Relation0 X alors Z Relation0 Y, or si X est le père de Y alors Y est le fils de X, or si X est un Y et Z Relation0 X alors Z Relation0 Y, or si X est le père de Y alors Y est le fils de X.
+
+Q: Qui est le père du fils de Marcel ?
+R: Marcel.
+
+Q: Pourquoi?
+R: Car Marcel est le père de François, or si X est le père de Y alors Y est le fils de X.
+
+Q: Qui est Paul ?
+R: C'est un homme, de Marc, de Louis, Paul, Jean, homme. de Marc, de Louis, de Paul, Jean.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 13>
+Jean va de Paris à Lyon en voiture.
+Où Jean va-t-il?
+Comment Jean va-t-il de Paris à Lyon?
+Jean va-t-il à Lyon?
+<ATTENDURESULTAT>
+Q: Où Jean va-t-il ?
+R: à Lyon. 
+
+Q: Comment Jean va-t-il de Paris à Lyon ?
+R: en voiture. 
+
+Q: Jean va-t-il à Lyon ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 14>
+Une Twingo est une voiture.
+La Twingo ne roule pas vite.
+Si une voiture ne roule pas vite alors elle roule lentement.
+La Twingo roule-t-elle lentement?
+Comment une Twingo roule-t-elle?
+Pourquoi?
+<ATTENDURESULTAT>
+Q: La Twingo roule-t-elle lentement ?
+R: Oui.
+
+Q: Comment une Twingo roule-t-elle ?
+R: lentement. 
+
+Q: Pourquoi?
+R: Car la Twingo ne roule pas vite, une Twingo est une voiture, or si une voiture ne roule pas vite alors elle roule lentement.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 15>
+Simon est né en 1970 à Paris.
+Où et quand Simon est-il né?
+<ATTENDURESULTAT>
+Q: Où Simon est-il né ?
+R: à Paris. 
+
+Q: quand Simon est-il né ?
+R: en 1970. 
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 16>
+Georges mange de la viande avec une fourchette et un couteau.
+Georges mange vite.
+Comment Georges mange-t-il la viande?
+Comment Georges mange-t-il?
+
+Georges mange des fraises mûres et des petites pommes vertes, mais pas de poires.
+Que mange Georges?
+<ATTENDURESULTAT>
+Q: Comment Georges mange-t-il la viande ?
+R: avec un couteau, avec une fourchette. 
+
+Q: Comment Georges mange-t-il ?
+R: avec un couteau, avec une fourchette, vite. 
+
+Q: Que mange Georges ?
+R: de la viande, des fraises mûres, des petites pommes vertes.
+<OU>
+Q: Comment Georges mange-t-il la viande ?
+R: avec une fourchette, avec un couteau. 
+
+Q: Comment Georges mange-t-il ?
+R: avec une fourchette, avec un couteau, vite. 
+
+Q: Que mange Georges ?
+R: des fraises mûres, des petites pommes vertes, de la viande.
+<OU>
+Q: Comment Georges mange-t-il la viande ?
+R: avec un couteau, avec une fourchette. 
+
+Q: Comment Georges mange-t-il ?
+R: avec un couteau, avec une fourchette, vite. 
+
+Q: Que mange Georges ?
+R: des fraises mûres, des petites pommes vertes, de la viande.
+<OU>
+Q: Comment Georges mange-t-il la viande ?
+R: avec un couteau, avec une fourchette. 
+
+Q: Comment Georges mange-t-il ?
+R: avec un couteau, avec une fourchette, vite. 
+
+Q: Que mange Georges ?
+R: de la viande, des petites pommes vertes, des fraises mûres.
+<OU>
+Q: Comment Georges mange-t-il la viande ?
+R: avec une fourchette, avec un couteau. 
+
+Q: Comment Georges mange-t-il ?
+R: avec une fourchette, avec un couteau, vite. 
+
+Q: Que mange Georges ?
+R: de la viande, des petites pommes vertes, des fraises mûres.
+<OU>
+Q: Comment Georges mange-t-il la viande ?
+R: avec une fourchette, avec un couteau. 
+
+Q: Comment Georges mange-t-il ?
+R: avec une fourchette, avec un couteau, vite. 
+
+Q: Que mange Georges ?
+R: de la viande, des fraises mûres, des petites pommes vertes.
+<OU>
+Q: Comment Georges mange-t-il la viande ?
+R: avec une fourchette, avec un couteau. 
+
+Q: Comment Georges mange-t-il ?
+R: avec une fourchette, avec un couteau, vite. 
+
+Q: Que mange Georges ?
+R: des petites pommes vertes, des fraises mûres, de la viande.
+<OU>
+Q: Comment Georges mange-t-il la viande ?
+R: avec un couteau, avec une fourchette. 
+
+Q: Comment Georges mange-t-il ?
+R: avec un couteau, avec une fourchette, vite. 
+
+Q: Que mange Georges ?
+R: des petites pommes vertes, des fraises mûres, de la viande.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 17>
+Jacques donne une très petite pomme verte à Luc.
+Qu'est-ce que Jacques donne à Luc?
+<ATTENDURESULTAT>
+Q: Qu'est-ce que Jacques donne à Luc ?
+R: une très petite pomme verte.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 18>
+Un chien est un animal.
+Qu'est-ce qu'un chien?
+<ATTENDURESULTAT>
+Q: Qu'est-ce qu'un chien ?
+R: C'est un animal.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 19>
+Les personnes qu'un médecin soigne sont des malades.
+Franck est une personne.
+Un médecin soigne Franck.
+Franck est-il un malade?
+Pourquoi?
+<ATTENDURESULTAT>
+Q: Franck est-il un malade ?
+R: Oui.
+
+Q: Pourquoi?
+R: Car un médecin soigne Franck, Franck est une personne, or les personnes qu'un médecin soigne sont des malades.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 20>
+Les oiseaux se cachent pour mourir.
+Pourquoi les oiseaux se cachent-ils?
+<ATTENDURESULTAT>
+Q: Pourquoi les oiseaux se cachent-ils ?
+R: Pour mourir.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 21>
+Philippe aime beaucoup les pommes.
+Si Philippe aime les pommes alors il en achète.
+Qui achète des pommes ?
+Pourquoi?
+<ATTENDURESULTAT>
+Q: Qui achète des pommes ?
+R: Philippe. 
+
+Q: Pourquoi?
+R: Car Philippe aime beaucoup les pommes, or si X Relation0 beaucoup Y alors X Relation0 Y , or si Philippe aime les pommes alors il en achète.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 22>
+Bertrand aime les pommes.
+Si Bertrand aime les petites pommes alors il en achète.
+Bertrand achète-t-il des pommes ? 
+<ATTENDURESULTAT>
+Q: Bertrand achète-t-il des pommes ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 23>
+Les hommes sont mortels.
+Socrate est un homme.
+Socrate est-il mortel ?
+Pourquoi?
+<ATTENDURESULTAT>
+Q: Socrate est-il mortel ?
+R: Oui.
+
+Q: Pourquoi?
+R: Car Socrate est un homme, les hommes sont mortels.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 24>
+Les planètes et les oranges sont rondes.
+Qu'est-ce qui est analogue à quoi ?
+Pourquoi?
+<ATTENDURESULTAT>
+Q: Qu'est-ce qui est analogue à quoi ?
+R: les oranges est analogue à les planètes, les planètes est analogue à les oranges. 
+
+Q: Pourquoi?
+R: Car les planètes et les oranges sont rondes.
+<OU>
+Q: Qu'est-ce qui est analogue à quoi ?
+R: les planètes est analogue à les oranges, les oranges est analogue à les planètes. 
+
+Q: Pourquoi?
+R: Car les planètes et les oranges sont rondes.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 25>
+Médor a des poils, quatre pattes, il est carnivore et il aboie.
+Shadow a des poils, quatre pattes, il est carnivore et il miaule.
+
+Qui miaule ou aboie?
+Pourquoi?
+
+Qui a des poils, quatre pattes et est carnivore?
+Pourquoi?
+<ATTENDURESULTAT>
+Q: Qui miaule ou aboie ?
+R: Shadow, Médor. 
+
+Q: Pourquoi?
+R: Car Shadow a des poils , quatre pattes , il est carnivore et il miaule, Médor a des poils , quatre pattes , il est carnivore et il aboie.
+
+Q: Qui a des poils, quatre pattes et est carnivore ?
+R: Médor, Shadow. 
+
+Q: Pourquoi?
+R: Car Médor a des poils , quatre pattes , il est carnivore et il aboie, Shadow a des poils , quatre pattes , il est carnivore et il miaule.
+<OU>
+Q: Qui miaule ou aboie ?
+R: Shadow, Médor. 
+
+Q: Pourquoi?
+R: Car Shadow a des poils , quatre pattes , il est carnivore et il miaule, Médor a des poils , quatre pattes , il est carnivore et il aboie.
+
+Q: Qui a des poils, quatre pattes et est carnivore ?
+R: Shadow, Médor. 
+
+Q: Pourquoi?
+R: Car Shadow a des poils , quatre pattes , il est carnivore et il miaule, Médor a des poils , quatre pattes , il est carnivore et il aboie.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 26>
+Jeanne est très méchante.
+Comment est Jeanne?
+Qui est méchant?
+<ATTENDURESULTAT>
+Q: Comment est Jeanne ?
+R: méchante. 
+
+Q: Qui est méchant ?
+R: Jeanne.
+<OU>
+Q: Comment est Jeanne ?
+R: Jeanne est très méchante.
+
+Q: Qui est méchant ?
+R: Jeanne.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 27>
+Si Jean aime la viande, alors il en achète.
+Si Jean achète de la viande, alors il boit de l'eau.
+Si Jean aime la viande ou Jean aime le pain, alors il boit de l'eau?
+Pourquoi?
+<ATTENDURESULTAT>
+Q: Si Jean aime la viande ou Jean aime le pain, alors il boit de l'eau ?
+R: Oui.
+
+Q: Pourquoi?
+R: Car si Jean aime la viande , alors il en achète, or si Jean achète de la viande , alors il boit de l'eau.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 28>
+Si Jean aime la viande alors il aime le pain.
+Si Jean aime le pain et Jean n'aime pas la viande alors il boit de l'eau.
+Si soit Jean aime la viande soit Jean aime le pain, alors il boit de l'eau?
+<ATTENDURESULTAT>
+Q: Si soit Jean aime la viande soit Jean aime le pain, alors il boit de l'eau ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 20>
+Si Jean n'aime pas la viande alors Jean aime les légumes.
+Si Jean n'aime pas les légumes alors Jean aime la viande.
+Si Jean aime la viande alors Jean n'aime pas les légumes.
+Si Jean aime les légumes alors Jean n'aime pas la viande.
+Soit Jean aime les légumes, soit Jean aime la viande?
+<ATTENDURESULTAT>
+Q: Jean aime les légumes xor Jean aime la viande ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 30>
+Soit X est un lapin, soit X est un écureuil.
+Jean n'est pas un lapin.
+Jean est un écureuil?
+<ATTENDURESULTAT>
+Q: Jean est un écureuil ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 31>
+Si quelqu'un aime le vin, alors il aime le pain et la viande.
+Jean aime le vin.
+Qu'est-ce que Jean aime?
+<ATTENDURESULTAT>
+Q: Qu'est-ce que Jean aime ?
+R: la viande, le vin, le pain.
+</ATTENDURESULTAT>
+</TEST>

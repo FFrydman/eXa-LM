@@ -1,0 +1,80 @@
+eXa-LM — A Controlled Natural Language Bridge between Large Language Models and First-Order Logic Solvers
+Version 1.0 — License MIT
+© 2025 Francis Frydman
+
+============================================================
+WHAT IS EXA?
+============================================================
+eXa is a controlled natural language interface that translates controlled French text into executable First-Order Logic programs. 
+It connects natural-language reasoning with symbolic inference and supports evaluation on logic benchmarks such as FOLIO, ProofWriter, and ProntoQA.
+
+eXa integrates:
+- Symbolic parser: eXaSem module (semantic analysis)
+- Prolog meta-interpreter: eXaLog module (logical reasoning)
+- Second order interpreter: eXaMeta module (metalogical reasoning)
+- Relational learner: eXaGol module (optional hypothesis generation)
+============================================================
+LICENSE INFORMATION
+============================================================
+eXa-LM is distributed under the MIT License.
+You may use, modify, and redistribute it provided this notice is retained.
+
+The package includes an embedded SWI-Prolog executable.
+SWI-Prolog is © Jan Wielemaker and contributors,
+distributed under the Simplified BSD License.
+See: https://www.swi-prolog.org/license.html
+
+============================================================
+REQUIREMENTS
+============================================================
+- Windows 10 or Windows 11 (64-bit)
+- Microsoft Access 2016 or later
+  If not installed, download:
+  Microsoft Access Database Engine 2016 (ACE, x64)
+  https://www.microsoft.com/en-us/download/details.aspx?id=54920
+
+============================================================
+INSTALLATION
+============================================================
+1. Download:
+   https://github.com/FFrydman/eXa-LM/archive/refs/heads/main.zip
+2. Unzip the archive in any folder (no specific path required).
+
+============================================================
+USAGE
+============================================================
+1. Launch eXa.exe
+2. Input window: enter facts, rules, and questions (in French).
+3. Benchmark selector:
+   - Choose ProntoQA, ProofWriter, or FOLIO.
+   - ProntoQA and ProofWriter are split into several numbered files.
+   - FOLIO is available in two versions:
+     • FOLIO_dev (FULL): full development set
+     • FOLIO_paper: 182 examples used in the paper
+   - QA_TESTS1: various examples
+   - Syllogisms: examples of syllogistic reasoning
+   - QA with learning (eXaGol): relational learning examples using the eXaGol module
+4. Buttons:
+   • eXa: full run (semantic analysis + Prolog reasoning)
+   • eXaSem: symbolic analysis only
+5. Output window: displays results.
+6. Trace window: shows execution time for each step.
+7. Checkbox “Generate hypotheses (with eXaGol)”:
+   - Enables relational learning (rule generation from facts).
+   - Do not enable for ProntoQA, ProofWriter, or FOLIO benchmarks.
+     Use only with “QA with learning (eXaGol)”.
+
+============================================================
+CONTACT
+============================================================
+Repository and contact:
+https://github.com/FFrydman/eXa-LM
+
+============================================================
+CITATION
+============================================================
+If you use eXa-LM in academic work, please cite:
+
+Frydman, F. (2025).
+"eXa-LM: A Controlled Natural Language Bridge between Large Language Models
+and First-Order Logic Solvers."

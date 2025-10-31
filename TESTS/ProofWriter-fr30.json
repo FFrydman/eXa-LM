@@ -1,0 +1,90 @@
+  {"id" : "ProofWriter_AttNeg-OWA-D5-547_Q4",
+    "context" : "Charlie est calme. Dave est calme. Dave est jeune. Erin est bleue. Erin est agréable. Erin est calme. Fiona n'est pas bleue. Fiona est froide. Fiona est agréable. Fiona est ronde. Fiona est jeune. Si quelqu'un est gentil, il est rond. Toutes les personnes gentilles et froides sont bleues. Si quelqu'un est agréable et n'est pas jeune, il n'est pas bleu. Si Fiona est gentille, alors Fiona est bleue. Si Dave est gentil et Dave est bleu, alors Dave n'est pas agréable. Les personnes rondes sont froides. Si Dave est jeune, Dave est gentil. Si Erin est gentille et Erin est bleue alors Erin est ronde",
+    "question" : "Sur la base des informations ci-dessus, l'affirmation suivante est-elle vraie, fausse ou inconnue ? Dave n'est pas gentil",
+    "options" : [
+      "A) Vrai",
+      "B) Faux",
+      "C) Inconnu"
+    ],
+    "answer" : "B"
+  },
+  {"id" : "ProofWriter_RelNoneg-OWA-D5-688_Q23",
+    "context" : "La vache est rouge. Le chien est rouge. Le chien a besoin de la vache. Le lapin a besoin de la vache. Le lapin a besoin du tigre. Le lapin rend visite au chien. Le tigre mange le chien. Le tigre mange le lapin. Le tigre est gentil. Le tigre a besoin de la vache. Le tigre rend visite au chien. Si quelque chose est rouge, il mange la vache. Si quelque chose mange la vache et a besoin du lapin, alors le lapin est gentil. Si quelque chose a besoin du lapin, alors le lapin est rouge. Si quelque chose est rouge, il a besoin du chien. Si quelque chose rend visite au tigre et qu'il est rude, il est rond. Si quelque chose mange le lapin, le lapin mange le chien. Si quelque chose mange la vache, alors elle a besoin du lapin",
+    "question" : "Sur la base des informations ci-dessus, l'affirmation suivante est-elle vraie, fausse ou inconnue ? Le tigre n'est pas agréable",
+    "options" : [
+      "A) Vrai",
+      "B) Faux",
+      "C) Inconnu"
+    ],
+    "answer" : "C"
+  },
+  {"id" : "ProofWriter_AttNoneg-OWA-D5-281_Q16",
+    "context" : "Anne est ronde. Bob est rond. Bob est intelligent. Dave est rouge. Dave est rond. Gary est poilu. Gary est agréable. Gary est gentil. Gary est rouge. Gary est rond. Les personnes à fourrure sont gentilles. Toutes les personnes gentilles sont rondes. Si Anne est rouge, Anne est gentille. Si quelqu'un est rond et intelligent, il est agréable. Les personnes rondes sont rouges. Les personnes à fourrure sont rondes. Les personnes rondes et à fourrure sont intelligentes. Les personnes rouges et gentilles sont à fourrure",
+    "question" : "Sur la base des informations ci-dessus, l'affirmation suivante est-elle vraie, fausse ou inconnue ? Bob est gentil",
+    "options" : [
+      "A) Vrai",
+      "B) Faux",
+      "C) Inconnu"
+    ],
+    "answer" : "C"
+  },
+  {"id" : "ProofWriter_RelNoneg-OWA-D5-955_Q17",
+    "context" : "Le pygargue à tête blanche mange le lapin. Le pygargue à tête blanche est agréable. Le pygargue à tête blanche voit la vache. La vache est bleue. La vache est jeune. La vache voit la souris. La souris poursuit le lapin. La souris mange la vache. La souris est bleue. La souris est rouge. La souris voit le pygargue à tête blanche. La souris voit la vache. La souris voit le lapin. Le lapin poursuit la souris. Le lapin voit la vache. Le lapin voit la souris. Si quelque chose mange le pygargue à tête blanche, le pygargue à tête blanche poursuit la vache. Si quelque chose mange la souris, elle poursuit la souris. Si la vache poursuit le pygargue à tête blanche et que le pygargue à tête blanche voit la vache, le pygargue à tête blanche poursuit le lapin. Si quelque chose est gentil, il mange la souris. Si quelque chose poursuit la vache, alors la vache est gentille. Si la vache mange le pygargue à tête blanche, alors le pygargue à tête blanche est agréable. Si quelque chose voit la souris, alors il voit le pygargue à tête blanche. Si quelque chose est jeune, il mange le pygargue à tête blanche. Si quelque chose est gentil, alors il voit la vache",
+    "question" : "Sur la base des informations ci-dessus, l'affirmation suivante est-elle vraie, fausse ou inconnue ? Le pygargue à tête blanche ne poursuit pas la souris",
+    "options" : [
+      "A) Vrai",
+      "B) Faux",
+      "C) Inconnu"
+    ],
+    "answer" : "C"
+  },
+  {"id" : "ProofWriter_AttNeg-OWA-D5-607_Q5",
+    "context" : "Bob est un animal à fourrure. Bob est jeune. Charlie est agréable. Charlie n'est pas jeune. Erin est gentille. Erin n'est pas agréable. Erin n'est pas rude. Erin est jeune. Harry est gentil. Harry est rude. Si quelque chose est gentil et grand, c'est qu'il est agréable. Si quelque chose est gentil et agréable, c'est blanc. Si quelque chose est poilu et jeune, il est rude. Si Erin est rude, Erin est poilue. Si Erin est gentille et Erin est agréable, Erin est poilu. Si Charlie est poilu et Charlie est agréable, Charlie n'est pas gentil. Les jeunes choses rugueuses sont grandes. Si quelque chose est gros et poilu, c'est qu'il est gentil. Si Bob est grand et Bob est agréable, alors Bob est gentil",
+    "question" : "Sur la base des informations ci-dessus, l'affirmation suivante est-elle vraie, fausse ou inconnue ? Bob est grand",
+    "options" : [
+      "A) Vrai",
+      "B) Faux",
+      "C) Inconnu"
+    ],
+    "answer" : "A"
+  },
+  {"id" : "ProofWriter_RelNoneg-OWA-D5-253_Q17",
+    "context" : "Le chat mange la souris. Le chat mange l'écureuil. Le chat est rude. Le chat voit le lion. Le chat voit la souris. Le chat voit l'écureuil. Le lion voit le chat. Le lion voit l'écureuil. La souris est ronde. La souris voit l'écureuil. L'écureuil aime le lion. Si quelqu'un a froid, il est gentil. Si quelqu'un mange le chat, le chat mange la souris. Si quelqu'un mange la souris, il a froid. Si quelqu'un mange l'écureuil et que l'écureuil est agréable, il voit l'écureuil. Si quelqu'un mange l'écureuil, il a froid. Si quelqu'un voit l'écureuil, il aime le chat. Si quelqu'un aime le lion et que le lion aime le chat, il voit l'écureuil. Si quelqu'un voit la souris et qu'il aime le chat, il est agréable. Si quelqu'un voit l'écureuil et qu'il est agréable, alors l'écureuil mange la souris",
+    "question" : "Sur la base des informations ci-dessus, l'affirmation suivante est-elle vraie, fausse ou inconnue ? L'écureuil n'est pas agréable",
+    "options" : [
+      "A) Vrai",
+      "B) Faux",
+      "C) Inconnu"
+    ],
+    "answer" : "C"
+  },
+  {"id" : "ProofWriter_AttNeg-OWA-D5-1185_Q14",
+    "context" : "Anne n'est pas agréable. Anne est rouge. Anne est blanche. Anne est jeune. Bob est rouge. Erin est vert. Erin est agréable. Harry est agréable. Harry est gentil. Harry est rude. Toutes les choses gentilles et rouges sont vertes. Si une chose est rude et jeune, elle est verte. Les choses vertes et jeunes sont blanches. Les choses rudes et gentilles sont blanches. Si quelque chose est gentil, c'est qu'il est rude. Toutes les choses jeunes ne sont pas agréables. Si une chose est rouge, elle est gentille. Si Bob est blanc, alors Bob est jeune",
+    "question" : "Sur la base des informations ci-dessus, l'affirmation suivante est-elle vraie, fausse ou inconnue ? Erin est blanche",
+    "options" : [
+      "A) Vrai",
+      "B) Faux",
+      "C) Inconnu"
+    ],
+    "answer" : "C"
+  }, 
+  {"id" : "ProofWriter_RelNeg-OWA-D5-619_Q7",
+    "context" : "Le chat poursuit la vache. Le chat est bleu. Le chat a besoin du lion. Le chat ne rend pas visite à la vache. Le chat rend visite à l'écureuil. La vache poursuit le chat. La vache est grande. La vache est bleue. Le lion ne poursuit pas le chat. Le lion ne poursuit pas l'écureuil. Le lion est grand. Le lion n'a pas besoin de la vache. Le lion rend visite à la vache. L'écureuil poursuit la vache. L'écureuil est bleu. L'écureuil a besoin de la vache. Si quelque chose a besoin du chat, il lui rend visite. Si quelque chose poursuit le chat et que le chat rend visite à la vache, alors la vache ne rend pas visite au chat. Si quelque chose poursuit l'écureuil et qu'il rend visite au lion, alors l'écureuil poursuit la vache. Si la vache n'est pas grande, la vache ne poursuit pas l'écureuil. Si quelque chose rend visite au chat, alors le chat est agréable. Si l'écureuil poursuit la vache, la vache n'a pas besoin de l'écureuil. Si quelque chose est agréable, c'est qu'il a besoin de la vache. Si quelque chose est gentil et pas grand, alors il rend visite à l'écureuil. Si quelque chose a besoin de la vache, alors il a besoin du chat",
+    "question" : "Sur la base des informations ci-dessus, l'affirmation suivante est-elle vraie, fausse ou inconnue ? Le chat est agréable",
+    "options" : [
+      "A) Vrai",
+      "B) Faux",
+      "C) Inconnu"
+    ],
+    "answer" : "A"
+  },
+  {"id" : "ProofWriter_RelNoneg-OWA-D5-518_Q5",
+    "context" : L'ours poursuit le chien. Le chien poursuit le lion. Le chien est gentil. Le chien aime le lion. Le lion poursuit l'ours. Le lion poursuit le chien. Le lion poursuit l'écureuil. Le lion a besoin de l'ours. L'écureuil poursuit l'ours. L'écureuil est rond. L'écureuil a besoin du chien. Si quelque chose poursuit l'ours et que l'ours poursuit le chien, c'est qu'il est jeune. Si quelque chose a besoin de l'écureuil, c'est qu'il est gentil. Si l'écureuil poursuit le lion, alors l'écureuil a besoin de l'ours. Si quelque chose est agréable et qu'il aime l'ours, il est rouge. Si le lion a besoin de l'ours et que le lion a besoin de l'écureuil, l'ours est jeune.Si quelque chose est jeune alors il poursuit le lion. Si quelque chose est jeune et qu'il poursuit le chien, alors il a besoin de l'écureuil. Si quelque chose aime l'ours et aime le chien, alors il aime le lion. Si le chien a besoin de l'écureuil, alors le chien poursuit l'ours.",
+    "question" : "Sur la base des informations ci-dessus, l'affirmation suivante est-elle vraie, fausse ou inconnue ? Le lion poursuit le lion",
+    "options" : [
+      "A) Vrai",
+      "B) Faux",
+      "C) Inconnu"
+    ],
+    "answer" : "A"
+  }

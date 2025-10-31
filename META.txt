@@ -1,0 +1,62 @@
+% invention récursion1 (connecté) %
+_Q(_x1,_x2), _Q(_x2,_x3), _Q(_x1,_x3).
+|->
+_Q01(_x1,_x2) :- _Q(_x1,_x2).
+_Q01(_x1,_x2) :- _Q(_x1,_x3), _Q01(_x3,_x2).
+% invention récursion3 (élément) %
+_Q(_x1,_x2,_x3), _Q(_x1,_x3,_x4), _Q(_x4,_x2,_x2).
+|->
+_Q01(_x1,_x2) :- is_list(_x1), _Q(_x1,_x2,_x3).
+_Q01(_x1,_x2) :- is_list(_x1), _Q(_x1,_x3,_x4), _Q01(_x4,_x2).
+% invention addition % 
+succ(_x1,_x2), succ(_x1,_x3), succ(_x3,_x2).
+|->
+succ01(_x1,0,_x1) :- !.
+succ01(_x1,_n1,_x2) :- _n2 is _n1-1, succ(_x1,_x3), succ01(_x3,_n2,_x2).
+% invention addition niveau2 % 
+succ(_x1,_x3), succ(_x3,_x4).
+|->
+succ01(_x1,0,_x1) :- !.
+succ01(_x1,_n1,_x2) :- _n2 is _n1-1, succ(_x1,_x3), succ01(_x3,_n2,_x2).
+% invention multiplication %
+_Q(_x1,_x3,_x4), _Q(_x3,_x1,_x4), _Q(_x1,_x1,_x5), _Q(_x3,_x3,_x6).
+|->
+succ02(0,_x1,0) :- !.
+succ02(_n1,_x2,_x3) :- _n2 is _n1-1, succ02(_n2,_x2,_x4), _Q(_x2,_x4,_x3).
+% addition %
+_P(_x1,_N1,_x2) :- succ(_x1,_x2).
+_P(_x1,_N1+1,_x2) :- succ(_x1,_x3), succ(_x3,_x2).
+|->
+_P(_x1,0,_x1) :- !.
+_P(_x1,_n1,_x2) :- _n2 is _n1-1, succ(_x1,_x3), _P(_x3,_n2,_x2).
+% multiplication %
+_P(_x1,_N1,_x2) :- _Q(_x1,_x1,_x2).
+_P(_x1,_N1+1,_x2) :- _Q(_x1,_x1,_x3), _Q(_x1,_x3,_x2).
+|->
+_P(0,_x1,0) :- !.
+_P(_x1,_n1,_x2) :- _n2 is _n1-1, _P(_x1,_n2,_x3), _Q(_x3,_x1,_x2).
+% recursion1 %
+_P(_x1,_x2) :- _Q(_x1,_x2).
+_P(_x1,_x2) :- _R(_x1,_x3), _Q(_x3,_x2),....
+|->
+_P(_x1,_x2) :- _Q(_x1,_x2).
+_P(_x1,_x2) :- _R(_x1,_x3), _P(_x3,_x2).
+% recursion2 %
+_P(_x1,_x2) :- _Q(_x2,_x1).
+_P(_x1,_x2) :- _Q(_x2,_x3), _Q(_x3,_x1).
+|->
+_P(_x1,_x2) :- _Q(_x2,_x1).
+_P(_x1,_x2) :- _Q(_x2,_x3), _P(_x3,_x1).
+% récursion unaire généralisée %
+_P(_x1) :- pred(_x1,_x2), pred(_x2,_x3).
+_P(_x1) :- pred(_x1,_x2), pred(_x2,_x3),..., pred(_xn-1,_xn).
+|->
+_P(_x1) :- _x1>n+3, _x3 is _x1-n+3, _P(_x3).
+% absorption unaire %
+_P(_x1) :- _Q(_x1,_x1), _Q(_x1,_x2),....
+|->
+_P(_x1) :- _Q(_x1,_x1).
+% REDUCTION %
+_Q(_x1,_x2), _Q(_x2,_x3), _Q(_x3,_x4).
+|->
+_Q(_x1,_x3), _Q(_x3,_x4).

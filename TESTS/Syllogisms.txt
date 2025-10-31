@@ -1,0 +1,130 @@
+<TEST 1>
+Les hommes sont mortels.
+Socrate est un homme.
+Socrate est-il mortel?
+<ATTENDURESULTAT>
+Q: Socrate est-il mortel ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 2>
+Les chats sont des mammifères.
+Félix est un chat.
+Félix est-il un mammifère?
+<ATTENDURESULTAT>
+Q: Félix est-il un mammifère ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 3>
+Aucun chien n'est un chat.
+Boule est un chien.
+Boule est-il un chat?
+<ATTENDURESULTAT>
+Q: Boule est-il un chat ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 4>
+Les oiseaux ont des plumes.
+Un pingouin est un oiseau.
+Un pingouin a-t-il des plumes?
+<ATTENDURESULTAT>
+Q: Un pingouin a-t-il des plumes ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 5>
+Les fruits sont des aliments sains.
+Une pomme est un fruit.
+Une pomme est-il un aliment sain?
+<ATTENDURESULTAT>
+Q: Une pomme est-il un aliment sain ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 6>
+Les poissons ne peuvent vivre hors de l'eau.
+Un requin est un poisson.
+Un requin peut-il vivre hors de l'eau?
+<ATTENDURESULTAT>
+Q: Un requin peut-il vivre hors de l'eau ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 7>
+Les chiens ont quatre pattes.
+Un caniche est un chien.
+Un caniche a-t-il quatre pattes?
+<ATTENDURESULTAT>
+Q: Un caniche a-t-il quatre pattes ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 8>
+Les reptiles n'ont pas de fourrure.
+Un serpent est un reptile.
+Un serpent a-t-il de la fourrure?
+<ATTENDURESULTAT>
+Q: Un serpent a-t-il de la fourrure ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 9>
+Les choses jeunes sont grandes.
+Un ballon est une chose.
+Un jeune ballon est-il grand?
+Pourquoi?
+<ATTENDURESULTAT>
+Q: Un jeune ballon est-il grand ?
+R: Oui.
+
+Q: Pourquoi?
+R: Car un ballon est une chose, or si X est un Y Z alors X est Z, les choses jeunes sont grandes  un ballon est une chose, or si X est un Y Z alors X est Z.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 10>
+Aristote est un grec.
+Aristote est mortel.
+Certains grecs sont mortels?
+<ATTENDURESULTAT>
+Q: Certains grecs sont mortels ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST ProntoQA_3>
+Les vumpus sont floral. Les vumpus sont des tumpus. Les tumpus sont marron. Chaque tumpus est un wumpus. Les wumpus sont petit. Chaque wumpus est un rumpus. Chaque zumpus est métallique. Chaque rumpus est heureux. Les rumpus sont des impus. Chaque impus est accommodant. Chaque impus est un dumpus. Chaque dumpus n'est pas métallique. Les dumpus sont des numpus. Chaque numpus est amer. Chaque numpus est un jompus. Chaque jompus est froid. Chaque jompus est un yumpus. Wren est un tumpus.
+Wren n'est pas métallique ?
+<ATTENDURESULTAT>
+Q: Wren n'est pas métallique ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST ProntoQA_18>
+Chaque dumpus est brillants. Chaque dumpus est un rumpus. Chaque rumpus est agressif. Chaque rumpus est un yumpus. Les yumpus sont marron. Les yumpus sont des vumpus. Chaque impus est fruité.Chaque vumpus est aigre. Chaque vumpus est un numpus. Chaque numpus n'est pas tempéré. Chaque numpus est un zumpus. Les zumpus sont métallique. Les zumpus sont des jompus. Chaque jompus n'est pas fruité. Les jompus sont des tumpus. Les tumpus sont opaque. Chaque tumpus est un wumpus. Sam est un yumpus.
+Sam est fruité ?
+<ATTENDURESULTAT>
+Q: Sam est fruité ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST ProntoQA_19>
+Chaque numpus n'est pas opaque. Chaque numpus est un wumpus. Chaque wumpus est fougueux. Les wumpus sont des tumpus. Les tumpus sont fruité.Chaque tumpus est un dumpus. Chaque dumpus est en bois. Chaque dumpus est un yumpus. Les yumpus sont bleus. Chaque yumpus est un zumpus. Chaque zumpus est épicé. Les zumpus sont des impus. Chaque impus n'est pas gentil. Les impus sont des rumpus. Les jompus ne sont pas terne. Chaque rumpus est terne. Chaque rumpus est un vumpus. Sam est un dumpus.
+Sam n'est pas terne ?
+<ATTENDURESULTAT>
+Q: Sam n'est pas terne ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>

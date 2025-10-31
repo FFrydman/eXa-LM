@@ -1,0 +1,278 @@
+<TEST 1>
+Paul est le père de Jérôme.
+Paul est le père de Marc.
+Jérôme est le frère de Marc.
+Marc n'est pas le frère de Marc.
+Marcel est le père de Louis et de Michel.
+Qui est le frère de qui?
+Pourquoi?
+<ATTENDURESULTAT>
+Q: Qui est le frère de qui ?
+R: Hypothétiquement: Jérôme est le frère de Marc, Michel est le frère de Louis, Marc est le frère de Jérôme, Louis est le frère de Michel.
+
+Q: Pourquoi?
+R: Car Jérôme est le frère de Marc, Paul est le père de Jérôme, Paul est le père de Marc, or (hypothèse induite): Si X3 être père X1, X3 être père X2, X1 différent de X2 alors X1 être frère X2, Marcel est le père de Louis et de Michel, or (hypothèse induite): Si X3 être père X1, X3 être père X2, X1 différent de X2 alors X1 être frère X2.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 2>
+Paul est le père de Marc.
+Marc est le père de Fabien.
+Paul est le grand-père de Fabien.
+Louis est le père de Jacques.
+Jacques est le père de Marcel.
+
+De qui Louis est-il le grand-père?
+Pourquoi?
+<ATTENDURESULTAT>
+Q: De qui Louis est-il le grand-père ?
+R: Hypothétiquement: de Marcel. 
+
+Q: Pourquoi?
+R: Car Louis est le père de Jacques, Jacques est le père de Marcel, or (hypothèse induite): Si X1 être père X3, X3 être père X2 alors X1 être grand-père X2.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 3>
+Louise et Martine sont des femmes.
+Alfred est le père de Louise et de Martine.
+Louise est la soeur de Martine.
+Paul et Louis sont des hommes.
+Max est le père de Paul et de Louis.
+Paul est le frère de Louis.
+Jacques et Jean sont des hommes.
+Marcel est le père de Jacques et de Jean.
+Anne et Sophie sont des femmes.
+Fabien est le père d'Anne et de Sophie.
+Jacques est-il le frère de Jean?
+Pourquoi?
+Anne est-elle la soeur de Sophie?
+Pourquoi?
+<ATTENDURESULTAT>
+Q: Jacques est-il le frère de Jean ?
+R: Oui, hypothétiquement.
+
+Q: Pourquoi?
+R: Car Marcel est le père de Jacques et de Jean, Jacques et Jean sont des hommes, or (hypothèse induite): Si X3 être père X1, X3 être père X2, X1 est un homme, X2 est un homme alors X1 être frère X2.
+
+Q: Anne est-elle la soeur de Sophie ?
+R: Oui, hypothétiquement.
+
+Q: Pourquoi?
+R: Car Fabien est le père de Anne et de Sophie, Anne et Sophie sont des femmes, or (hypothèse induite): Si X3 être père X1, X3 être père X2, X1 est un femme, X2 est un femme alors X1 être soeur X2.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 4>
+Louise est la soeur de Martine.
+Louise et Martine sont des femmes.
+Jeanne est la soeur d'Anne.
+Jeanne est-elle une femme?
+Pourquoi?
+<ATTENDURESULTAT>
+Q: Jeanne est-elle une femme ?
+R: Oui, hypothétiquement.
+
+Q: Pourquoi?
+R: Car Jeanne est la soeur de Anne,  or (hypothèse induite): Si X1 être soeur X2 alors X1 est un femme.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 5>
+les thons et les requins sont des animaux.
+les thons et les requins vivent dans l'eau.
+les thons et les requins possèdent des branchies.
+les thons et les requins possèdent des nageoires.
+Un thon est gentil.
+Un requin est-il gentil?
+Pourquoi?
+<ATTENDURESULTAT>
+Q: Un requin est-il gentil ?
+R: Oui, hypothétiquement.
+
+Q: Pourquoi?
+R: Car les thons et les requins sont des animaux, les thons et les requins vivent dans l'eau, les thons et les requins possèdent des branchies, les thons et les requins possèdent des nageoires, or (hypothèse induite): Si X1 est un animal, X1 vivre dans eau, X1 posséder branchie, X1 posséder nageoire alors X1 être gentil.
+<OU>
+Q: Un requin est-il gentil ?
+R: Oui, hypothétiquement.
+
+Q: Pourquoi?
+R: Car les thons et les requins sont des animaux, les thons et les requins vivent dans l'eau, les thons et les requins possèdent des branchies, les thons et les requins possèdent des nageoires, or (hypothèse induite): Si X1 est un animal, X1 vivre dans eau, X1 posséder branchie, X1 posséder nageoire alors X1 être gentil, un thon est gentil, or (hypothèse induite): Si X1 est un animal, X1 vivre dans eau, X1 posséder branchie, X1 posséder nageoire alors X1 être gentil.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 6>
+L'interrupteur1 est relié à la lampe1.
+L'interrupteur1 et l'interrupteur2 sont fermés.
+La lampe1 et la lampe2 sont allumées.
+
+L'interrupteur2 est-il relié à la lampe2?
+Pourquoi?
+<ATTENDURESULTAT>
+Q: L'interrupteur2 est-il relié à la lampe2 ?
+R: Oui, hypothétiquement.
+
+Q: Pourquoi?
+R: Car l'interrupteur1 et l'interrupteur2 sont fermés, la lampe1 et la lampe2 sont allumées, or (hypothèse induite): Si X1 fermer, X2 allumer alors X1 relier à X2.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 7>
+L'interrupteur1 est relié à la lampe1.
+L'interrupteur2 n'est pas relié à la lampe2.
+L'interrupteur1, l'interrupteur2 et l'interrupteur3 sont fermés.
+La lampe1, la lampe2 et la lampe3 sont allumées.
+
+L'interrupteur3 est-il relié à la lampe3?
+<ATTENDURESULTAT>
+Q: L'interrupteur3 est-il relié à la lampe3 ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 8>
+L'interrupteur1 est relié à la lampe1.
+L'interrupteur2 est relié à la lampe2.
+
+L'interrupteur1 est fermé.
+La lampe1 est allumée.
+L'interrupteur2 est fermé.
+La lampe2 est-elle allumée?
+Pourquoi?
+<ATTENDURESULTAT>
+Q: La lampe2 est-elle allumée ?
+R: Oui, hypothétiquement.
+
+Q: Pourquoi?
+R: Car l'interrupteur2 est fermé, l'interrupteur2 est relié à la lampe2, or (hypothèse induite): Si X2 fermer, X2 relier à X1 alors X1 allumer.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 9>
+Chien1 est un chien.
+Il a des poils.
+Il a quatre pattes.
+Il est carnivore.
+Il aboie.
+
+Chat1 est un chat.
+Il a des poils.
+Il a quatre pattes.
+Il est carnivore.
+Il miaule.
+
+Serpent1 est un serpent.
+Il n'a pas de pattes et pas de poils.
+Il est carnivore.
+
+Iguane1 est un iguane.
+Il est herbivore.
+Il a quatre pattes.
+Il n'a pas de poils.
+
+Varan1 est un varan.
+Il est carnivore.
+Il a quatre pattes.
+Il n'a pas de poils.
+
+Médor a des poils, quatre pattes, il est carnivore et il aboie.
+Shadow a des poils, quatre pattes, il est carnivore et il miaule.
+Alphonse n'a pas de pattes et pas de poils. Il est carnivore.
+Stéphane est herbivore, a quatre pattes. Il n'a pas de poils.
+Louise est carnivore, a quatre pattes. Elle n'a pas de poils.
+
+Shadow est-il un chat?
+Pourquoi?
+Médor est-il un chien?
+Pourquoi?
+Alphonse est-il un serpent?
+Pourquoi?
+Stéphane est-il un iguane?
+Pourquoi?
+Louise est un quoi?
+Pourquoi?
+<ATTENDURESULTAT>
+Q: Shadow est-il un chat ?
+R: Oui, hypothétiquement.
+
+Q: Pourquoi?
+R: Hypothétiquement: Car Shadow a des poils, quatre pattes, il est carnivore et il miaule, or (hypothèse induite): Si X1 avoir poil, X1 avoir patte quatre, X1 être carnivore, X1 miauler, or si X a des Y et X est un Z alors X est un Z avec Y alors X1 est un chat, or (hypothèse induite): Si X1 avoir poil, X1 avoir patte quatre, X1 être carnivore, X1 miauler, or si X a des Y et X est un Z alors X est un Z avec Y alors X1 est un chat, or (hypothèse induite): Si X1 avoir poil, X1 avoir patte quatre, X1 être carnivore, X1 miauler, or si X a des Y et X est un Z alors X est un Z avec Y alors X1 est un chat, or (hypothèse induite): Si X1 avoir poil, X1 avoir patte quatre, X1 être carnivore, X1 miauler, or si X a des Y et X est un Z alors X est un Z avec Y alors X1 est un chat, or (hypothèse induite): Si X1 avoir poil, X1 avoir patte quatre, X1 être carnivore, X1 miauler alors X1 est un chat.
+
+Q: Médor est-il un chien ?
+R: Oui, hypothétiquement.
+
+Q: Pourquoi?
+R: Hypothétiquement: Car Médor a des poils, quatre pattes, il est carnivore et il aboie, or (hypothèse induite): Si X1 avoir poil, X1 avoir patte quatre, X1 être carnivore, X1 aboyer, or si X a des Y et X est un Z alors X est un Z avec Y alors X1 est un chien, or (hypothèse induite): Si X1 avoir poil, X1 avoir patte quatre, X1 être carnivore, X1 aboyer, or si X a des Y et X est un Z alors X est un Z avec Y alors X1 est un chien, or (hypothèse induite): Si X1 avoir poil, X1 avoir patte quatre, X1 être carnivore, X1 aboyer, or si X a des Y et X est un Z alors X est un Z avec Y alors X1 est un chien, or (hypothèse induite): Si X1 avoir poil, X1 avoir patte quatre, X1 être carnivore, X1 aboyer, or si X a des Y et X est un Z alors X est un Z avec Y alors X1 est un chien, or (hypothèse induite): Si X1 avoir poil, X1 avoir patte quatre, X1 être carnivore, X1 aboyer alors X1 est un chien.
+
+Q: Alphonse est-il un serpent ?
+R: Oui, hypothétiquement.
+
+Q: Pourquoi?
+R: Hypothétiquement: Car Alphonse n'a pas de pattes et pas de poils, or (hypothèse induite): Si X1 n'avoir pas patte, X1 n'avoir pas poil, X1 être carnivore, or si X n'a pas de Y et X est un Z alors X est un Z sans Y alors X1 est un serpent, or (hypothèse induite): Si X1 n'avoir pas patte, X1 n'avoir pas poil, X1 être carnivore, or si X n'a pas de Y et X est un Z alors X est un Z sans Y alors X1 est un serpent, or (hypothèse induite): Si X1 n'avoir pas patte, X1 n'avoir pas poil, X1 être carnivore, or si X n'a pas de Y et X est un Z alors X est un Z sans Y alors X1 est un serpent, or (hypothèse induite): Si X1 n'avoir pas patte, X1 n'avoir pas poil, X1 être carnivore, or si X n'a pas de Y et X est un Z alors X est un Z sans Y alors X1 est un serpent, il est carnivore, or (hypothèse induite): Si X1 n'avoir pas patte, X1 n'avoir pas poil, X1 être carnivore alors X1 est un serpent.
+
+Q: Stéphane est-il un iguane ?
+R: Oui, hypothétiquement.
+
+Q: Pourquoi?
+R: Hypothétiquement: Car Stéphane est herbivore, a quatre pattes, or (hypothèse induite): Si X1 être herbivore, X1 avoir patte quatre, X1 n'avoir pas poil, or si X a des Y et X est un Z alors X est un Z avec Y alors X1 est un iguane, or (hypothèse induite): Si X1 être herbivore, X1 avoir patte quatre, X1 n'avoir pas poil, or si X a des Y et X est un Z alors X est un Z avec Y alors X1 est un iguane, il a des poils, or (hypothèse induite): Si X1 être herbivore, X1 avoir patte quatre, X1 n'avoir pas poil, or si X n'a pas de Y et X est un Z alors X est un Z sans Y alors X1 est un iguane, or (hypothèse induite): Si X1 être herbivore, X1 avoir patte quatre, X1 n'avoir pas poil, or si X n'a pas de Y et X est un Z alors X est un Z sans Y alors X1 est un iguane, or (hypothèse induite): Si X1 être herbivore, X1 avoir patte quatre, X1 n'avoir pas poil alors X1 est un iguane.
+
+Q: Louise est un quoi ?
+R: Hypothétiquement: varan. 
+
+Q: Pourquoi?
+R: Car Louise est carnivore, a quatre pattes, or (hypothèse induite): Si X1 être carnivore, X1 avoir patte quatre, X1 n'avoir pas poil, or si X a des Y et X est un Z alors X est un Z avec Y alors X1 est un varan, or (hypothèse induite): Si X1 être carnivore, X1 avoir patte quatre, X1 n'avoir pas poil, or si X a des Y et X est un Z alors X est un Z avec Y alors X1 est un varan, il a des poils, or (hypothèse induite): Si X1 être carnivore, X1 avoir patte quatre, X1 n'avoir pas poil, or si X n'a pas de Y et X est un Z alors X est un Z sans Y alors X1 est un varan, or (hypothèse induite): Si X1 être carnivore, X1 avoir patte quatre, X1 n'avoir pas poil, or si X n'a pas de Y et X est un Z alors X est un Z sans Y alors X1 est un varan, or (hypothèse induite): Si X1 être carnivore, X1 avoir patte quatre, X1 n'avoir pas poil alors X1 est un varan.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 10>
+Louise et Martine sont des femmes.
+Alfred est le père de Louise et de Martine.
+Louise est la soeur de Martine.
+<ATTENDURESULTAT>
+Hypothèses induites à partir de ces faits :
+être_soeur(_x1,_x2) :- être_père(_x3,_x1), être_père(_x3,_x2), est_un(_x1,femme), est_un(_x2,femme).
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST 11>
+Albert est le père de Charles et de Denis.
+Charles est le frère de Denis.
+Charles n'est pas le frère de Charles. 
+
+Max est le père de François.
+François est le père de Jérôme.
+Max est le grand-père de Jérôme.
+
+Jean est le père de Paul et de Louis.
+Louis est le père de Marcel.
+Paul est l'oncle de Marcel.
+Paul n'est pas l'oncle de Paul.
+
+Simon est le père de Alain et de Jacques.
+Jacques est le père de Fabien.
+Alain est le père de Franck.
+Fabien est le cousin de Franck.
+Fabien n'est pas le cousin de Fabien.
+
+Martin est le père de Samuel.
+Samuel est le père d'Abdel.
+Abdel est le père de Saul.
+Karim est le père de Louise.
+Martin est l'ancêtre de Saul.
+Karim est l'ancêtre de Louise.
+<ATTENDURESULTAT>
+Hypothèses induites à partir de ces faits :
+
+être_frère(_x1,_x2) :- être_père(_x3,_x1), être_père(_x3,_x2), _x1\==_x2.
+
+être_grand-père(_x1,_x2) :- être_père(_x1,_x3), être_père(_x3,_x2).
+
+être_oncle(_x1,_x2) :- être_père(_x3,_x1), être_père(_x3,_x4), être_père(_x4,_x2), _x1\==_x2.
+
+être_cousin(_x1,_x2) :- être_père(_x3,_x4), être_père(_x4,_x1), être_père(_x3,_x5), être_père(_x5,_x2), _x1\==_x2.
+
+être_ancêtre(_x1,_x2) :- être_père(_x1,_x2).
+être_ancêtre(_x1,_x2) :- être_père(_x1,_x3), être_ancêtre(_x3,_x2).
+</ATTENDURESULTAT>
+</TEST>
+

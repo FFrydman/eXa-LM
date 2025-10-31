@@ -1,0 +1,800 @@
+<TEST ProntoQA_201>
+Chaque vumpus est large. Les vumpus sont des yumpus. Chaque yumpus est heureux. Chaque yumpus est un zumpus. Chaque zumpus est bleus. Les zumpus sont des impus. Chaque tumpus n'est pas en bois. Chaque impus est floral. Les impus sont des dumpus. Les dumpus ne sont pas brillants. Les dumpus sont des jompus. Chaque jompus n'est pas amer. Chaque jompus est un wumpus. Les wumpus ne sont pas opaque. Chaque wumpus est un rumpus. Chaque rumpus est en bois. Chaque rumpus est un numpus. Sally est un  impus.
+Sally n'est pas en bois ?
+<ATTENDURESULTAT>
+Q: Sally n'est pas en bois ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_202>
+Les tumpus sont tempéré. Les tumpus sont des impus. Chaque impus est orange. Les impus sont des yumpus. Chaque yumpus est timide. Les yumpus sont des zumpus. Les zumpus sont brillants. Chaque zumpus est un rumpus. Chaque numpus est opaque. Les rumpus sont petit. Chaque rumpus est un dumpus. Les dumpus ne sont pas floral. Chaque dumpus est un wumpus. Chaque wumpus est agressif. Les wumpus sont des vumpus. Chaque vumpus n'est pas opaque. Chaque vumpus est un jompus. Wren est un zumpus.
+Wren est opaque ?
+<ATTENDURESULTAT>
+Q: Wren est opaque ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_203>
+Chaque tumpus est liquide. Les tumpus sont des yumpus. Les yumpus ne sont pas tempéré. Les yumpus sont des vumpus. Les vumpus sont colérique. Les vumpus sont des zumpus. Les zumpus sont rouge. Les zumpus sont des rumpus. Chaque rumpus est timide. Les rumpus sont des dumpus. Chaque dumpus n'est pas petit. Les dumpus sont des numpus. Chaque numpus n'est pas épicé. Les numpus sont des impus. Chaque jompus n'est pas timide. Les impus ne sont pas terreux. Chaque impus est un wumpus. Alex est un tumpus.
+Alex est timide ?
+<ATTENDURESULTAT>
+Q: Alex est timide ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_204>
+Les jompus sont rouge. Les jompus sont des wumpus. Chaque wumpus n'est pas terne. Chaque wumpus est un yumpus. Chaque yumpus est chaud. Chaque yumpus est un  impus. Les dumpus ne sont pas fougueux. Chaque impus est épicé. Chaque impus est un rumpus. Chaque rumpus est fougueux. Les rumpus sont des tumpus. Sam est un jompus.
+Sam n'est pas fougueux ?
+<ATTENDURESULTAT>
+Q: Sam n'est pas fougueux ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_205>
+Les impus sont chaud. Les impus sont des rumpus. Les rumpus sont petit. Les rumpus sont des jompus. Les jompus sont terne. Chaque jompus est un zumpus. Les zumpus ne sont pas gentil. Chaque zumpus est un numpus. Les numpus sont nerveux. Les numpus sont des vumpus. Les vumpus ne sont pas fruité.Chaque vumpus est un dumpus. Les wumpus sont fruité.Chaque dumpus n'est pas en bois. Chaque dumpus est un tumpus. Les tumpus ne sont pas bleus. Chaque tumpus est un yumpus. Stella est un rumpus.
+Stella est fruité ?
+<ATTENDURESULTAT>
+Q: Stella est fruité ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_206>
+Chaque wumpus est en bois. Chaque wumpus est un numpus. Chaque numpus est aigre. Les numpus sont des impus. Les impus ne sont pas opaque. Chaque impus est un jompus. Chaque jompus est froid. Les jompus sont des vumpus. Chaque vumpus est bleus. Chaque vumpus est un rumpus. Les rumpus sont colérique. Chaque rumpus est un yumpus. Les yumpus sont fruité. Les dumpus ne sont pas fruité.Chaque yumpus est un zumpus. Chaque zumpus est heureux. Chaque zumpus est un tumpus. Polly est un  impus.
+Polly est fruité ?
+<ATTENDURESULTAT>
+Q: Polly est fruité ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_207>
+Les numpus sont transparent. Les numpus sont des yumpus. Les yumpus sont rouge. Chaque yumpus est un jompus. Les jompus sont petit. Chaque jompus est un vumpus. Chaque vumpus est métallique. Chaque vumpus est un dumpus. Les dumpus sont floral. Chaque dumpus est un rumpus. Chaque rumpus est colérique. Les rumpus sont des tumpus. Les impus ne sont pas floral. Sally est un numpus.
+Sally n'est pas floral ?
+<ATTENDURESULTAT>
+Q: Sally n'est pas floral ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_208>
+Les impus ne sont pas fruité. Les impus sont des vumpus. Chaque vumpus est froid. Les wumpus ne sont pas orange. Les vumpus sont des numpus. Chaque numpus est en bois. Les numpus sont des rumpus. Les rumpus sont opaque. Les rumpus sont des yumpus. Chaque yumpus est aigre. Les yumpus sont des zumpus. Chaque zumpus n'est pas petit. Les zumpus sont des tumpus. Chaque tumpus est nerveux. Chaque tumpus est un jompus. Les jompus sont orange. Chaque jompus est un dumpus. Max est un rumpus.
+Max n'est pas orange ?
+<ATTENDURESULTAT>
+Q: Max n'est pas orange ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_209>
+Chaque tumpus est doux. Chaque tumpus est un wumpus. Les wumpus ne sont pas transparent. Chaque wumpus est un dumpus. Chaque numpus n'est pas terreux. Les dumpus sont bleus. Les dumpus sont des impus. Les impus ne sont pas large. Les impus sont des yumpus. Chaque yumpus est colérique. Chaque yumpus est un rumpus. Les rumpus ne sont pas métallique. Chaque rumpus est un zumpus. Chaque zumpus est terreux. Les zumpus sont des vumpus. Polly est un dumpus.
+Polly est terreux ?
+<ATTENDURESULTAT>
+Q: Polly est terreux ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_210>
+Les zumpus sont en bois. Les zumpus sont des yumpus. Chaque dumpus n'est pas chaud. Les yumpus sont aigre. Chaque yumpus est un tumpus. Les tumpus ne sont pas opaque. Chaque tumpus est un wumpus. Chaque wumpus est fruité.Chaque wumpus est un vumpus. Les vumpus sont heureux. Chaque vumpus est un rumpus. Les rumpus sont chaud. Chaque rumpus est un  impus. Chaque impus est gentil. Chaque impus est un numpus. Les numpus ne sont pas orange. Chaque numpus est un jompus. Fae est un yumpus.
+Fae n'est pas chaud ?
+<ATTENDURESULTAT>
+Q: Fae n'est pas chaud ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_211>
+Chaque zumpus est terreux. Chaque rumpus n'est pas épicé. Les rumpus sont des wumpus. Chaque wumpus n'est pas heureux. Les wumpus sont des tumpus. Les tumpus sont liquide. Chaque tumpus est un dumpus. Chaque dumpus est large. Chaque dumpus est un  impus. Les impus ne sont pas terreux. Les impus sont des vumpus. Chaque vumpus est agressif. Chaque vumpus est un yumpus. Chaque yumpus est marron. Les yumpus sont des jompus. Chaque jompus est brillants. Chaque jompus est un numpus. Alex est un rumpus.
+Alex n'est pas terreux ?
+<ATTENDURESULTAT>
+Q: Alex n'est pas terreux ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_212>
+Chaque tumpus est rouge. Chaque tumpus est un wumpus. Chaque wumpus est doux. Les wumpus sont des vumpus. Les vumpus sont petit. Chaque vumpus est un jompus. Chaque jompus n'est pas agressif. Les zumpus sont tempéré. Chaque jompus est un dumpus. Chaque dumpus est brillants. Chaque dumpus est un numpus. Les numpus ne sont pas tempéré. Les numpus sont des rumpus. Chaque rumpus n'est pas lumineux. Chaque rumpus est un yumpus. Les yumpus sont opaque. Chaque yumpus est un  impus. Stella est un wumpus.
+Stella n'est pas tempéré ?
+<ATTENDURESULTAT>
+Q: Stella n'est pas tempéré ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_213>
+Les jompus ne sont pas brillants. Les jompus sont des vumpus. Les vumpus sont amer. Chaque vumpus est un tumpus. Les tumpus sont chaud. Les tumpus sont des impus. Chaque impus n'est pas marron. Chaque impus est un numpus. Chaque yumpus est en bois. Les numpus sont large. Les numpus sont des rumpus. Les rumpus ne sont pas opaque. Chaque rumpus est un wumpus. Les wumpus sont agressif. Les wumpus sont des dumpus. Chaque dumpus n'est pas en bois. Chaque dumpus est un zumpus. Rex est un  impus.
+Rex n'est pas en bois ?
+<ATTENDURESULTAT>
+Q: Rex n'est pas en bois ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_214>
+Chaque vumpus n'est pas bleus. Chaque vumpus est un zumpus. Les zumpus sont floral. Chaque zumpus est un wumpus. Chaque wumpus est froid. Chaque impus n'est pas nerveux. Les wumpus sont des yumpus. Les yumpus sont transparent. Les yumpus sont des numpus. Les numpus sont nerveux. Les numpus sont des tumpus. Les tumpus sont petit. Chaque tumpus est un jompus. Les jompus sont doux. Les jompus sont des rumpus. Chaque rumpus n'est pas accommodant. Les rumpus sont des dumpus. Sally est un vumpus.
+Sally est nerveux ?
+<ATTENDURESULTAT>
+Q: Sally est nerveux ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_215>
+Chaque wumpus est marron. Les wumpus sont des rumpus. Chaque rumpus est terne. Les rumpus sont des dumpus. Les dumpus sont transparent. Les dumpus sont des vumpus. Chaque vumpus est petit. Les vumpus sont des tumpus. Les yumpus ne sont pas terreux. Les tumpus sont terreux. Chaque tumpus est un zumpus. Chaque zumpus n'est pas tempéré. Chaque zumpus est un numpus. Chaque numpus est gentil. Chaque numpus est un  impus. Max est un wumpus.
+Max n'est pas terreux ?
+<ATTENDURESULTAT>
+Q: Max n'est pas terreux ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_216>
+Les impus sont terne. Les impus sont des rumpus. Les vumpus ne sont pas agressif. Les rumpus ne sont pas épicé. Chaque rumpus est un dumpus. Les dumpus sont nerveux. Les dumpus sont des wumpus. Les wumpus ne sont pas opaque. Chaque wumpus est un jompus. Les jompus sont floral. Chaque jompus est un numpus. Les numpus sont petit. Chaque numpus est un zumpus. Chaque zumpus est bleus. Les zumpus sont des tumpus. Chaque tumpus est agressif. Chaque tumpus est un yumpus. Max est un wumpus.
+Max est agressif ?
+<ATTENDURESULTAT>
+Q: Max est agressif ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_217>
+Les numpus sont gentil. Chaque numpus est un yumpus. Chaque yumpus n'est pas opaque. Les yumpus sont des jompus. Chaque vumpus est métallique. Les jompus ne sont pas tempéré. Les jompus sont des wumpus. Chaque wumpus est aigre. Les wumpus sont des tumpus. Les tumpus ne sont pas métallique. Chaque tumpus est un rumpus. Chaque rumpus n'est pas marron. Les rumpus sont des impus. Chaque impus n'est pas terne. Chaque impus est un zumpus. Les zumpus ne sont pas fougueux. Les zumpus sont des dumpus. Sally est un numpus.
+Sally n'est pas métallique ?
+<ATTENDURESULTAT>
+Q: Sally n'est pas métallique ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_218>
+Chaque vumpus n'est pas aigre. Les vumpus sont des rumpus. Chaque rumpus n'est pas heureux. Les rumpus sont des jompus. Chaque jompus n'est pas tempéré. Les numpus ne sont pas transparent. Les jompus sont des tumpus. Les tumpus sont liquide. Les tumpus sont des yumpus. Chaque yumpus est transparent. Les yumpus sont des dumpus. Les dumpus sont orange. Les dumpus sont des wumpus. Les wumpus sont floral. Chaque wumpus est un zumpus. Fae est un vumpus.
+Fae est transparent ?
+<ATTENDURESULTAT>
+Q: Fae est transparent ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_219>
+Les zumpus sont chaud. Chaque zumpus est un tumpus. Chaque tumpus est terne. Chaque tumpus est un dumpus. Chaque dumpus est petit. Les dumpus sont des vumpus. Les vumpus ne sont pas nerveux. Les yumpus ne sont pas transparent. Chaque vumpus est un  impus. Chaque impus n'est pas rouge. Les impus sont des rumpus. Les rumpus ne sont pas floral. Les rumpus sont des wumpus. Chaque wumpus est transparent. Chaque wumpus est un jompus. Les jompus ne sont pas épicé. Chaque jompus est un numpus. Wren est un dumpus.
+Wren est transparent ?
+<ATTENDURESULTAT>
+Q: Wren est transparent ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_220>
+Les zumpus sont timide. Les zumpus sont des yumpus. Les dumpus ne sont pas lumineux. Les yumpus ne sont pas terreux. Chaque yumpus est un numpus. Les numpus ne sont pas agressif. Chaque numpus est un tumpus. Les tumpus sont transparent. Chaque tumpus est un wumpus. Chaque wumpus n'est pas aigre. Chaque wumpus est un  impus. Chaque impus n'est pas chaud. Chaque impus est un jompus. Chaque jompus n'est pas petit. Chaque jompus est un vumpus. Les vumpus sont lumineux. Les vumpus sont des rumpus. Stella est un tumpus.
+Stella n'est pas lumineux ?
+<ATTENDURESULTAT>
+Q: Stella n'est pas lumineux ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_221>
+Chaque vumpus est fougueux. Les vumpus sont des numpus. Les numpus ne sont pas épicé. Les numpus sont des yumpus. Les yumpus sont large. Chaque yumpus est un zumpus. Les tumpus sont fruité.Chaque zumpus est chaud. Chaque zumpus est un wumpus. Chaque wumpus est transparent. Les wumpus sont des rumpus. Les rumpus sont marron. Les rumpus sont des dumpus. Chaque dumpus est gentil. Chaque dumpus est un  impus. Les impus ne sont pas fruité.Chaque impus est un jompus. Stella est un zumpus.
+Stella est fruité ?
+<ATTENDURESULTAT>
+Q: Stella est fruité ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_222>
+Les yumpus sont nerveux. Chaque yumpus est un wumpus. Chaque wumpus n'est pas terreux. Les wumpus sont des impus. Les zumpus sont métallique. Chaque impus est chaud. Les impus sont des dumpus. Les dumpus sont petit. Les dumpus sont des jompus. Les jompus sont doux. Chaque jompus est un vumpus. Les vumpus ne sont pas métallique. Les vumpus sont des tumpus. Chaque tumpus est rouge. Les tumpus sont des rumpus. Les rumpus sont brillants. Les rumpus sont des numpus. Stella est un wumpus.
+Stella n'est pas métallique ?
+<ATTENDURESULTAT>
+Q: Stella n'est pas métallique ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_223>
+Les dumpus sont brillants. Les dumpus sont des vumpus. Les vumpus sont amer. Les vumpus sont des zumpus. Les zumpus ne sont pas floral. Les zumpus sont des impus. Les impus sont petit. Les impus sont des numpus. Les wumpus ne sont pas lumineux. Chaque numpus est orange. Les numpus sont des jompus. Chaque jompus est froid. Les jompus sont des rumpus. Les rumpus sont nerveux. Les rumpus sont des yumpus. Chaque yumpus est lumineux. Les yumpus sont des tumpus. Polly est un  impus.
+Polly n'est pas lumineux ?
+<ATTENDURESULTAT>
+Q: Polly n'est pas lumineux ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_224>
+Chaque jompus est nerveux. Chaque jompus est un vumpus. Chaque vumpus n'est pas marron. Chaque vumpus est un zumpus. Les zumpus sont terne. Les zumpus sont des dumpus. Les dumpus sont fruité.Chaque dumpus est un wumpus. Les wumpus sont lumineux. Les wumpus sont des impus. Les impus sont gentil. Chaque impus est un rumpus. Les yumpus sont froid. Chaque rumpus n'est pas froid. Chaque rumpus est un tumpus. Les tumpus ne sont pas amer. Les tumpus sont des numpus. Sally est un zumpus.
+Sally est froid ?
+<ATTENDURESULTAT>
+Q: Sally est froid ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_225>
+Chaque tumpus n'est pas accommodant. Les tumpus sont des impus. Chaque impus est fougueux. Chaque impus est un dumpus. Chaque dumpus est froid. Chaque dumpus est un wumpus. Les wumpus sont doux. Chaque wumpus est un vumpus. Les yumpus ne sont pas large. Chaque vumpus est large. Les vumpus sont des numpus. Les numpus sont brillants. Les numpus sont des rumpus. Chaque rumpus est bleus. Chaque rumpus est un jompus. Chaque jompus est lumineux. Les jompus sont des zumpus. Sam est un tumpus.
+Sam est large ?
+<ATTENDURESULTAT>
+Q: Sam est large ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_226>
+Les dumpus sont métallique. Les impus ne sont pas timide. Les impus sont des rumpus. Les rumpus ne sont pas fruité.Chaque rumpus est un jompus. Les jompus sont large. Les jompus sont des numpus. Les numpus ne sont pas bleus. Les numpus sont des vumpus. Chaque vumpus n'est pas métallique. Les vumpus sont des wumpus. Chaque wumpus est doux. Les wumpus sont des zumpus. Les zumpus ne sont pas opaque. Chaque zumpus est un tumpus. Chaque tumpus n'est pas gentil. Les tumpus sont des yumpus. Stella est un  impus.
+Stella est métallique ?
+<ATTENDURESULTAT>
+Q: Stella est métallique ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_227>
+Les numpus sont opaque. Chaque numpus est un rumpus. Chaque rumpus est agressif. Les rumpus sont des tumpus. Chaque tumpus n'est pas floral. Les tumpus sont des yumpus. Chaque yumpus est brillants. Les yumpus sont des wumpus. Les wumpus sont tempéré. Chaque wumpus est un dumpus. Chaque dumpus est en bois. Les vumpus ne sont pas nerveux. Les dumpus sont des impus. Chaque impus est nerveux. Chaque impus est un jompus. Chaque jompus est large. Chaque jompus est un zumpus. Sam est un tumpus.
+Sam n'est pas nerveux ?
+<ATTENDURESULTAT>
+Q: Sam n'est pas nerveux ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_228>
+Chaque zumpus est amer. Chaque zumpus est un vumpus. Chaque vumpus n'est pas colérique. Chaque vumpus est un  impus. Les numpus ne sont pas transparent. Chaque impus est chaud. Chaque impus est un rumpus. Chaque rumpus n'est pas liquide. Chaque rumpus est un dumpus. Chaque dumpus est fougueux. Chaque dumpus est un yumpus. Chaque yumpus est transparent. Les yumpus sont des jompus. Chaque jompus est floral. Chaque jompus est un tumpus. Chaque tumpus est brillants. Les tumpus sont des wumpus. Alex est un vumpus.
+Alex n'est pas transparent ?
+<ATTENDURESULTAT>
+Q: Alex n'est pas transparent ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_229>
+Chaque wumpus n'est pas agressif. Chaque wumpus est un rumpus. Les tumpus sont froid. Chaque rumpus est large. Les rumpus sont des yumpus. Les yumpus ne sont pas aigre. Les yumpus sont des impus. Chaque impus n'est pas opaque. Chaque impus est un dumpus. Chaque dumpus n'est pas froid. Chaque dumpus est un jompus. Les jompus ne sont pas rouge. Les jompus sont des zumpus. Chaque zumpus n'est pas brillants. Chaque zumpus est un vumpus. Les vumpus ne sont pas en bois. Chaque vumpus est un numpus. Alex est un wumpus.
+Alex n'est pas froid ?
+<ATTENDURESULTAT>
+Q: Alex n'est pas froid ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_230>
+Chaque tumpus n'est pas gentil. Chaque impus est liquide. Les impus sont des dumpus. Chaque dumpus est timide. Les dumpus sont des zumpus. Chaque zumpus est orange. Chaque zumpus est un numpus. Chaque numpus n'est pas brillants. Les numpus sont des vumpus. Les vumpus sont épicé. Les vumpus sont des rumpus. Chaque rumpus est froid. Les rumpus sont des wumpus. Les wumpus sont gentil. Chaque wumpus est un jompus. Les jompus sont petit. Chaque jompus est un yumpus. Rex est un zumpus.
+Rex est gentil ?
+<ATTENDURESULTAT>
+Q: Rex est gentil ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_231>
+Les vumpus sont en bois. Chaque vumpus est un dumpus. Les dumpus ne sont pas large. Chaque dumpus est un yumpus. Chaque yumpus est amer. Les yumpus sont des rumpus. Chaque rumpus n'est pas transparent. Chaque rumpus est un tumpus. Chaque tumpus n'est pas nerveux. Chaque tumpus est un wumpus. Chaque wumpus est terne. Les wumpus sont des jompus. Chaque jompus est colérique. Chaque jompus est un zumpus. Chaque numpus n'est pas terne. Chaque zumpus n'est pas fruité.Chaque zumpus est un  impus. Sam est un dumpus.
+Sam n'est pas terne ?
+<ATTENDURESULTAT>
+Q: Sam n'est pas terne ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_232>
+Les yumpus ne sont pas large. Chaque yumpus est un tumpus. Chaque tumpus est nerveux. Chaque tumpus est un jompus. Chaque jompus est tempéré. Les jompus sont des vumpus. Chaque vumpus est marron. Chaque dumpus n'est pas opaque. Chaque vumpus est un  impus. Les impus sont brillants. Chaque impus est un zumpus. Les zumpus sont opaque. Chaque zumpus est un numpus. Les numpus sont métallique. Chaque numpus est un rumpus. Chaque rumpus n'est pas colérique. Les rumpus sont des wumpus. Max est un tumpus.
+Max n'est pas opaque ?
+<ATTENDURESULTAT>
+Q: Max n'est pas opaque ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_233>
+Les wumpus sont opaque. Chaque wumpus est un  impus. Les dumpus sont large. Les impus sont rouge. Les impus sont des numpus. Chaque numpus est tempéré. Chaque numpus est un tumpus. Chaque tumpus est floral. Chaque tumpus est un rumpus. Chaque rumpus n'est pas large. Chaque rumpus est un jompus. Rex est un wumpus.
+Rex n'est pas large ?
+<ATTENDURESULTAT>
+Q: Rex n'est pas large ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_234>
+Chaque impus est transparent. Les impus sont des tumpus. Chaque tumpus est colérique. Les tumpus sont des dumpus. Chaque dumpus n'est pas orange. Chaque dumpus est un jompus. Les jompus sont fougueux. Les jompus sont des numpus. Chaque numpus n'est pas terreux. Chaque rumpus est terreux. Chaque numpus est un vumpus. Chaque vumpus est tempéré. Les vumpus sont des wumpus. Chaque wumpus est petit. Chaque wumpus est un yumpus. Chaque yumpus n'est pas métallique. Chaque yumpus est un zumpus. Stella est un  impus.
+Stella n'est pas terreux ?
+<ATTENDURESULTAT>
+Q: Stella n'est pas terreux ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_235>
+Chaque tumpus est tempéré. Chaque tumpus est un dumpus. Chaque dumpus est opaque. Chaque dumpus est un vumpus. Les vumpus sont marron. Les vumpus sont des yumpus. Chaque jompus n'est pas heureux. Les yumpus sont terne. Les yumpus sont des wumpus. Chaque wumpus est heureux. Les wumpus sont des numpus. Les numpus sont terreux. Les numpus sont des zumpus. Les zumpus ne sont pas amer. Les zumpus sont des impus. Stella est un tumpus.
+Stella n'est pas heureux ?
+<ATTENDURESULTAT>
+Q: Stella n'est pas heureux ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_236>
+Les yumpus ne sont pas orange. Les jompus sont liquide. Chaque jompus est un vumpus. Les vumpus sont aigre. Les vumpus sont des rumpus. Chaque rumpus est terreux. Chaque rumpus est un  impus. Les impus ne sont pas opaque. Chaque impus est un numpus. Les numpus ne sont pas petit. Chaque numpus est un tumpus. Chaque tumpus est orange. Chaque tumpus est un dumpus. Les dumpus ne sont pas accommodant. Chaque dumpus est un zumpus. Les zumpus sont tempéré. Les zumpus sont des wumpus. Fae est un vumpus.
+Fae est orange ?
+<ATTENDURESULTAT>
+Q: Fae est orange ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_237>
+Les impus sont terne. Les impus sont des dumpus. Les dumpus ne sont pas petit. Les dumpus sont des numpus. Les numpus ne sont pas heureux. Chaque numpus est un tumpus. Chaque rumpus est froid. Les tumpus sont gentil. Chaque tumpus est un jompus. Les jompus ne sont pas terreux. Les jompus sont des yumpus. Les yumpus sont bleus. Les yumpus sont des wumpus. Chaque wumpus est transparent. Les wumpus sont des vumpus. Chaque vumpus n'est pas froid. Les vumpus sont des zumpus. Sally est un tumpus.
+Sally est froid ?
+<ATTENDURESULTAT>
+Q: Sally est froid ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_238>
+Les wumpus sont épicé. Les tumpus ne sont pas petit. Chaque wumpus est un dumpus. Chaque dumpus n'est pas floral. Chaque dumpus est un rumpus. Les rumpus sont colérique. Chaque rumpus est un vumpus. Les vumpus sont heureux. Les vumpus sont des zumpus. Les zumpus sont métallique. Les zumpus sont des impus. Chaque impus n'est pas orange. Les impus sont des numpus. Chaque numpus est petit. Les numpus sont des jompus. Les jompus sont froid. Les jompus sont des yumpus. Polly est un rumpus.
+Polly est petit ?
+<ATTENDURESULTAT>
+Q: Polly est petit ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_239>
+Les tumpus sont fruité. Les tumpus sont des jompus. Les jompus ne sont pas chaud. Chaque impus n'est pas épicé. Les jompus sont des yumpus. Chaque yumpus n'est pas lumineux. Chaque yumpus est un dumpus. Les dumpus ne sont pas timide. Les dumpus sont des rumpus. Chaque rumpus est épicé. Les rumpus sont des vumpus. Les vumpus sont orange. Chaque vumpus est un zumpus. Chaque zumpus est terne. Chaque zumpus est un numpus. Chaque numpus est opaque. Les numpus sont des wumpus. Alex est un tumpus.
+Alex n'est pas épicé ?
+<ATTENDURESULTAT>
+Q: Alex n'est pas épicé ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_240>
+Les wumpus sont fougueux. Chaque wumpus est un yumpus. Les yumpus sont gentil. Chaque yumpus est un jompus. Les jompus sont liquide. Chaque jompus est un  impus. Chaque impus est transparent. Les impus sont des tumpus. Les tumpus ne sont pas terne. Les tumpus sont des numpus. Les numpus sont tempéré. Les numpus sont des vumpus. Chaque zumpus n'est pas épicé. Chaque vumpus est bleus. Chaque vumpus est un dumpus. Chaque dumpus est épicé. Chaque dumpus est un rumpus. Alex est un  impus.
+Alex est épicé ?
+<ATTENDURESULTAT>
+Q: Alex est épicé ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_241>
+Chaque dumpus est épicé. Chaque dumpus est un jompus. Chaque jompus est large. Les jompus sont des impus. Les impus sont transparent. Les impus sont des wumpus. Les wumpus sont liquide. Les wumpus sont des tumpus. Chaque tumpus est orange. Les tumpus sont des yumpus. Les yumpus sont nerveux. Chaque yumpus est un vumpus. Les vumpus ne sont pas tempéré. Chaque vumpus est un numpus. Les zumpus ne sont pas orange. Chaque numpus est gentil. Chaque numpus est un rumpus. Sally est un dumpus.
+Sally n'est pas orange ?
+<ATTENDURESULTAT>
+Q: Sally n'est pas orange ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_242>
+Les zumpus sont large. Chaque zumpus est un numpus. Chaque numpus est lumineux. Les numpus sont des wumpus. Chaque wumpus est floral. Chaque wumpus est un yumpus. Les yumpus sont épicé. Les yumpus sont des impus. Les impus sont transparent. Chaque impus est un rumpus. Les dumpus sont bleus. Les rumpus ne sont pas bleus. Chaque rumpus est un tumpus. Les tumpus sont nerveux. Les tumpus sont des jompus. Les jompus ne sont pas terne. Chaque jompus est un vumpus. Wren est un numpus.
+Wren n'est pas bleus ?
+<ATTENDURESULTAT>
+Q: Wren n'est pas bleus ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_243>
+Les tumpus sont brillants. Chaque tumpus est un jompus. Les jompus sont méchant. Les jompus sont des yumpus. Chaque yumpus est transparent. Chaque yumpus est un zumpus. Les zumpus sont rouge. Chaque zumpus est un vumpus. Chaque vumpus n'est pas lumineux. Chaque vumpus est un rumpus. Chaque rumpus n'est pas fougueux. Les rumpus sont des impus. Chaque impus est tempéré. Chaque impus est un wumpus. Chaque wumpus n'est pas fruité.Chaque wumpus est un numpus. Les dumpus sont fougueux. Max est un jompus.
+Max est fougueux ?
+<ATTENDURESULTAT>
+Q: Max est fougueux ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_244>
+Les rumpus sont timide. Chaque rumpus est un jompus. Les jompus sont aigre. Les jompus sont des yumpus. Chaque yumpus est bleus. Les yumpus sont des impus. Les impus ne sont pas fruité.Chaque impus est un vumpus. Chaque tumpus est transparent. Chaque vumpus est lumineux. Chaque vumpus est un zumpus. Les zumpus ne sont pas transparent. Chaque zumpus est un dumpus. Chaque dumpus est tempéré. Les dumpus sont des wumpus. Les wumpus ne sont pas terne. Chaque wumpus est un numpus. Wren est un jompus.
+Wren n'est pas transparent ?
+<ATTENDURESULTAT>
+Q: Wren n'est pas transparent ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_245>
+Chaque tumpus n'est pas liquide. Les tumpus sont des impus. Chaque impus est bleus. Chaque impus est un zumpus. Les zumpus sont opaque. Les vumpus ne sont pas large. Chaque zumpus est un numpus. Les numpus sont chaud. Chaque numpus est un yumpus. Les yumpus sont aigre. Les yumpus sont des jompus. Chaque jompus est terne. Les jompus sont des rumpus. Les rumpus sont large. Chaque rumpus est un wumpus. Chaque wumpus est fruité.Chaque wumpus est un dumpus. Rex est un zumpus.
+Rex est large ?
+<ATTENDURESULTAT>
+Q: Rex est large ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_246>
+Chaque dumpus est opaque. Chaque dumpus est un vumpus. Les vumpus ne sont pas terne. Chaque vumpus est un  impus. Les impus ne sont pas chaud. Chaque impus est un wumpus. Chaque wumpus est épicé. Les wumpus sont des zumpus. Chaque zumpus est floral. Les zumpus sont des numpus. Chaque numpus n'est pas rouge. Chaque rumpus est rouge. Chaque numpus est un yumpus. Les yumpus sont en bois. Les yumpus sont des jompus. Chaque jompus est fougueux. Chaque jompus est un tumpus. Sam est un vumpus.
+Sam n'est pas rouge ?
+<ATTENDURESULTAT>
+Q: Sam n'est pas rouge ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_247>
+Les rumpus sont terreux. Les rumpus sont des yumpus. Les yumpus sont transparent. Chaque yumpus est un jompus. Les jompus ne sont pas aigre. Les zumpus ne sont pas marron. Les jompus sont des dumpus. Les dumpus ne sont pas tempéré. Chaque dumpus est un numpus. Chaque numpus est marron. Les numpus sont des wumpus. Chaque wumpus est large. Les wumpus sont des tumpus. Sam est un rumpus.
+Sam est marron ?
+<ATTENDURESULTAT>
+Q: Sam est marron ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_248>
+Les vumpus sont fruité. Les vumpus sont des rumpus. Les rumpus ne sont pas terne. Chaque rumpus est un wumpus. Chaque wumpus n'est pas orange. Chaque wumpus est un zumpus. Chaque zumpus est froid. Les zumpus sont des tumpus. Les tumpus sont transparent. Chaque tumpus est un dumpus. Chaque dumpus est timide. Chaque dumpus est un numpus. Chaque jompus n'est pas aigre. Chaque numpus est aigre. Les numpus sont des yumpus. Chaque yumpus n'est pas large. Les yumpus sont des impus. Polly est un wumpus.
+Polly est aigre ?
+<ATTENDURESULTAT>
+Q: Polly est aigre ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_249>
+Les numpus ne sont pas terne. Les numpus sont des yumpus. Chaque yumpus est terreux. Chaque yumpus est un jompus. Les jompus sont orange. Les jompus sont des dumpus. Les dumpus ne sont pas liquide. Les dumpus sont des wumpus. Les wumpus sont transparent. Les wumpus sont des vumpus. Chaque vumpus n'est pas heureux. Chaque vumpus est un  impus. Chaque impus n'est pas petit. Les impus sont des zumpus. Chaque zumpus est colérique. Chaque zumpus est un rumpus. Les tumpus sont petit. Stella est un jompus.
+Stella est petit ?
+<ATTENDURESULTAT>
+Q: Stella est petit ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_250>
+Chaque yumpus est méchant. Chaque yumpus est un  impus. Les impus sont froid. Chaque impus est un tumpus. Chaque tumpus est nerveux. Les tumpus sont des jompus. Les jompus sont terreux. Les jompus sont des dumpus. Chaque vumpus n'est pas en bois. Chaque dumpus est en bois. Chaque dumpus est un rumpus. Les rumpus sont large. Chaque rumpus est un numpus. Chaque numpus est terne. Les numpus sont des wumpus. Chaque wumpus n'est pas aigre. Les wumpus sont des zumpus. Stella est un yumpus.
+Stella est en bois ?
+<ATTENDURESULTAT>
+Q: Stella est en bois ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_251>
+Chaque tumpus n'est pas chaud. Les tumpus sont des vumpus. Chaque vumpus n'est pas brillants. Chaque zumpus est gentil. Chaque vumpus est un  impus. Chaque impus est terreux. Chaque impus est un dumpus. Chaque dumpus est amer. Les dumpus sont des yumpus. Les yumpus sont rouge. Chaque yumpus est un numpus. Chaque numpus n'est pas nerveux. Les numpus sont des wumpus. Les wumpus ne sont pas gentil. Les wumpus sont des rumpus. Chaque rumpus n'est pas petit. Les rumpus sont des jompus. Sam est un  impus.
+Sam est gentil ?
+<ATTENDURESULTAT>
+Q: Sam est gentil ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_252>
+Chaque dumpus est large. Les jompus ne sont pas bleus. Chaque dumpus est un zumpus. Chaque zumpus est terreux. Chaque zumpus est un numpus. Chaque numpus est amer. Chaque numpus est un wumpus. Chaque wumpus est opaque. Chaque wumpus est un rumpus. Les rumpus sont bleus. Les rumpus sont des yumpus. Les yumpus ne sont pas froid. Les yumpus sont des vumpus. Chaque vumpus est colérique. Chaque vumpus est un  impus. Chaque impus est lumineux. Les impus sont des tumpus. Alex est un dumpus.
+Alex est bleus ?
+<ATTENDURESULTAT>
+Q: Alex est bleus ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_253>
+Les vumpus sont rouge. Les vumpus sont des jompus. Chaque jompus est agressif. Les jompus sont des tumpus. Chaque tumpus n'est pas doux. Les tumpus sont des rumpus. Les rumpus ne sont pas floral. Les rumpus sont des zumpus. Chaque zumpus n'est pas large. Les zumpus sont des yumpus. Chaque yumpus est transparent. Les yumpus sont des dumpus. Les dumpus sont métallique. Les impus sont large. Les dumpus sont des numpus. Chaque numpus est froid. Chaque numpus est un wumpus. Fae est un vumpus.
+Fae n'est pas large ?
+<ATTENDURESULTAT>
+Q: Fae n'est pas large ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_254>
+Les tumpus sont floral. Chaque tumpus est un numpus. Chaque numpus n'est pas transparent. Chaque numpus est un zumpus. Chaque zumpus est tempéré. Les zumpus sont des impus. Les impus sont agressif. Chaque impus est un yumpus. Chaque rumpus est brillants. Les yumpus ne sont pas marron. Les yumpus sont des vumpus. Chaque vumpus est aigre. Chaque vumpus est un wumpus. Les wumpus ne sont pas brillants. Les wumpus sont des dumpus. Les dumpus sont large. Chaque dumpus est un jompus. Max est un zumpus.
+Max est brillants ?
+<ATTENDURESULTAT>
+Q: Max est brillants ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_255>
+Chaque impus est gentil. Chaque impus est un wumpus. Chaque wumpus n'est pas nerveux. Les wumpus sont des yumpus. Les yumpus ne sont pas large. Chaque yumpus est un rumpus. Chaque rumpus est opaque. Chaque rumpus est un jompus. Les jompus sont brillants. Chaque jompus est un tumpus. Chaque tumpus est amer. Les tumpus sont des numpus. Les numpus ne sont pas fruité.Chaque numpus est un vumpus. Les zumpus ne sont pas amer. Les vumpus sont en bois. Chaque vumpus est un dumpus. Max est un wumpus.
+Max n'est pas amer ?
+<ATTENDURESULTAT>
+Q: Max n'est pas amer ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_256>
+Les tumpus sont transparent. Les yumpus ne sont pas petit. Chaque tumpus est un numpus. Les numpus sont marron. Les numpus sont des jompus. Les jompus sont colérique. Chaque jompus est un zumpus. Les zumpus sont brillants. Les zumpus sont des vumpus. Chaque vumpus est épicé. Les vumpus sont des impus. Les impus sont heureux. Chaque impus est un dumpus. Chaque dumpus est liquide. Chaque dumpus est un rumpus. Les rumpus sont petit. Les rumpus sont des wumpus. Sam est un zumpus.
+Sam n'est pas petit ?
+<ATTENDURESULTAT>
+Q: Sam n'est pas petit ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_257>
+Chaque jompus est floral. Les jompus sont des tumpus. Chaque tumpus est orange. Chaque tumpus est un dumpus. Les dumpus sont tempéré. Chaque dumpus est un  impus. Chaque impus n'est pas petit. Les impus sont des numpus. Les numpus ne sont pas fougueux. Les numpus sont des wumpus. Chaque yumpus n'est pas gentil. Les wumpus sont gentil. Chaque wumpus est un zumpus. Les zumpus sont aigre. Les zumpus sont des vumpus. Les vumpus sont transparent. Chaque vumpus est un rumpus. Max est un tumpus.
+Max est gentil ?
+<ATTENDURESULTAT>
+Q: Max est gentil ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_258>
+Les wumpus sont orange. Les wumpus sont des numpus. Chaque numpus est froid. Les numpus sont des yumpus. Les yumpus ne sont pas méchant. Chaque yumpus est un jompus. Les jompus sont lumineux. Les jompus sont des impus. Chaque impus est nerveux. Chaque impus est un dumpus. Chaque dumpus est transparent. Chaque dumpus est un zumpus. Les zumpus sont terne. Chaque tumpus n'est pas terne. Les zumpus sont des rumpus. Les rumpus ne sont pas amer. Les rumpus sont des vumpus. Wren est un yumpus.
+Wren n'est pas terne ?
+<ATTENDURESULTAT>
+Q: Wren n'est pas terne ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_259>
+Les yumpus sont fruité. Les yumpus sont des wumpus. Les wumpus sont large. Chaque wumpus est un dumpus. Les dumpus sont tempéré. Les dumpus sont des rumpus. Chaque rumpus est fougueux. Les rumpus sont des numpus. Les numpus ne sont pas doux. Chaque numpus est un vumpus. Les vumpus sont brillants. Chaque vumpus est un tumpus. Les tumpus sont opaque. Chaque tumpus est un  impus. Chaque impus n'est pas bleus. Chaque impus est un zumpus. Chaque jompus est doux. Sally est un yumpus.
+Sally est doux ?
+<ATTENDURESULTAT>
+Q: Sally est doux ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_260>
+Chaque impus n'est pas orange. Chaque impus est un zumpus. Chaque zumpus n'est pas heureux. Chaque zumpus est un vumpus. Les vumpus ne sont pas opaque. Chaque vumpus est un yumpus. Les yumpus sont tempéré. Chaque yumpus est un wumpus. Chaque wumpus est floral. Les wumpus sont des jompus. Chaque jompus est large. Les rumpus sont en bois. Chaque jompus est un tumpus. Chaque tumpus n'est pas en bois. Chaque tumpus est un numpus. Chaque numpus n'est pas terne. Chaque numpus est un dumpus. Max est un vumpus.
+Max n'est pas en bois ?
+<ATTENDURESULTAT>
+Q: Max n'est pas en bois ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_261>
+Chaque tumpus est méchant. Chaque tumpus est un yumpus. Les yumpus sont petit. Les yumpus sont des dumpus. Les zumpus sont fruité. Les dumpus sont terne. Chaque dumpus est un  impus. Les impus sont transparent. Chaque impus est un wumpus. Chaque wumpus n'est pas fruité.Chaque wumpus est un jompus. Alex est un tumpus.
+Alex n'est pas fruité ?
+<ATTENDURESULTAT>
+Q: Alex n'est pas fruité ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_262>
+Chaque vumpus est large. Chaque vumpus est un dumpus. Chaque dumpus est accommodant. Chaque dumpus est un zumpus. Les zumpus sont fruité. Les zumpus sont des rumpus. Chaque rumpus n'est pas lumineux. Chaque rumpus est un tumpus. Chaque tumpus est froid. Les tumpus sont des numpus. Les numpus sont terne. Les numpus sont des jompus. Chaque jompus est aigre. Les jompus sont des impus. Les yumpus ne sont pas froid. Les impus sont opaque. Chaque impus est un wumpus. Sam est un vumpus.
+Sam est froid ?
+<ATTENDURESULTAT>
+Q: Sam est froid ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_263>
+Chaque impus est brillants. Les impus sont des tumpus. Les tumpus sont petit. Chaque tumpus est un dumpus. Les dumpus sont tempéré. Chaque dumpus est un zumpus. Chaque zumpus est accommodant. Chaque zumpus est un rumpus. Chaque rumpus est orange. Chaque rumpus est un jompus. Les wumpus sont floral. Les jompus sont lumineux. Chaque jompus est un vumpus. Chaque vumpus n'est pas floral. Les vumpus sont des yumpus. Les yumpus sont épicé. Chaque yumpus est un numpus. Sally est un dumpus.
+Sally est floral ?
+<ATTENDURESULTAT>
+Q: Sally est floral ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_264>
+Les vumpus sont floral. Les vumpus sont des wumpus. Chaque wumpus est marron. Les wumpus sont des zumpus. Chaque zumpus n'est pas liquide. Chaque zumpus est un  impus. Les impus ne sont pas gentil. Chaque impus est un tumpus. Chaque tumpus est transparent. Chaque tumpus est un numpus. Les numpus sont fougueux. Chaque numpus est un yumpus. Les yumpus sont doux. Les yumpus sont des rumpus. Les rumpus ne sont pas brillants. Les rumpus sont des dumpus. Les jompus sont brillants. Max est un  impus.
+Max n'est pas brillants ?
+<ATTENDURESULTAT>
+Q: Max n'est pas brillants ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_265>
+Les wumpus sont liquide. Chaque wumpus est un dumpus. Chaque dumpus est petit. Chaque dumpus est un rumpus. Les rumpus sont transparent. Chaque rumpus est un tumpus. Les tumpus sont amer. Chaque tumpus est un numpus. Les zumpus ne sont pas fruité. Les numpus sont fruité.Chaque numpus est un vumpus. Chaque vumpus est chaud. Les vumpus sont des yumpus. Les yumpus ne sont pas timide. Les yumpus sont des impus. Les impus ne sont pas brillants. Les impus sont des jompus. Sally est un wumpus.
+Sally n'est pas fruité ?
+<ATTENDURESULTAT>
+Q: Sally n'est pas fruité ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_266>
+Chaque wumpus est accommodant. Chaque wumpus est un tumpus. Les tumpus sont lumineux. Les tumpus sont des yumpus. Chaque yumpus est large. Chaque yumpus est un numpus. Chaque numpus est doux. Chaque numpus est un vumpus. Les vumpus sont heureux. Chaque vumpus est un dumpus. Les jompus ne sont pas tempéré. Chaque dumpus est floral. Les dumpus sont des rumpus. Chaque rumpus est tempéré. Les rumpus sont des zumpus. Chaque zumpus est terne. Les zumpus sont des impus. Rex est un yumpus.
+Rex est tempéré ?
+<ATTENDURESULTAT>
+Q: Rex est tempéré ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_267>
+Les vumpus ne sont pas colérique. Les vumpus sont des wumpus. Les wumpus sont nerveux. Chaque wumpus est un dumpus. Les dumpus sont rouge. Chaque dumpus est un jompus. Les jompus ne sont pas chaud. Chaque jompus est un numpus. Les numpus ne sont pas petit. Chaque numpus est un zumpus. Les zumpus sont opaque. Les zumpus sont des tumpus. Les tumpus ne sont pas terreux. Chaque tumpus est un rumpus. Chaque rumpus est brillants. Chaque impus n'est pas opaque. Les rumpus sont des yumpus. Polly est un wumpus.
+Polly n'est pas opaque ?
+<ATTENDURESULTAT>
+Q: Polly n'est pas opaque ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_268>
+Les yumpus ne sont pas liquide. Chaque yumpus est un numpus. Les numpus ne sont pas floral. Chaque numpus est un  impus. Chaque impus n'est pas amer. Les impus sont des dumpus. Les dumpus sont terne. Les dumpus sont des jompus. Les jompus ne sont pas timide. Les jompus sont des zumpus. Chaque zumpus n'est pas orange. Chaque zumpus est un tumpus. Les tumpus sont petit. Chaque tumpus est un wumpus. Les vumpus ne sont pas froid. Les wumpus sont froid. Chaque wumpus est un rumpus. Alex est un dumpus.
+Alex n'est pas froid ?
+<ATTENDURESULTAT>
+Q: Alex n'est pas froid ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_269>
+Les impus ne sont pas fruité. Les impus sont des yumpus. Chaque yumpus est terne. Chaque jompus est opaque. Chaque yumpus est un zumpus. Chaque zumpus est épicé. Chaque zumpus est un tumpus. Chaque tumpus est petit. Chaque tumpus est un vumpus. Les vumpus ne sont pas fougueux. Les vumpus sont des numpus. Les numpus ne sont pas opaque. Les numpus sont des rumpus. Max est un yumpus.
+Max est opaque ?
+<ATTENDURESULTAT>
+Q: Max est opaque ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_270>
+Les tumpus ne sont pas en bois. Les tumpus sont des vumpus. Chaque vumpus n'est pas froid. Les vumpus sont des zumpus. Les zumpus sont aigre. Les zumpus sont des numpus. Chaque numpus est opaque. Chaque numpus est un dumpus. Les dumpus sont fougueux. Chaque yumpus n'est pas brillants. Chaque dumpus est un wumpus. Les wumpus sont brillants. Chaque wumpus est un  impus. Chaque impus est rouge. Chaque impus est un rumpus. Chaque rumpus est petit. Les rumpus sont des jompus. Wren est un vumpus.
+Wren n'est pas brillants ?
+<ATTENDURESULTAT>
+Q: Wren n'est pas brillants ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_271>
+Chaque rumpus est petit. Chaque jompus est colérique. Chaque jompus est un tumpus. Chaque tumpus n'est pas nerveux. Chaque tumpus est un wumpus. Les wumpus sont brillants. Les wumpus sont des numpus. Les numpus sont tempéré. Les numpus sont des vumpus. Chaque vumpus n'est pas petit. Les vumpus sont des dumpus. Sally est un jompus.
+Sally n'est pas petit ?
+<ATTENDURESULTAT>
+Q: Sally n'est pas petit ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_272>
+Les jompus sont fougueux. Chaque jompus est un  impus. Les impus sont gentil. Chaque impus est un zumpus. Les zumpus sont amer. Les rumpus ne sont pas froid. Les zumpus sont des tumpus. Chaque tumpus est orange. Chaque tumpus est un wumpus. Chaque wumpus est transparent. Les wumpus sont des numpus. Chaque numpus est terne. Les numpus sont des yumpus. Chaque yumpus est froid. Les yumpus sont des vumpus. Les vumpus sont fruité.Chaque vumpus est un dumpus. Alex est un zumpus.
+Alex est froid ?
+<ATTENDURESULTAT>
+Q: Alex est froid ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_273>
+Les dumpus sont chaud. Chaque dumpus est un yumpus. Chaque yumpus est heureux. Chaque yumpus est un vumpus. Chaque vumpus n'est pas transparent. Chaque vumpus est un jompus. Les jompus sont petit. Les jompus sont des zumpus. Chaque numpus n'est pas lumineux. Chaque zumpus n'est pas épicé. Chaque zumpus est un wumpus. Les wumpus ne sont pas accommodant. Les wumpus sont des tumpus. Chaque tumpus est terne. Chaque tumpus est un  impus. Chaque impus est lumineux. Les impus sont des rumpus. Alex est un jompus.
+Alex est lumineux ?
+<ATTENDURESULTAT>
+Q: Alex est lumineux ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_274>
+Les vumpus sont terreux. Les vumpus sont des yumpus. Les yumpus sont tempéré. Chaque yumpus est un tumpus. Chaque tumpus est gentil. Les tumpus sont des jompus. Les jompus sont terne. Chaque jompus est un zumpus. Les zumpus ne sont pas transparent. Les rumpus sont métallique. Les zumpus sont des dumpus. Chaque dumpus n'est pas métallique. Les dumpus sont des numpus. Chaque numpus est fougueux. Les numpus sont des wumpus. Les wumpus sont aigre. Les wumpus sont des impus. Sam est un yumpus.
+Sam n'est pas métallique ?
+<ATTENDURESULTAT>
+Q: Sam n'est pas métallique ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_275>
+Les zumpus ne sont pas rouge. Chaque zumpus est un tumpus. Chaque tumpus est aigre. Chaque dumpus est agressif. Chaque tumpus est un wumpus. Chaque wumpus est brillants. Chaque wumpus est un  impus. Les impus sont lumineux. Chaque impus est un rumpus. Les rumpus ne sont pas agressif. Chaque rumpus est un numpus. Les numpus sont petit. Les numpus sont des jompus. Chaque jompus est floral. Chaque jompus est un yumpus. Chaque yumpus est transparent. Les yumpus sont des vumpus. Max est un zumpus.
+Max n'est pas agressif ?
+<ATTENDURESULTAT>
+Q: Max n'est pas agressif ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_276>
+Les dumpus sont opaque. Les dumpus sont des vumpus. Les vumpus ne sont pas brillants. Les vumpus sont des tumpus. Chaque tumpus n'est pas chaud. Les tumpus sont des zumpus. Les zumpus sont en bois. Chaque zumpus est un wumpus. Les yumpus ne sont pas nerveux. Chaque wumpus est nerveux. Chaque wumpus est un numpus. Les numpus sont agressif. Chaque numpus est un  impus. Chaque impus est aigre. Les impus sont des rumpus. Chaque rumpus est floral. Chaque rumpus est un jompus. Sally est un dumpus.
+Sally n'est pas nerveux ?
+<ATTENDURESULTAT>
+Q: Sally n'est pas nerveux ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_277>
+Les rumpus sont transparent. Chaque rumpus est un numpus. Chaque numpus est amer. Les numpus sont des tumpus. Les tumpus sont petit. Les tumpus sont des zumpus. Les zumpus sont méchant. Les zumpus sont des yumpus. Les yumpus sont liquide. Chaque yumpus est un dumpus. Chaque dumpus est fruité. Les dumpus sont des vumpus. Les impus sont tempéré. Chaque vumpus est marron. Chaque vumpus est un jompus. Les jompus ne sont pas tempéré. Les jompus sont des wumpus. Rex est un zumpus.
+Rex n'est pas tempéré ?
+<ATTENDURESULTAT>
+Q: Rex n'est pas tempéré ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_278>
+Chaque zumpus est heureux. Les zumpus sont des impus. Les impus sont tempéré. Chaque impus est un rumpus. Chaque rumpus est lumineux. Les rumpus sont des yumpus. Chaque yumpus n'est pas petit. Les yumpus sont des dumpus. Chaque dumpus est bleus. Chaque dumpus est un numpus. Chaque numpus n'est pas terreux. Chaque numpus est un jompus. Les jompus ne sont pas gentil. Chaque jompus est un wumpus. Les tumpus ne sont pas terne. Les wumpus sont terne. Chaque wumpus est un vumpus. Sally est un yumpus.
+Sally n'est pas terne ?
+<ATTENDURESULTAT>
+Q: Sally n'est pas terne ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_279>
+Chaque tumpus est transparent. Les tumpus sont des rumpus. Chaque rumpus est fruité.Chaque vumpus est fougueux. Chaque rumpus est un jompus. Les jompus sont chaud. Les jompus sont des yumpus. Chaque yumpus est terne. Les yumpus sont des dumpus. Les dumpus ne sont pas fougueux. Les dumpus sont des numpus. Les numpus sont marron. Les numpus sont des zumpus. Chaque zumpus est petit. Chaque zumpus est un wumpus. Chaque wumpus n'est pas colérique. Chaque wumpus est un  impus. Wren est un tumpus.
+Wren n'est pas fougueux ?
+<ATTENDURESULTAT>
+Q: Wren n'est pas fougueux ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_280>
+Chaque zumpus n'est pas accommodant. Chaque zumpus est un yumpus. Chaque yumpus est liquide. Chaque yumpus est un  impus. Chaque impus n'est pas marron. Chaque impus est un numpus. Les numpus sont petit. Les numpus sont des vumpus. Les vumpus ne sont pas tempéré. Les vumpus sont des jompus. Les jompus sont terne. Chaque tumpus est doux. Les jompus sont des dumpus. Les dumpus sont heureux. Chaque dumpus est un wumpus. Les wumpus ne sont pas doux. Les wumpus sont des rumpus. Alex est un numpus.
+Alex est doux ?
+<ATTENDURESULTAT>
+Q: Alex est doux ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_281>
+Les zumpus ne sont pas accommodant. Chaque zumpus est un wumpus. Chaque wumpus est épicé. Chaque wumpus est un rumpus. Chaque yumpus n'est pas lumineux. Chaque rumpus est nerveux. Chaque rumpus est un tumpus. Chaque tumpus n'est pas petit. Chaque tumpus est un dumpus. Chaque dumpus n'est pas chaud. Les dumpus sont des jompus. Chaque jompus est lumineux. Chaque jompus est un vumpus. Chaque vumpus est floral. Chaque vumpus est un numpus. Stella est un wumpus.
+Stella est lumineux ?
+<ATTENDURESULTAT>
+Q: Stella est lumineux ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_282>
+Chaque dumpus est terreux. Chaque dumpus est un zumpus. Les zumpus sont heureux. Les zumpus sont des jompus. Les impus ne sont pas lumineux. Chaque jompus est marron. Chaque jompus est un tumpus. Chaque tumpus est terne. Les tumpus sont des rumpus. Chaque rumpus est chaud. Les rumpus sont des numpus. Les numpus ne sont pas transparent. Les numpus sont des yumpus. Chaque yumpus est lumineux. Les yumpus sont des vumpus. Chaque vumpus est petit. Chaque vumpus est un wumpus. Stella est un jompus.
+Stella est lumineux ?
+<ATTENDURESULTAT>
+Q: Stella est lumineux ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_283>
+Les wumpus sont opaque. Les vumpus ne sont pas large. Chaque wumpus est un rumpus. Les rumpus sont brillants. Chaque rumpus est un numpus. Les numpus ne sont pas lumineux. Chaque numpus est un tumpus. Chaque tumpus est agressif. Les tumpus sont des impus. Les impus sont large. Chaque impus est un jompus. Les jompus ne sont pas aigre. Les jompus sont des yumpus. Polly est un wumpus.
+Polly est large ?
+<ATTENDURESULTAT>
+Q: Polly est large ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_284>
+Les numpus sont transparent. Les numpus sont des jompus. Chaque jompus est floral. Chaque jompus est un rumpus. Les wumpus ne sont pas heureux. Chaque rumpus est terne. Les rumpus sont des impus. Chaque impus est rouge. Chaque impus est un vumpus. Les vumpus ne sont pas petit. Les vumpus sont des dumpus. Chaque dumpus est heureux. Les dumpus sont des yumpus. Rex est un jompus.
+Rex est heureux ?
+<ATTENDURESULTAT>
+Q: Rex est heureux ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_285>
+Les yumpus sont brillants. Les yumpus sont des rumpus. Les rumpus ne sont pas timide. Les rumpus sont des dumpus. Chaque dumpus n'est pas orange. Chaque impus n'est pas froid. Chaque dumpus est un tumpus. Les tumpus sont large. Les tumpus sont des zumpus. Chaque zumpus est gentil. Chaque zumpus est un wumpus. Les wumpus sont froid. Les wumpus sont des numpus. Les numpus sont en bois. Les numpus sont des vumpus. Les vumpus ne sont pas aigre. Les vumpus sont des jompus. Stella est un rumpus.
+Stella est froid ?
+<ATTENDURESULTAT>
+Q: Stella est froid ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_286>
+Les impus ne sont pas doux. Chaque impus est un numpus. Les numpus sont large. Les numpus sont des wumpus. Les wumpus sont terne. Chaque wumpus est un dumpus. Les dumpus sont tempéré. Les tumpus ne sont pas floral. Chaque dumpus est un jompus. Chaque jompus est floral. Les jompus sont des yumpus. Chaque yumpus n'est pas nerveux. Chaque yumpus est un rumpus. Les rumpus sont liquide. Les rumpus sont des zumpus. Les zumpus ne sont pas opaque. Les zumpus sont des vumpus. Max est un  impus.
+Max est floral ?
+<ATTENDURESULTAT>
+Q: Max est floral ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_287>
+Chaque jompus n'est pas en bois. Les jompus sont des dumpus. Chaque dumpus n'est pas tempéré. Les dumpus sont des tumpus. Chaque tumpus n'est pas timide. Les tumpus sont des rumpus. Chaque rumpus est terreux. Les rumpus sont des impus. Chaque impus est bleus. Chaque impus est un zumpus. Chaque zumpus est aigre. Chaque wumpus n'est pas brillants. Les zumpus sont des yumpus. Les yumpus sont brillants. Chaque yumpus est un numpus. Chaque numpus n'est pas transparent. Les numpus sont des vumpus. Rex est un tumpus.
+Rex est brillants ?
+<ATTENDURESULTAT>
+Q: Rex est brillants ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_288>
+Les numpus ne sont pas petit. Les rumpus sont opaque. Chaque numpus est un dumpus. Chaque dumpus est chaud. Les dumpus sont des jompus. Chaque jompus n'est pas nerveux. Les jompus sont des wumpus. Chaque wumpus est lumineux. Les wumpus sont des tumpus. Les tumpus sont floral. Les tumpus sont des vumpus. Les vumpus sont brillants. Chaque vumpus est un  impus. Les impus sont marron. Les impus sont des zumpus. Les zumpus ne sont pas opaque. Les zumpus sont des yumpus. Fae est un wumpus.
+Fae est opaque ?
+<ATTENDURESULTAT>
+Q: Fae est opaque ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_289>
+Chaque yumpus est transparent. Les yumpus sont des zumpus. Chaque zumpus n'est pas terne. Chaque zumpus est un jompus. Chaque jompus est chaud. Chaque jompus est un dumpus. Chaque dumpus n'est pas large. Chaque impus est accommodant. Les dumpus sont des numpus. Les numpus ne sont pas accommodant. Chaque numpus est un vumpus. Chaque vumpus est aigre. Les vumpus sont des wumpus. Chaque wumpus n'est pas timide. Les wumpus sont des tumpus. Les tumpus ne sont pas liquide. Chaque tumpus est un rumpus. Polly est un yumpus.
+Polly est accommodant ?
+<ATTENDURESULTAT>
+Q: Polly est accommodant ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_290>
+Chaque wumpus est heureux. Les wumpus sont des numpus. Chaque numpus n'est pas marron. Les numpus sont des tumpus. Les rumpus ne sont pas doux. Chaque tumpus est accommodant. Chaque tumpus est un jompus. Les jompus sont terreux. Chaque jompus est un yumpus. Chaque yumpus est doux. Chaque yumpus est un vumpus. Les vumpus sont terne. Chaque vumpus est un zumpus. Chaque zumpus est chaud. Chaque zumpus est un dumpus. Chaque dumpus est lumineux. Les dumpus sont des impus. Rex est un wumpus.
+Rex est doux ?
+<ATTENDURESULTAT>
+Q: Rex est doux ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_291>
+Les dumpus sont terne. Chaque dumpus est un  impus. Chaque impus est large. Chaque numpus n'est pas lumineux. Chaque impus est un tumpus. Les tumpus sont fougueux. Chaque tumpus est un rumpus. Les rumpus ne sont pas froid. Les rumpus sont des jompus. Chaque jompus est doux. Les jompus sont des yumpus. Chaque yumpus n'est pas colérique. Chaque yumpus est un vumpus. Les vumpus sont lumineux. Chaque vumpus est un zumpus. Chaque zumpus est rouge. Les zumpus sont des wumpus. Stella est un tumpus.
+Stella n'est pas lumineux ?
+<ATTENDURESULTAT>
+Q: Stella n'est pas lumineux ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_292>
+Les zumpus ne sont pas fougueux. Chaque zumpus est un tumpus. Les tumpus sont froid. Les tumpus sont des wumpus. Chaque wumpus n'est pas orange. Les wumpus sont des numpus. Chaque numpus n'est pas terreux. Chaque numpus est un vumpus. Les dumpus ne sont pas transparent. Chaque vumpus est transparent. Les vumpus sont des yumpus. Fae est un zumpus.
+Fae est transparent ?
+<ATTENDURESULTAT>
+Q: Fae est transparent ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_293>
+Chaque rumpus est marron. Les rumpus sont des dumpus. Les dumpus sont opaque. Chaque dumpus est un tumpus. Chaque tumpus n'est pas méchant. Chaque numpus est lumineux. Chaque tumpus est un jompus. Chaque jompus est floral. Les jompus sont des impus. Chaque impus est chaud. Les impus sont des wumpus. Chaque wumpus est terne. Les wumpus sont des yumpus. Les yumpus sont large. Les yumpus sont des vumpus. Les vumpus ne sont pas lumineux. Chaque vumpus est un zumpus. Sally est un jompus.
+Sally n'est pas lumineux ?
+<ATTENDURESULTAT>
+Q: Sally n'est pas lumineux ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_294>
+Chaque vumpus n'est pas marron. Les vumpus sont des dumpus. Les dumpus ne sont pas petit. Les dumpus sont des impus. Chaque impus est brillants. Les impus sont des numpus. Chaque numpus est accommodant. Chaque numpus est un rumpus. Chaque rumpus est terreux. Chaque jompus n'est pas lumineux. Les rumpus sont des yumpus. Les yumpus sont timide. Les yumpus sont des tumpus. Les tumpus sont froid. Chaque tumpus est un wumpus. Chaque wumpus est lumineux. Les wumpus sont des zumpus. Polly est un numpus.
+Polly est lumineux ?
+<ATTENDURESULTAT>
+Q: Polly est lumineux ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_295>
+Les yumpus ne sont pas liquide. Chaque tumpus n'est pas gentil. Chaque tumpus est un zumpus. Chaque zumpus est fougueux. Chaque zumpus est un  impus. Chaque impus est large. Les impus sont des rumpus. Chaque rumpus n'est pas opaque. Chaque rumpus est un jompus. Chaque jompus est liquide. Chaque jompus est un wumpus. Chaque wumpus est brillants. Chaque wumpus est un numpus. Chaque numpus n'est pas fruité. Les numpus sont des vumpus. Sally est un tumpus.
+Sally est liquide ?
+<ATTENDURESULTAT>
+Q: Sally est liquide ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_296>
+Chaque numpus est méchant. Chaque numpus est un jompus. Les jompus sont brillants. Les jompus sont des vumpus. Les vumpus sont floral. Chaque vumpus est un yumpus. Les yumpus ne sont pas épicé. Chaque yumpus est un zumpus. Chaque zumpus est petit. Les zumpus sont des rumpus. Les rumpus ne sont pas heureux. Les rumpus sont des wumpus. Chaque dumpus n'est pas petit. Chaque wumpus est rouge. Les wumpus sont des tumpus. Les tumpus ne sont pas métallique. Les tumpus sont des impus. Wren est un numpus.
+Wren est petit ?
+<ATTENDURESULTAT>
+Q: Wren est petit ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_297>
+Les wumpus sont transparent. Les wumpus sont des vumpus. Les vumpus sont méchant. Les vumpus sont des dumpus. Chaque dumpus est marron. Chaque dumpus est un  impus. Les impus ne sont pas en bois. Les rumpus ne sont pas aigre. Chaque impus est un tumpus. Les tumpus sont large. Chaque tumpus est un yumpus. Chaque yumpus est aigre. Les yumpus sont des numpus. Les numpus sont nerveux. Chaque numpus est un zumpus. Les zumpus sont terne. Chaque zumpus est un jompus. Sam est un vumpus.
+Sam est aigre ?
+<ATTENDURESULTAT>
+Q: Sam est aigre ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_298>
+Les yumpus sont froid. Chaque yumpus est un dumpus. Chaque dumpus est marron. Les dumpus sont des zumpus. Chaque zumpus est opaque. Les zumpus sont des tumpus. Les tumpus sont doux. Les tumpus sont des numpus. Les numpus ne sont pas floral. Chaque rumpus est heureux. Chaque numpus est un vumpus. Chaque vumpus est agressif. Chaque vumpus est un jompus. Les jompus ne sont pas heureux. Les jompus sont des impus. Les impus ne sont pas en bois. Les impus sont des wumpus. Sally est un zumpus.
+Sally n'est pas heureux ?
+<ATTENDURESULTAT>
+Q: Sally n'est pas heureux ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_299>
+Chaque zumpus est lumineux. Chaque zumpus est un numpus. Chaque numpus n'est pas petit. Les numpus sont des impus. Chaque impus est brillants. Les impus sont des vumpus. Chaque vumpus est colérique. Les vumpus sont des jompus. Les jompus ne sont pas transparent. Les jompus sont des dumpus. Les dumpus sont froid. Chaque dumpus est un wumpus. Les wumpus sont orange. Chaque yumpus n'est pas froid. Chaque wumpus est un tumpus. Les tumpus sont épicé. Les tumpus sont des rumpus. Polly est un numpus.
+Polly est froid ?
+<ATTENDURESULTAT>
+Q: Polly est froid ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProntoQA_300>
+Chaque tumpus est terne. Chaque tumpus est un vumpus. Les vumpus ne sont pas timide. Chaque vumpus est un numpus. Les numpus ne sont pas petit. Chaque numpus est un wumpus. Chaque wumpus est bleus. Chaque wumpus est un yumpus. Les yumpus ne sont pas méchant. Chaque yumpus est un rumpus. Les rumpus sont transparent. Les rumpus sont des dumpus. Chaque dumpus est fruité. Les dumpus sont des zumpus. Les zumpus ne sont pas tempéré. Les impus sont tempéré. Les zumpus sont des jompus. Sam est un wumpus.
+Sam est tempéré ?
+<ATTENDURESULTAT>
+Q: Sam est tempéré ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>

@@ -1,0 +1,201 @@
+<TEST ProofWriter_AttNeg-OWA-D5-19_Q5.>
+
+    Bob est gentil. Charlie est froid. Charlie est calme. Dave est froid. Gary est bleu. Gary est poilu. Gary est gentil. Toutes les choses gentilles sont bleues. Les choses gentilles sont vertes. Les choses gentilles sont vertes. Si quelque chose est vert, c'est qu'il est gentil. Si Gary est poilu et que Gary est gentil, alors Gary n'est pas calme. Si quelque chose est vert et n'est pas gentil, c'est poilu. Si quelque chose est bleu, c'est poilu. Si quelque chose est gentil et poilu, il n'est pas froid. Si quelque chose est froid et n'est pas poilu, alors il n'est pas calme.
+
+Gary est gentil ?
+<ATTENDURESULTAT>
+Q: Gary est gentil ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProofWriter_AttNoneg-OWA-D5-686_Q21.>
+
+    Erin est froide. Erin est ronde. Erin est jeune. Fiona est intelligente. Fiona est jeune. Gary est calme. Gary est blanc. Gary est jeune. Harry est froid. Harry est calme. Si quelque chose est rude, il est froid. Les choses rondes sont intelligentes. Les choses blanches et froides sont jeunes. Si Fiona est intelligente et que Fiona est calme, alors Fiona est rude. Si Harry est rude et Harry est jeune, Harry est rond. Si quelque chose est froid, il est rude. Si quelque chose est rude alors il est blanc.
+
+Gary n'est pas rond ?
+<ATTENDURESULTAT>
+Q: Gary n'est pas rond ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProofWriter_AttNeg-OWA-D5-103_Q11.>
+
+    Anne est froid. Anne est poilu. Anne est rouge. Dave est jeune. Gary est gentil. Gary est jeune. Harry n'est pas bleu. Toutes les choses gentilles sont rouges. Tous les choses poilu sont bleus. Tous les choses rouges et poilu sont calmes. Les choses bleues sont froides. Les choses jeunes sont froids. Les choses froids sont poilu. Si Dave est bleu, Dave est rouge. Si Gary est poilu, alors Gary est gentil.
+
+Dave est calme ?
+<ATTENDURESULTAT>
+Q: Dave est calme ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProofWriter_RelNoneg-OWA-D5-199_Q3.>
+
+    L'ours a besoin du chien. La vache est gentille. La vache est gentille. La vache aime le chien. La vache a besoin du chien. Le chien poursuit le lapin. Le chien aime l'ours. Le chien aime le lapin. Le lapin poursuit l'ours. Le lapin poursuit la vache. Le lapin est bleu. Le lapin est gentil. Le lapin aime la vache. Le lapin a besoin du chien. Si quelque chose a besoin du lapin, alors le lapin aime l'ours. Si quelque chose a besoin du lapin et qu'il poursuit le chien, il a besoin de l'ours. Si quelque chose est gentil, il aime le chien. Si quelque chose aime l'ours et qu'il est bleu, il poursuit le lapin. Si le lapin aime le chien, alors le chien est gentil. Si quelque chose poursuit le chien, le chien aime la vache. Si quelque chose aime le chien, il est rond. Si le lapin aime le chien et que le lapin poursuit la vache, alors le chien aime la vache. Si quelque chose a besoin du chien et que le chien est gentil, alors le chien a besoin du lapin.
+
+La vache est ronde ?
+<ATTENDURESULTAT>
+Q: La vache est ronde ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProofWriter_RelNeg-OWA-D5-705_Q3.>
+
+    Le pygargue est gentil. Le pygargue est rouge. L'ours mange le tigre. L'ours est rond. L'ours aime le pygargue. L'ours voit le lion. Le lion mange le tigre. Le lion est froid. Le lion voit le tigre. Le tigre n'est pas gentil. Le tigre aime le pygargue. Le tigre voit le pygargue. Si quelque chose est gentil, il aime l'ours. Si quelque chose est gentil, il aime le tigre. Si quelque chose mange le lion, il n'aime pas le tigre. Si le pygargue aime le lion et que le pygargue voit le tigre, alors le lion est rouge. Si quelque chose mange le pygargue, le pygargue ne voit pas l'ours. Si quelque chose voit le tigre, alors le tigre aime le lion. Si quelque chose mange l'ours et qu'il est rond, il est gentil. Si quelque chose mange le tigre et qu'il aime l'ours, alors l'ours est gentil. Si quelque chose aime le lion, alors le lion est gentil.
+
+Le pygargue aime l'ours ?
+<ATTENDURESULTAT>
+Q: Le pygargue aime l'ours ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProofWriter_AttNoneg-OWA-D5-1055_Q7.>
+
+    Anne est bleue. Anne est rouge. Charlie est gentil. Charlie est rond. Erin est froide. Erin est gentille. Fiona est gentille. Tous les jeunes rouges sont bleus. Si Anne est intelligente, alors Anne est froide. Les choses jeunes sont intelligents. Toutes les choses bleues sont rondes. Si Fiona est ronde, alors Fiona est gentille. Si Anne est froide, Anne est gentille. Si Erin est jeune et Erin est bleue, Erin est gentille. Toutes les choses rondes sont jeunes.
+
+Anne est intelligente ?
+<ATTENDURESULTAT>
+Q: Anne est intelligente ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProofWriter_AttNoneg-OWA-D5-118_Q9.>
+
+    Bob est vert. Bob est rouge. Bob est rond. Charlie est froid. Charlie est vert. Charlie est gentil. Erin est froid. Erin est poilu. Erin est gentille. Fiona est verte. Si quelque chose est vert, c'est qu'il est gentil. Toutes les choses vertes et gentilles sont rondes. Si Fiona est poilu et que Fiona est grande, alors Fiona est verte. Si Erin est poilu et Erin est rouge, Erin est gentille. Toutes les choses rondes et poilu sont gentilles. Les choses vertes et rondes sont grandes. Si quelque chose est grand et froid, c'est une chose poilu. Si quelque chose est rouge, il est froid. Les choses rondes et gentilles sont rouges.
+
+Fiona est froid ?
+<ATTENDURESULTAT>
+Q: Fiona est froid ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProofWriter_RelNoneg-OWA-D5-766_Q5.>
+
+    L'ours poursuit le lapin. L'ours poursuit le tigre. L'ours est rouge. L'ours a besoin du lion. L'ours a besoin du lapin. L'ours voit le lion. Le lion est gentil. Le lion est rouge. Le lion est rond. Le lion voit l'ours. Le lapin poursuit le tigre. Le lapin est rond. Le lapin est jeune. Le tigre poursuit le lapin. Le tigre est rond. Le tigre voit l'ours. Si quelque chose voit le tigre, alors il voit l'ours. Si quelque chose poursuit le tigre et que le tigre est rouge, alors il est rond. Si l'ours a besoin du tigre, alors le tigre a besoin du lion. Si quelque chose voit le lapin, alors le lapin voit le lion. Si quelque chose est rond, il a besoin du lapin. Si quelque chose poursuit l'ours, il voit le lapin. Si le lion est rouge et que le lion a besoin de l'ours, alors l'ours poursuit le lion. Si quelque chose voit le lion, alors il poursuit l'ours.
+
+L'ours voit le lapin ?
+<ATTENDURESULTAT>
+Q: L'ours voit le lapin ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProofWriter_AttNoneg-OWA-D5-909_Q16.>
+
+    Anne est verte. Anne est calme. Anne est rude. Bob est rude. David est vert. Dave est gentil. Dave est calme. Dave est intelligent. Harry est vert. Harry est gentil. Harry est rond. Les choses calmes sont gentilles. Si quelque chose est rude, il est vert. Si quelque chose est rond, il est calme. Si quelque chose est gentil, il est intelligent. Toutes les choses rudes et gentilles sont vertes. Si quelque chose est vert, il est rond.
+
+Bob est froid ?
+<ATTENDURESULTAT>
+Q: Bob est froid ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProofWriter_RelNoneg-OWA-D5-645_Q11.>
+
+    Le pygargue est vert. Le pygargue est rouge. La vache est gentille. La vache aime le tigre. La vache a besoin du tigre. La souris est gentille. La souris a besoin du pygargue. La souris voit le pygargue. Le tigre aime le pygargue. Le tigre a besoin de la vache. Le tigre a besoin de la souris. Si quelque chose est jeune, il a besoin du tigre. Si le tigre est jeune, le tigre est vert. Si quelque chose a besoin du tigre, le tigre voit le pygargue. Si quelque chose voit le tigre et que le tigre aime le pygargue, alors le pygargue voit le tigre. Si quelque chose est vert et qu'il voit le pygargue, il est froid. Si quelque chose est vert et qu'il aime le tigre, il voit le pygargue. Si le tigre est froid, c'est qu'il est jeune. Si quelque chose a besoin du tigre, il aime le tigre. Si quelque chose a besoin de la souris, alors il est vert.
+
+Le tigre aime le tigre ?
+<ATTENDURESULTAT>
+Q: Le tigre aime le tigre ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProofWriter_AttNeg-OWA-D5-345_Q17.>
+
+    Anne n'est pas gentille. Anne est ronde. Anne n'est pas blanche. Anne est jeune. Erin est ronde. Fiona est bleue. Gary est jeune. Toutes les choses gentilles ne sont pas calmes. Toutes les choses rondes sont calmes. Si Anne est gentille, alors Anne est blanche. Si quelque chose est calme, il est bleu. Si Fiona est blanche, Fiona est bleue. Si quelque chose est rude, il est jeune. Si quelque chose est gentil et n'est pas bleu, il n'est pas rude. Si quelque chose est bleu, il est rude. Si Erin est jeune alors Erin est blanche.
+
+Gary n'est pas rond ?
+<ATTENDURESULTAT>
+Q: Gary n'est pas rond ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProofWriter_RelNoneg-OWA-D5-372_Q15.>
+
+    Le chat rend visite au lapin. La vache mange le chat. Le lapin poursuit l'écureuil. Le lapin est froid. Le lapin est vert. Le lapin rend visite au chat. L'écureuil mange le chat. Si quelque chose mange l'écureuil, l'écureuil est bleu. Si quelque chose poursuit l'écureuil et que l'écureuil mange la vache, alors il mange la vache. Si quelque chose poursuit le lapin, c'est qu'il est froid. Si quelque chose est jeune et qu'il rend visite à la vache, alors la vache est grande. Si quelque chose est grand, il rend visite au lapin. Si quelque chose est bleu, il mange le lapin. Si quelque chose mange le chat, alors il mange la vache. Si quelque chose rend visite à la vache, alors la vache mange l'écureuil. Si quelque chose mange le chat et qu'il mange la vache, alors le chat rend visite à la vache.
+
+Le chat ne mange pas le lapin ?
+<ATTENDURESULTAT>
+Q: Le chat ne mange pas le lapin ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProofWriter_RelNeg-OWA-D5-718_Q12.>
+
+    Le chat poursuit l'écureuil. Le chat n'est pas grand. Le chat n'aime pas la souris. Le chat rend visite au chien. Le chat rend visite à la souris. Le chien n'est pas froid. Le chien est jeune. La souris aime l'écureuil. L'écureuil ne poursuit pas le chien. L'écureuil aime le chien. Si le chat est vert et que le chat rend visite à la souris, alors la souris est grande. Si quelque chose aime le chien, c'est qu'il est froid. Si quelque chose aime la souris, alors la souris est verte. Si quelque chose est froid, il poursuit le chat. Si quelque chose poursuit le chat, c'est qu'il aime le chat. Si quelque chose est jeune, il poursuit l'écureuil. Si quelque chose poursuit l'écureuil et qu'il ne poursuit pas la souris, alors l'écureuil aime le chat. Si quelque chose aime la souris et qu'elle est verte, alors la souris est froid. Si quelque chose poursuit le chat, alors le chat aime le chien.
+
+Le chat ne poursuit pas le chat ?
+<ATTENDURESULTAT>
+Q: Le chat ne poursuit pas le chat ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProofWriter_RelNoneg-OWA-D5-651_Q4.>
+
+    L'ours mange le chien. L'ours mange le lapin. L'ours est rond. L'ours a besoin du lapin. L'ours a besoin du tigre. L'ours voit le lapin. Le chien mange l'ours. Le lapin mange le tigre. Le lapin est rond. Le tigre mange l'ours. Le tigre est froid. Le tigre est jeune. Si quelque chose mange le tigre, alors le tigre a besoin du chien. Si l'ours voit le chien et que le chien mange le tigre, alors le chien mange l'ours. Si quelque chose mange l'ours, il voit le tigre. Si le tigre voit le lapin, le lapin mange l'ours. Si quelque chose mange l'ours et que l'ours voit le lapin, il voit le chien. Si quelque chose voit le chien, alors il voit le lapin.
+
+Le tigre ne voit pas le tigre ?
+<ATTENDURESULTAT>
+Q: Le tigre ne voit pas le tigre ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProofWriter_AttNoneg-OWA-D5-556_Q20.>
+
+    Bob est froid. Bob est gentil. Bob est calme. Bob est rond. Bob est blanc. Fiona est rude. Fiona est intelligente. Gary est rond. Harry est froid. Harry est intelligent. Tous les choses blanches sont froids. Les choses rondes sont blanches. Toutes les choses rondes et calmes sont gentilles. Si quelque chose est gentil, c'est qu'il est rond. Toutes les choses rudes et blanches sont calmes. Les choses froids sont ronds. Si quelque chose est rude, il est calme.
+
+Gary est rude ?
+<ATTENDURESULTAT>
+Q: Gary est rude ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProofWriter_AttNoneg-OWA-D5-960_Q3.>
+
+    Anne est verte. Anne est gentille. Anne est calme. Erin est grande. Erin est gentille. Erin est calme. Gary est bleu. Gary est vert. Harry est bleu. Harry est vert. Harry est gentil. Harry est rond. Si une chose est gentille et bleue, c'est qu'elle est gentille. Les choses gentils sont rondes. Si quelque chose est rond, c'est qu'il est calme. Les choses bleues sont rondes. Les gentilles choses sont grandes. Si quelque chose est rond et calme, alors c'est gentil.
+
+Anne est grande ?
+<ATTENDURESULTAT>
+Q: Anne est grande ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProofWriter_RelNeg-OWA-D5-274_Q6.>
+
+    Le pygargue ne mange pas le chat. Le pygargue est vert. Le pygargue est gentil. Le pygargue est rond. Le pygargue aime le tigre. Le chat mange le tigre. Le chat est rouge. Le chat aime le pygargue. Le chat aime le tigre. Le chat a besoin du tigre. Le chien n'est pas rond. Le chien aime le pygargue. Le tigre mange le chien. Le tigre a besoin du pygargue. Si quelque chose est rouge et qu'il aime le tigre, il a besoin du chien. Si le tigre a besoin du chien et que le chien est vert, alors le chien a besoin du tigre. Toutes les choses froides sont gentils. Si quelque chose mange le chien et que le chien a besoin de le pygargue, alors le chien est gentil. Si quelque chose mange le chat, le chat a besoin du pygargue. Si quelque chose mange le chat et qu'il a besoin du chien, alors le chat est froid. Si quelque chose a besoin du pygargue, alors il mange le chat. Si le chat aime le tigre et que le chat a besoin du chien, le chien n'est pas froid. Si le pygargue a besoin du chien et que le chien mange le pygargue, alors le chien n'est pas froid.
+
+Le chat n'a pas besoin de le pygargue ?
+<ATTENDURESULTAT>
+Q: Le chat n'a pas besoin de le pygargue ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProofWriter_RelNeg-OWA-D5-48_Q4.>
+
+    L'ours poursuit le chat. L'ours poursuit l'écureuil. L'ours est jeune. L'ours ne voit pas l'écureuil. Le chat poursuit la vache. Le chat poursuit l'écureuil. Le chat mange l'écureuil. Le chat n'est pas gentil. Le chat ne voit pas la vache. La vache ne poursuit pas le chat. La vache poursuit l'écureuil. L'écureuil poursuit l'ours. L'écureuil mange le chat. L'écureuil mange la vache. L'écureuil est jeune. L'écureuil voit la vache. Si quelque chose mange l'ours, alors l'ours voit la vache. Si quelque chose est gentil, alors il mange l'ours. Si la vache poursuit l'ours et que le chat ne poursuit pas la vache, alors la vache voit l'écureuil. Si quelque chose voit l'écureuil, c'est qu'il est rude. Si quelque chose mange l'ours et qu'il ne poursuit pas le chat, alors le chat voit l'ours. Si quelque chose voit la vache, c'est qu'elle est gentille. Si quelque chose mange l'écureuil, alors il mange le chat.
+
+L'écureuil n'est pas gentil ?
+<ATTENDURESULTAT>
+Q: L'écureuil n'est pas gentil ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProofWriter_AttNeg-OWA-D5-629_Q2.>
+
+    Anne est rouge. Anne est rude. Bob est bleu. Bob est rouge. Dave est calme. Dave est rouge. Dave n'est pas rude. Dave est intelligent. Gary est bleu. Gary est froid. Gary est vert. Gary est rude. Si Bob est bleu, alors Bob est rude. Si Gary est vert, alors Gary est calme. Si quelque chose est vert et rouge, il n'est pas froid. Si quelque chose est intelligent, il est vert. Si quelque chose est rude, il est intelligent. Si quelque chose est rude et n'est pas froid, il n'est pas calme. Si quelque chose est rouge et pas bleu, il est calme.
+
+Anne n'est pas rouge ?
+<ATTENDURESULTAT>
+Q: Anne n'est pas rouge ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+<TEST ProofWriter_AttNeg-OWA-D5-201_Q18.>
+
+    Charlie est jeune. Dave est gentil. Dave est calme. Dave est jeune. Erin est calme. Harry est vert. Harry est calme. Si quelque chose est calme et jeune, c'est bien. Si quelque chose est rouge et gentil, c'est bien. Toutes les choses vertes sont gentilles. Si quelque chose est calme et vert, c'est gentil. Si Charlie est rouge, Charlie est intelligent. Si quelque chose est rouge, c'est qu'il est calme. Si une chose est jeune et gentille, elle est calme. Toutes les choses calmes sont rouges. Si quelque chose est jeune alors c'est vert.
+
+Harry est intelligent ?
+<ATTENDURESULTAT>
+Q: Harry est intelligent ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+

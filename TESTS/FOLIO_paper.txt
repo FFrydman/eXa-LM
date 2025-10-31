@@ -1,0 +1,2561 @@
+<TEST dev_0>
+Si X se produit souvent dans des spectacles de talents à l'école, alors X assiste aux événements scolaires.
+Si X se produit souvent dans des spectacles de talents à l'école, alors X est très engagé dans les événements scolaires.
+X se produit souvent dans des spectacles de talents à l'école xor X est un membre inactif et désintéressé de sa communauté.
+Si X chaperonne des soirées dansantes au lycée, alors X n'est pas un étudiant qui fréquente l'école.
+Si X est un membre inactif et désintéressé de sa communauté, alors X chaperonne des soirées dansantes au lycée.
+Si X est un jeune enfant et adolescent qui souhaite poursuivre sa carrière académique et ses opportunités éducatives, alors X est un étudiant qui fréquente l'école.
+Bonnie assiste et est très engagée dans les événements scolaires et est une étudiante qui fréquente l'école, xor Bonnie n'assiste pas et n'est pas très engagée dans les événements scolaires et n'est pas une étudiante qui fréquente l'école.
+Bonnie participe souvent aux spectacles de talents scolaires ?
+<ATTENDURESULTAT>
+Q: Bonnie participe souvent aux spectacles de talents scolaires ?
+R: Non.
+</ATTENDURESULTAT>
+
+<TEST dev_1>
+Si X se produit souvent dans des spectacles de talents à l'école, alors X assiste aux événements scolaires.
+Si X se produit souvent dans des spectacles de talents à l'école, alors X est très engagé dans les événements scolaires.
+X se produit souvent dans des spectacles de talents à l'école xor X est un membre inactif et désintéressé de sa communauté.
+Si X chaperonne des soirées dansantes au lycée, alors X n'est pas un étudiant qui fréquente l'école.
+Si X est un membre inactif et désintéressé de sa communauté, alors X chaperonne des soirées dansantes au lycée.
+Si X est un jeune enfant et adolescent qui souhaite poursuivre sa carrière académique et ses opportunités éducatives, alors X est un étudiant qui fréquente l'école.
+Bonnie assiste et est très engagée dans les événements scolaires et est une étudiante qui fréquente l'école, xor Bonnie n'assiste pas et n'est pas très engagée dans les événements scolaires et n'est pas une étudiante qui fréquente l'école.
+((Bonnie n'est pas un jeune enfant xor Bonnie n'est pas un adolescent qui souhaite poursuivre sa carrière académique et ses opportunités éducatives et chaperonne des soirées dansantes au lycée, ou Bonnie n'est ni un jeune enfant xor Bonnie n'est ni un adolescent qui souhaite poursuivre sa carrière académique et ses opportunités éducatives) ou (Bonnie est un étudiant qui fréquente l'école xor Bonnie est un membre inactif et désintéressé de la communauté))?
+<ATTENDURESULTAT>
+Q: (  ( Bonnie n'est pas un jeune enfant xor Bonnie n'est pas un adolescent qui souhaite poursuivre sa carrière académique et ses opportunités éducatives et chaperonne des soirées dansantes au lycée, ou Bonnie n'est ni un jeune enfant xor Bonnie n'est ni un adolescent qui souhaite poursuivre sa carrière académique et ses opportunités éducatives )  ou  ( Bonnie est un étudiant qui fréquente l'école xor Bonnie est un membre inactif et désintéressé de la communauté )  ) ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_2>
+Si X se produit souvent dans des spectacles de talents à l'école, alors X assiste aux événements scolaires.
+Si X se produit souvent dans des spectacles de talents à l'école, alors X est très engagé dans les événements scolaires.
+X se produit souvent dans des spectacles de talents à l'école xor X est un membre inactif et désintéressé de sa communauté.
+Si X chaperonne des soirées dansantes au lycée, alors X n'est pas un étudiant qui fréquente l'école.
+Si X est un membre inactif et désintéressé de sa communauté, alors X chaperonne des soirées dansantes au lycée.
+Si X est un jeune enfant et adolescent qui souhaite poursuivre sa carrière académique et ses opportunités éducatives, alors X est un étudiant qui fréquente l'école.
+Bonnie assiste et est très engagée dans les événements scolaires et est une étudiante qui fréquente l'école, xor Bonnie n'assiste pas et n'est pas très engagée dans les événements scolaires et n'est pas une étudiante qui fréquente l'école.
+Si Bonnie chaperonne les danses du lycée xor Bonnie se produit souvent dans les spectacles de talents à l'école, alors Bonnie est à la fois un enfant ou un adolescent souhaitant poursuivre sa carrière académique et ses opportunités éducatives et Bonnie est un membre inactif et désintéressé de la communauté ?
+<ATTENDURESULTAT>
+Q: Si Bonnie chaperonne les danses du lycée xor Bonnie se produit souvent dans les spectacles de talents à l'école, alors Bonnie est un enfant ou un adolescent souhaitant poursuivre sa carrière académique et ses opportunités éducatives et Bonnie est un membre inactif et désintéressé de la communauté ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_4>
+Si X planifie une réunion avec ses clients, alors X apparaîtra dans l'entreprise aujourd'hui.
+Si X déjeune dans l'entreprise, alors X planifie des réunions avec ses clients.
+Si X déjeunent dans l'entreprise, alors X ne déjeunent pas chez eux.
+Si X ne déjeunent pas dans l'entreprise, alors X déjeunent chez eux.
+Si X déjeune chez lui, alors X travaille à distance depuis chez lui.
+Si X est dans un autre pays, alors X travaille à distance depuis chez lui.
+Si X est un manager, alors X ne travaille pas à distance depuis chez elle.
+Si James est un manager, alors James apparaît dans l'entreprise aujourd'hui.
+Si James n'est pas un manager, alors James n'apparaît pas dans l'entreprise aujourd'hui.
+Si James apparaît dans l'entreprise aujourd'hui, alors James est un manager.
+Si James n'apparaît pas dans l'entreprise aujourd'hui, alors James n'est pas un manager.
+James ne déjeune pas dans l'entreprise ?
+<ATTENDURESULTAT>
+Q: James ne déjeune pas dans l'entreprise ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_5>
+Si X planifie une réunion avec ses clients, alors X apparaîtra dans l'entreprise aujourd'hui.
+Si X déjeune dans l'entreprise, alors X planifie des réunions avec ses clients.
+Si X déjeune dans l'entreprise, alors X ne déjeune pas à la maison.
+Si X ne déjeune pas dans l'entreprise, alors X déjeune à la maison.
+Si X déjeune à la maison, alors X travaille à distance depuis la maison.
+Si X est dans d'autres pays, alors X travaille à distance depuis la maison.
+Si X est un manager, alors X ne travaille pas à distance depuis la maison.
+Si James est un manager, alors James apparaît dans l'entreprise aujourd'hui.
+Si James apparaît dans l'entreprise aujourd'hui, alors James est un manager.
+Si James n'est pas un manager, alors James n'apparaît pas dans l'entreprise aujourd'hui.
+Si James n'apparaît pas dans l'entreprise aujourd'hui, alors James n'est pas un manager.
+((James n'est pas un manager xor James n'est pas dans d'autres pays) ou (James déjeune à la maison et travaille à distance depuis la maison xor James ne déjeune pas à la maison et ne travaille pas à distance depuis la maison))?
+<ATTENDURESULTAT>
+Q: (  ( James n'est pas un manager xor James n'est pas dans d'autres pays )  ou  ( James déjeune à la maison et travaille à distance depuis la maison xor James ne déjeune pas à la maison et ne travaille pas à distance depuis la maison )  ) ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_7>
+La variole du singe est une maladie infectieuse.
+La variole du singe est causée par le virus de la variole du singe.
+Le virus de la variole du singe peut survenir chez certains animaux.
+Le virus de la variole du singe peut survenir chez les humains.
+Les humains sont des mammifères.
+Les mammifères sont des animaux.
+Les symptômes de la variole du singe incluent la fièvre.
+Les symptômes de la variole du singe incluent le mal de tête.
+Les symptômes de la variole du singe incluent les douleurs musculaires.
+Les symptômes de la variole du singe incluent la sensation de fatigue.
+Les gens se sentent fatigués quand les gens attrapent une grippe.
+Personne n'attrape la grippe ?
+<ATTENDURESULTAT>
+Q: X n'attrape la grippe ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_8>
+La variole du singe est une maladie infectieuse.
+La variole du singe est causée par le virus de la variole du singe.
+Le virus de la variole du singe peut survenir chez certains animaux.
+Le virus de la variole du singe peut survenir chez les humains.
+Les humains sont des mammifères.
+Les mammifères sont des animaux.
+Les symptômes de la variole du singe incluent la fièvre.
+Les symptômes de la variole du singe incluent le mal de tête.
+Les symptômes de la variole du singe incluent les douleurs musculaires.
+Les symptômes de la variole du singe incluent la sensation de fatigue.
+Les gens se sentent fatigués quand les gens attrapent la grippe.
+Les symptômes de la variole du singe incluent-ils la toux ?
+<ATTENDURESULTAT>
+Q: Les symptômes de la variole du singe incluent-ils la toux ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_9>
+Il existe six types de dindes sauvages.
+La dinde sauvage de l'Est est un type de dinde sauvage.
+La dinde sauvage Osceola est un type de dinde sauvage.
+La dinde sauvage de Gould est un type de dinde sauvage.
+La dinde sauvage de Merriam est un type de dinde sauvage.
+La dinde sauvage Rio Grande est un type de dinde sauvage.
+La dinde sauvage ocellée est un type de dinde sauvage.
+Tom n'est pas une dinde sauvage de l'Est.
+Tom n'est pas une dinde sauvage Osceola.
+Tom n'est pas une dinde sauvage de Gould.
+Tom n'est pas une dinde sauvage de Merriam.
+Tom n'est pas une dinde sauvage Rio Grande.
+Tom est une dinde sauvage.
+Tom est une dinde sauvage ocellée ?
+<ATTENDURESULTAT>
+Q: Tom est une dinde sauvage ocellée ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_13>
+Une entreprise japonaise de jeux vidéo a créé le jeu La Légende de Zelda.
+La Légende de Zelda a vendu  plus d'un million d'exemplaires.
+Si X est dans la liste du Top 10 alors X est fait par une entreprise japonaise de jeux vidéo.
+Si X vend plus d'un million d'exemplaires, alors X est dans la liste du Top 10.
+FIFA 22 est fait par une entreprise japonaise de jeux vidéo ?
+<ATTENDURESULTAT>
+Q: FIFA 22 est fait par une entreprise japonaise de jeux vidéo ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_14>
+Une entreprise japonaise de jeux vidéo a créé le jeu La Légende de Zelda.
+La Légende de Zelda a vendu  plus d'un million d'exemplaires.
+Si X est dans la liste du Top 10 alors X est fait par une entreprise japonaise de jeux vidéo.
+Si X vend plus d'un million d'exemplaires, alors X est dans la liste du Top 10.
+La Légende de Zelda n'est pas dans la liste du Top 10 ?
+<ATTENDURESULTAT>
+Q: La Légende de Zelda n'est pas dans la liste du Top 10 ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_15>
+Si X est un carré alors X a quatre côtés.
+Si X a quatre côtés alors X est une forme.
+Si X est un carré alors X est une forme?
+<ATTENDURESULTAT>
+Q: Si X est un carré alors X est une forme ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_16>
+Si X est un lapin alors X est mignon.
+Certains tortues existent.
+X est un lapin xor X est un écureuil.
+Si X est craintif, alors X n'est pas immobile.
+Si X est un écureuil alors X est craintif.
+Rock est immobile.
+Rock est une tortue ?
+<ATTENDURESULTAT>
+Q: Rock est une tortue ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_17>
+Si X est un lapin alors X est mignon.
+Certains tortues existent.
+X est un lapin xor X est un écureuil.
+Si X est craintif, alors X n'est pas immobile.
+Si X est un écureuil alors X est craintif.
+Rock est immobile.
+Rock n'est pas une tortue ?
+<ATTENDURESULTAT>
+Q: Rock n'est pas une tortue ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_18>
+Si X est un lapin alors X est mignon.
+Certains tortues existent.
+X est un lapin xor X est un écureuil.
+Si X est craintif, alors X n'est pas immobile.
+Si X est un écureuil alors X est craintif.
+Rock est immobile.
+Rock est une tortue ou mignon ?
+<ATTENDURESULTAT>
+Q: Rock est une tortue ou mignon ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_19>
+Si X est un lapin alors X est mignon.
+Certains tortues existent.
+X est un lapin xor X est un écureuil.
+Si X est craintif, alors X n'est pas immobile.
+Si X est un écureuil alors X est craintif.
+Rock est immobile.
+Si Rock n'est pas une tortue et Rock n'est pas un écureuil, alors Rock est mignon xor Rock est craintif ? 
+<ATTENDURESULTAT>
+Q: Si Rock n'est pas une tortue et Rock n'est pas un écureuil, alors Rock est mignon xor Rock est craintif ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_20>
+Si X est un lapin alors X est mignon.
+Certains tortues existent.
+X est un lapin xor X est un écureuil.
+Si X est craintif, alors X n'est pas immobile.
+Si X est un écureuil alors X est craintif.
+Rock est immobile.
+((Rock n'est pas mignon ou immobile) ou (Rock est une tortue et craintif)) ?
+<ATTENDURESULTAT>
+Q: (  ( Rock n'est pas mignon ou immobile )  ou  ( Rock est une tortue et craintif )  ) ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_21>
+Stranger Things est une série populaire de Netflix.
+Si X est une série populaire de Netflix, alors Karen regardera X en boucle.
+Si Karen regarde X en boucle, alors Karen téléchargera X.
+Si Karen télécharge X, alors Karen regarde X en boucle.
+Karen ne télécharge pas Black Mirror.
+Black Mirror est une série Netflix.
+Si Karen regarde X en boucle, alors Karen partagera X avec Lisa.
+Karen partagera Stranger Things avec Lisa ?
+<ATTENDURESULTAT>
+Q: Karen partagera Stranger Things avec Lisa ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_22>
+Stranger Things est une série populaire de Netflix.
+Si X est une série populaire de Netflix, alors Karen regardera X en boucle.
+Si Karen regarde X en boucle, alors Karen téléchargera X.
+Si Karen télécharge X, alors Karen regarde X en boucle.
+Karen ne télécharge pas Black Mirror.
+Black Mirror est une série Netflix.
+Si Karen regarde X en boucle, alors Karen partagera X avec Lisa.
+Black Mirror est populaire ?
+<ATTENDURESULTAT>
+Q: Black Mirror est populaire ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_23>
+Stranger Things est une série populaire de Netflix.
+Si X est une série populaire de Netflix, alors Karen regardera X en boucle.
+Si Karen regarde X en boucle, alors Karen téléchargera X.
+Si Karen télécharge X, alors Karen regarde X en boucle.
+Karen ne télécharge pas Black Mirror.
+Black Mirror est une série Netflix.
+Si Karen regarde X en boucle, alors Karen partagera X avec Lisa.
+Karen partagera Black Mirror avec Lisa ?
+<ATTENDURESULTAT>
+Q: Karen partagera Black Mirror avec Lisa ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_24>
+Pékin est la capitale de la République populaire de Chine.
+Pékin est la capitale nationale la plus peuplée du monde.
+Pékin est dans le nord de la Chine.
+Pékin a accueilli les Jeux olympiques d'été de 2008.
+Pékin a accueilli les Jeux paralympiques d'été de 2008.
+Pékin a accueilli les Jeux olympiques d'été.
+Pékin a accueilli les Jeux olympiques d'hiver.
+Pékin a accueilli les Jeux paralympiques d'été.
+Pékin a accueilli les Jeux paralympiques d'hiver.
+De nombreuses universités de Pékin se classent régulièrement parmi les meilleures de la région Asie-Pacifique.
+De nombreuses universités de Pékin se classent régulièrement parmi les meilleures du monde.
+Pékin a accueilli les Jeux olympiques d'été de 2008 et des Jeux olympiques d'hiver ?
+<ATTENDURESULTAT>
+Q: Pékin a accueilli les Jeux olympiques d'été de 2008 et des Jeux olympiques d'hiver ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_25>
+Pékin est la capitale de la République populaire de Chine.
+Pékin est la capitale nationale la plus peuplée du monde.
+Pékin est dans le nord de la Chine.
+Pékin a accueilli les Jeux olympiques d'été de 2008.
+Pékin a accueilli les Jeux paralympiques d'été de 2008.
+Pékin a accueilli les Jeux olympiques d'été.
+Pékin a accueilli les Jeux olympiques d'hiver.
+Pékin a accueilli les Jeux paralympiques d'été.
+Pékin a accueilli les Jeux paralympiques d'hiver.
+De nombreuses universités de Pékin se classent régulièrement parmi les meilleures de la région Asie-Pacifique.
+De nombreuses universités de Pékin se classent régulièrement parmi les meilleures du monde.
+Pékin est dans le sud de la Chine?
+<ATTENDURESULTAT>
+Q: Pékin est dans le sud de la Chine ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_26>
+Pékin est la capitale de la République populaire de Chine.
+Pékin est la capitale nationale la plus peuplée du monde.
+Pékin est située dans le nord de la Chine.
+Pékin a accueilli les Jeux olympiques d'été de 2008.
+Pékin a accueilli les Jeux paralympiques d'été de 2008.
+Pékin a accueilli les Jeux olympiques d'été.
+Pékin a accueilli les Jeux olympiques d'hiver.
+Pékin a accueilli les Jeux paralympiques d'été.
+Pékin a accueilli les Jeux paralympiques d'hiver.
+De nombreuses universités de Pékin se classent parmi les meilleures de la région Asie-Pacifique.
+De nombreuses universités de Pékin se classent parmi les meilleures du monde.
+Pékin est la deuxième plus grande ville chinoise par population urbaine ?
+<ATTENDURESULTAT>
+Q: Pékin est la deuxième plus grande ville chinoise par population urbaine ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_27>
+Si X est un extraterrestre, alors ils sont des aliens.
+Si X est de Mars, alors ils sont des aliens.
+Certains extraterrestres ne sont pas humains.
+Tout le monde de la Terre est humain.
+Marvin est de la Terre xor Marvin est de Mars.
+Si Marvin n'est pas de la Terre, alors il est un extraterrestre.
+Marvin est un alien ?
+<ATTENDURESULTAT>
+Q: Marvin est un alien ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_29>
+Si X est un extraterrestre, alors ils sont des aliens.
+Si X est de Mars, alors ils sont des aliens.
+Certains extraterrestres ne sont pas humains.
+Tout le monde de la Terre est humain.
+Marvin est de la Terre xor Marvin est de Mars.
+Si Marvin n'est pas de la Terre, alors il est un extraterrestre.
+Marvin est de Mars ou Marvin est un humain?
+<ATTENDURESULTAT>
+Q: Marvin est de Mars ou Marvin est un humain ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_31>
+X est un champion du Grand Chelem xor X est un acteur nominé aux Oscars.
+Si X est un champion du Grand Chelem alors X est un joueur de tennis professionnel.
+Si X est un acteur nominé aux Oscars alors X est une célébrité.
+Si X est un joueur de tennis professionnel alors X est un athlète.
+Si X est une célébrité alors X est bien payé.
+Si X est un athlète alors X est célèbre.
+Si X est bien payé alors X vit dans un paradis fiscal.
+Si Djokovic est célèbre alors Djokovic vit dans un paradis fiscal.
+Si Djokovic est un athlète alors Djokovic vit dans un paradis fiscal.
+Djokovic vit dans un paradis fiscal ?
+<ATTENDURESULTAT>
+Q: Djokovic vit dans un paradis fiscal ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_32>
+X est un champion du Grand Chelem xor X est un acteur nominé aux Oscars.
+Si X est un champion du Grand Chelem alors X est un joueur de tennis professionnel.
+Si X est un acteur nominé aux Oscars alors X est une célébrité.
+Si X est un joueur de tennis professionnel alors X est un athlète.
+Si X est une célébrité alors X est bien payé.
+Si X est un athlète alors X est célèbre.
+Si X est bien payé alors X vit dans un paradis fiscal.
+Si Djokovic est célèbre alors Djokovic vit dans un paradis fiscal.
+Si Djokovic est un athlète alors Djokovic vit dans un paradis fiscal.
+Djokovic ne vit pas dans un paradis fiscal ?
+<ATTENDURESULTAT>
+Q: Djokovic ne vit pas dans un paradis fiscal ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_33>
+Diamond Mine est une équipe de catch professionnel.
+Diamond Mine est formée à la WWE.
+Roderick Strong dirige Diamond Mine.
+Diamond Mine inclut les Creed Brothers.
+Diamond Mine inclut Ivy Nile.
+Imperium a une rivalité avec Diamond Mine.
+Roderick Strong dirige une équipe de catch professionnel ?
+<ATTENDURESULTAT>
+Q: Roderick Strong dirige une équipe de catch professionnel ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_34>
+Diamond Mine est une équipe de catch professionnelle.
+Diamond Mine est formée à la WWE.
+Roderick Strong dirige Diamond Mine.
+Diamond Mine inclut les Creed Brothers.
+Diamond Mine inclut Ivy Nile.
+Imperium a une rivalité avec Diamond Mine.
+Roderick Strong dirige les Creed Brothers ?
+<ATTENDURESULTAT>
+Q: Roderick Strong dirige les Creed Brothers ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_35>
+Diamond Mine est une équipe de catch professionnelle.
+Diamond Mine est formée à la WWE.
+Roderick Strong dirige Diamond Mine.
+Diamond Mine inclut les Creed Brothers.
+Diamond Mine inclut Ivy Nile.
+Imperium a une rivalité avec Diamond Mine.
+Imperium n'a pas de rivalité avec une équipe de catch professionnelle qui inclut Ivy Nile ?
+<ATTENDURESULTAT>
+Q: Imperium n'a pas de rivalité avec une équipe de catch professionnelle qui inclut Ivy Nile ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_36>
+La Symphonie n°9 est une pièce de musique.
+Si X est un compositeur alors X écrit des pièces de musique.
+Si X écrit des pièces de musique alors X est un compositeur.
+Beethoven a écrit la Symphonie n°9.
+La Société de Musique de Vienne a créé la Symphonie n°9.
+La Société de Musique de Vienne est un orchestre.
+Beethoven dirige la Société de Musique de Vienne.
+Si X est un orchestre alors X est dirigé par des chefs d'orchestre.
+Beethoven est un compositeur ?
+<ATTENDURESULTAT>
+Q: Beethoven est un compositeur ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_37>
+La Symphonie n°9 est une pièce de musique.
+Si X est un compositeur alors X écrit des pièces de musique.
+Si X écrit des pièces de musique alors X est un compositeur.
+Beethoven a écrit la Symphonie n°9.
+La Société de Musique de Vienne a créé la Symphonie n°9.
+La Société de Musique de Vienne est un orchestre.
+Beethoven dirige la Société de Musique de Vienne.
+Si X est un orchestre alors X est dirigé par des chefs d'orchestre.
+Certains orchestres ont créé des pièces de musique ?
+<ATTENDURESULTAT>
+Q: Certains orchestres ont créé des pièces de musique ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_38>
+La Symphonie n°9 est une pièce musicale.
+Beethoven a écrit la Symphonie n°9.
+La Société de Musique de Vienne a créé la Symphonie n°9.
+La Société de Musique de Vienne est un orchestre.
+Beethoven dirige la Société de Musique de Vienne.
+Si X est un compositeur alors X écrit des pièces musicales.
+Si X est un orchestre alors X est dirigé par des chefs d'orchestre.
+Si X est un orchestre et Y dirige X alors Y est un chef d'orchestre.
+Beethoven n'est pas un chef d'orchestre?
+<ATTENDURESULTAT>
+Q: Beethoven n'est pas un chef d'orchestre ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_39>
+Si X est un style de design de Zaha Hadid alors X est intemporel.
+Si X est un design de produit de masse alors X n'est pas intemporel.
+X est un style de design de Zaha Hadid xor X est un style de design de Kelly Wearstler.
+Si X est un style de design de Kelly Wearstler alors X est évocateur.
+Si X est un style de design de Kelly Wearstler alors X est onirique.
+Si un design de Max est intemporel, alors un design de Max est un design de produit de masse.
+Si un design de Max est intemporel, alors un design de Max est évocateur.
+Un design de Max est un design de produit de masse ?
+<ATTENDURESULTAT>
+Q: Un design de Max est un design de produit de masse ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_40>
+Si X est un style de design de Zaha Hadid alors X est intemporel.
+Si X est un design de produit de masse alors X n'est pas intemporel.
+X est un style de design de Zaha Hadid xor X est un style de design de Kelly Wearstler.
+Si X est un style de design de Kelly Wearstler alors X est évocateur.
+Si X est un style de design de Kelly Wearstler alors X est onirique.
+Si un design de Max est intemporel, alors un design de Max est un design de produit de masse.
+Si un design de Max est intemporel, alors un design de Max est évocateur.
+Un design de Max est évocateur et onirique ?
+<ATTENDURESULTAT>
+Q: Un design de Max est évocateur et onirique ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_41>
+Si X est un style de design de Zaha Hadid alors X est intemporel.
+Si X est un design de produit de masse alors X n'est pas intemporel.
+X est un style de design de Zaha Hadid xor X est un style de design de Kelly Wearstler.
+Si X est un style de design de Kelly Wearstler alors X est évocateur.
+Si X est un style de design de Kelly Wearstler alors X est onirique.
+Si un design de Max est intemporel, alors un design de Max est un design de produit de masse.
+Si un design de Max est intemporel, alors un design de Max est évocateur.
+Un design de Max est-il évocateur xor onirique ?
+<ATTENDURESULTAT>
+Q: Un design de Max est-il évocateur xor onirique ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_42>
+Si X est une joueuse bien classée par l'Association de Tennis Féminin, alors X fait partie des joueuses les plus actives dans les tournois majeurs de tennis.
+Si X a perdu contre Iga Świątek, alors X est bien classée par l'Association de Tennis Féminin.
+Si X est une joueuse de tennis à Roland-Garros 2022, alors X a perdu contre Iga Świątek.
+X est une joueuse de tennis à Roland-Garros 2022 xor X est un joueur de tennis à Roland-Garros 2022.
+Si X est un joueur de tennis à Roland-Garros 2022, alors X a perdu contre Rafael Nadal.
+Si Coco Gauff est une joueuse bien classée par l'Association de Tennis Féminin ou Coco Gauff a perdu contre Rafael Nadal, alors Coco Gauff n'est pas un joueur de tennis à Roland-Garros 2022.
+Coco Gauff fait partie des joueuses les plus actives dans les tournois majeurs de tennis?
+<ATTENDURESULTAT>
+Q: Coco Gauff fait partie des joueuses les plus actives dans les tournois majeurs de tennis ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_43>
+Si X est une joueuse bien classée par l'Association de Tennis Féminin, alors X fait partie des joueuses les plus actives dans les tournois majeurs de tennis.
+Si X a perdu contre Iga Świątek, alors X est bien classée par l'Association de Tennis Féminin.
+Si X est une joueuse de tennis à Roland-Garros 2022, alors X a perdu contre Iga Świątek.
+X est une joueuse de tennis à Roland-Garros 2022 xor X est un joueur de tennis à Roland-Garros 2022.
+Si X est un joueur de tennis à Roland-Garros 2022, alors X a perdu contre Rafael Nadal.
+Si Coco Gauff est une joueuse bien classée par l'Association de Tennis Féminin ou Coco Gauff a perdu contre Rafael Nadal, alors Coco Gauff n'est pas un joueur de tennis à Roland-Garros 2022.
+Coco Gauff a perdu contre Rafael Nadal?
+<ATTENDURESULTAT>
+Q: Coco Gauff a perdu contre Rafael Nadal ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_44>
+Si X est une joueuse bien classée par l'Association de Tennis Féminin, alors X fait partie des joueuses les plus actives dans les tournois majeurs de tennis.
+Si X a perdu contre Iga Świątek, alors X est bien classée par l'Association de Tennis Féminin.
+Si X est une joueuse de tennis à Roland-Garros 2022, alors X a perdu contre Iga Świątek.
+X est une joueuse de tennis à Roland-Garros 2022 xor X est un joueur de tennis à Roland-Garros 2022.
+Si X est un joueur de tennis à Roland-Garros 2022, alors X a perdu contre Rafael Nadal.
+Si Coco Gauff est une joueuse bien classée par l'Association de Tennis Féminin ou Coco Gauff a perdu contre Rafael Nadal, alors Coco Gauff n'est pas un joueur de tennis à Roland-Garros 2022.
+Coco Gauff n'a pas perdu contre Iga Świątek et elle ne fait pas partie des joueuses plus actives dans les tournois majeurs de tennis ?
+<ATTENDURESULTAT>
+Q: Coco Gauff n'a pas perdu contre Iga Świątek et elle ne fait pas partie des joueuses plus actives dans les tournois majeurs de tennis ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_45>
+Si X est un chat alors X est un mammifère.
+Certains animaux de compagnie ne sont pas des mammifères.
+Si X est un animal de compagnie alors X n’est pas un chat ?
+<ATTENDURESULTAT>
+Q: Si X est un animal de compagnie alors X n'est pas un chat ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_46>
+Il y a quatre saisons dans une année : le printemps, l'été, l'automne et l'hiver.
+La saison préférée d'Emma est l'été.
+La saison préférée de Mia n'est pas l'été.
+James veut avoir de longues vacances.
+Si X est un étudiant et X veut avoir de longues vacances, alors X aime le plus l'été.
+La saison préférée de James est-elle l'été ?
+<ATTENDURESULTAT>
+Q: La saison préférée de James est-elle l'été ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_47>
+Il y a quatre saisons dans une année : le printemps, l'été, l'automne et l'hiver.
+La saison préférée d'Emma est l'été.
+La saison préférée de Mia xor la saison préférée d'Emma.
+James veut avoir de longues vacances.
+Si X est un élève et X veut avoir de longues vacances alors X aime l'été plus que toutes les autres saisons.
+La saison préférée de James est-elle l'automne ?
+<ATTENDURESULTAT>
+Q: La saison préférée de James est-elle l'automne ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_49>
+Si X est un média numérique, alors X n'est pas analogique.
+Si X est un texte imprimé, alors X est analogique.
+Si X est un service de streaming, alors X est numérique.
+Si X est un livre relié, alors X est un texte imprimé.
+Si 1984 est un service de streaming, alors 1984 est un livre relié.
+1984 est-il un texte imprimé ?
+<ATTENDURESULTAT>
+Q: 1984 est-il un texte imprimé ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_50>
+Si X est un média numérique, alors X n'est pas analogique.
+Si X est un texte imprimé, alors X est analogique.
+Si X est un service de streaming, alors X est numérique.
+Si X est un livre relié, alors X est un texte imprimé.
+Si 1984 est un service de streaming, alors 1984 est un livre relié.
+1984 est un service de streaming ?
+<ATTENDURESULTAT>
+Q: 1984 est un service de streaming ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_51>
+Si X est un média numérique, alors X n'est pas analogique.
+Si X est un texte imprimé, alors X est analogique.
+Si X est un service de streaming, alors X est numérique.
+Si X est un livre relié, alors X est un texte imprimé.
+Si 1984 est un service de streaming, alors 1984 est un livre relié.
+1984 n'est pas un service de streaming ?
+<ATTENDURESULTAT>
+Q: 1984 n'est pas un service de streaming ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_52>
+Les langues romanes sont une famille de langues.
+Le français est une langue romane.
+L'espagnol est une langue romane.
+L'allemand est apparenté à l'espagnol.
+Le basque n'est apparenté à aucune autre langue.
+Si X est une langue romane alors X est une langue indo-européenne.
+Si X appartient à une famille de langues alors X est apparenté à une autre langue de cette famille.
+Le basque est une langue romane ?
+<ATTENDURESULTAT>
+Q: Le basque est une langue romane ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_53>
+Les langues romanes sont une famille de langues.
+Le français est une langue romane.
+L'espagnol est une langue romane.
+L'allemand est apparenté à l'espagnol.
+Le basque n'est apparenté à aucune autre langue.
+Si X est une langue romane alors X est une langue indo-européenne.
+Si X appartient à une famille de langues alors X est apparenté à une autre langue de cette famille.
+L'allemand est une langue romane ?
+<ATTENDURESULTAT>
+Q: L'allemand est une langue romane ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_54>
+Les langues romanes sont une famille de langues.
+Le français est une langue romane.
+L'espagnol est une langue romane.
+L'allemand est apparenté à l'espagnol.
+Le basque n'est apparenté à aucune autre langue.
+Si X est une langue romane alors X est une langue indo-européenne.
+Si X appartient à une famille de langues alors X est apparenté à une autre langue de cette famille.
+Le français est-il une langue indo-européenne ?
+<ATTENDURESULTAT>
+Q: Le français est-il une langue indo-européenne ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_55>
+Robert Lewandowski est un attaquant.
+Robert Lewandowski a quitté le Bayern Munich.
+Si X est un attaquant alors X est un footballeur.
+Si X est un attaquant alors X marque des buts.
+Si un joueur quitte une équipe, ce joueur ne joue plus pour cette équipe.
+Robert Lewandowski est-il un footballeur ?
+<ATTENDURESULTAT>
+Q: Robert Lewandowski est-il un footballeur ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_56>
+Robert Lewandowski est un attaquant.
+Robert Lewandowski a quitté le Bayern Munich.
+Si X est un attaquant alors X est un footballeur.
+Si X est un attaquant alors X marque des buts.
+Si un joueur quitte une équipe, ce joueur ne joue plus pour cette équipe.
+Robert Lewandowski joue pour le Bayern Munich ?
+<ATTENDURESULTAT>
+Q: Robert Lewandowski joue pour le Bayern Munich ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_57>
+Robert Lewandowski est un attaquant.
+Robert Lewandowski a quitté le Bayern Munich.
+Si X est un attaquant alors X est un footballeur.
+Si X est un attaquant alors X marque des buts.
+Si un joueur quitte une équipe, ce joueur ne joue plus pour cette équipe.
+Robert Lewandowski est une star ?
+<ATTENDURESULTAT>
+Q: Robert Lewandowski est une star ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_58>
+Billings est une ville dans le Montana.
+Butte est une ville dans le Montana.
+Helena est une ville dans le Montana.
+Missoula est une ville dans le Montana.
+La ville de Pierre n'est pas dans le Montana.
+White Sulphur Springs est dans le même état que Butte.
+Butte est dans le même état que White Sulphur Springs.
+Si X est une ville dans l'état de Butte, alors X n'est pas dans l’état de Pierre.
+Butte et Pierre sont dans le même état ?
+<ATTENDURESULTAT>
+Q: Butte et Pierre sont dans le même état ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_59>
+Billings est une ville dans le Montana.
+Butte est une ville dans le Montana.
+Helena est une ville dans le Montana.
+Missoula est une ville dans le Montana.
+La ville de Pierre n'est pas dans le Montana.
+White Sulphur Springs est dans le même état que Butte.
+Butte est dans le même état que White Sulphur Springs.
+Si X est une ville dans l'état de Butte, alors X n'est pas dans l’état de Pierre.
+Pierre et Bismarck sont dans le même état ?
+<ATTENDURESULTAT>
+Q: Pierre et Bismarck sont dans le même état ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_60>
+Billings est une ville dans le Montana.
+Butte est une ville dans le Montana.
+Helena est une ville dans le Montana.
+Missoula est une ville dans le Montana.
+La ville de Pierre n'est pas dans le Montana.
+White Sulphur Springs est dans le même état que Butte.
+Butte est dans le même état que White Sulphur Springs.
+Si X est une ville dans l'état de Butte, alors X n'est pas dans l’état de Pierre.
+Le Montana abrite la ville de Missoula ?
+<ATTENDURESULTAT>
+Q: Le Montana abrite la ville de Missoula ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_61>
+Mike est un étudiant international.
+Si X est un étudiant international aux États-Unis, alors X a un visa F1 xor X a un visa J1.
+Si X est un étudiant international aux États-Unis et X a un visa F1, alors X doit faire une demande de CPT ou d'OPT si X veut travailler aux États-Unis.
+Si Mike veut travailler aux États-Unis, alors Mike doit faire une demande de CPT.
+Mike a un visa F1 ?
+<ATTENDURESULTAT>
+Q: Mike a un visa F1 ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_62>
+Mike est un étudiant international.
+Si X est un étudiant international aux États-Unis, alors X a un visa F1 xor X a un visa J1.
+Si X est un étudiant international aux États-Unis et X a un visa F1, alors X doit faire une demande de CPT ou d'OPT si X veut travailler aux États-Unis.
+Si Mike veut travailler aux États-Unis, alors Mike doit faire une demande de CPT.
+Mike a un visa J1 ?
+<ATTENDURESULTAT>
+Q: Mike a un visa J1 ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_63>
+Certains animaux de compagnie sont des vaches.
+Ted est un alligator.
+Si X est une vache, alors X est un bovin.
+Si X est un bovin, alors X est domestiqué.
+Si X est un alligator, alors X n'est pas domestiqué.
+Ted est un animal de compagnie ?
+<ATTENDURESULTAT>
+Q: Ted est un animal de compagnie ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_64>
+Certains animaux de compagnie sont des vaches.
+Ted est un alligator.
+Si X est une vache, alors X est un bovin.
+Si X est un bovin, alors X est domestiqué.
+Si X est un alligator, alors X n'est pas un animal domestiqué.
+Ted est un animal de compagnie et une vache ?
+<ATTENDURESULTAT>
+Q: Ted est un animal de compagnie et une vache ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_65>
+Certains animaux de compagnie sont des vaches.
+Ted est un alligator.
+Si X est une vache, alors X est un bovin.
+Si X est un bovin, alors X est domestiqué.
+Si X est un alligator, alors X n'est pas domestiqué.
+Si Ted est une vache, alors Ted n'est pas un animal de compagnie ?
+<ATTENDURESULTAT>
+Q: Si Ted est une vache, alors Ted n'est pas un animal de compagnie ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_66>
+Les collèges résidentiels de Yale sont : Benjamin Franklin College, Berkeley College, Branford College, Davenport College, Ezra Stiles College, Grace Hopper College, Jonathan Edwards College, Morse College, Pauli Murray College, Pierson College, Saybrook College, Silliman College, Timothy Dwight College et Trumbull College.
+Si X est un collège résidentiel de Yale alors X est de l'université Yale.
+Si X est de l'université Yale alors X est une université privée de la Ivy League dédiée à la recherche.
+Si X est de l'université Yale alors X a déménagé à New Haven en 1716.
+Si X est de l'université Yale alors la dotation de X était évaluée à 42,3 milliards de dollars.
+Si X est de l'université Yale alors X est organisée en 24 collèges et écoles constitutifs : les collèges résidentiels, la Yale Graduate School of Arts and Sciences, et douze écoles professionnelles.
+Une université privée de la Ivy League dédiée à la recherche a déménagé à New Haven ?
+<ATTENDURESULTAT>
+Q: Une université privée de l'Ivy League dédiée à la recherche a déménagé à New Haven ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_67>
+Les collèges résidentiels de Yale sont : Benjamin Franklin College, Berkeley College, Branford College, Davenport College, Ezra Stiles College, Grace Hopper College, Jonathan Edwards College, Morse College, Pauli Murray College, Pierson College, Saybrook College, Silliman College, Timothy Dwight College et Trumbull College.
+Si X est un collège résidentiel de Yale alors X est de l'université Yale.
+Si X est de l'université Yale alors X est une université privée de la Ivy League dédiée à la recherche.
+Si X est de l'université Yale alors X a déménagé à New Haven en 1716.
+Si X est de l'université Yale alors la dotation de X était évaluée à 42,3 milliards de dollars.
+Si X est de l'université Yale alors X est organisée en 24 collèges et écoles constitutifs : les collèges résidentiels, la Yale Graduate School of Arts and Sciences, et douze écoles professionnelles.
+L'université Yale a-t-elle la plus grande dotation universitaire de toutes les institutions éducatives ?
+<ATTENDURESULTAT>
+Q: L'université Yale a-t-elle la plus grande dotation universitaire de toutes les institutions éducatives ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_68>
+Les collèges résidentiels de Yale sont : Benjamin Franklin College, Berkeley College, Branford College, Davenport College, Ezra Stiles College, Grace Hopper College, Jonathan Edwards College, Morse College, Pauli Murray College, Pierson College, Saybrook College, Silliman College, Timothy Dwight College et Trumbull College.
+Si X est un collège résidentiel de Yale alors X est de l'université Yale.
+Si X est de l'université Yale alors X est une université privée de la Ivy League dédiée à la recherche.
+Si X est de l'université Yale alors X a déménagé à New Haven en 1716.
+Si X est de l'université Yale alors la dotation de X était évaluée à 42,3 milliards de dollars.
+Si X est de l'université Yale alors X est organisée en 24 collèges et écoles constitutifs : les collèges résidentiels, la Yale Graduate School of Arts and Sciences, et douze écoles professionnelles.
+Pierson College est un collège résidentiel de Yale?
+<ATTENDURESULTAT>
+Q: Pierson College est un collège résidentiel de Yale ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_69>
+Badults est une série télévisée britannique de comédie.
+Badults met en vedette les membres de Pappy's.
+Badults a été diffusée en avant-première en juillet 2013 sur BBC Three.
+"La Société Secrète des Mecs" est le titre provisoire de Badults.
+Badults a pour titre provisoire "La Société Secrète des Mecs".
+Andrew Collins était le directeur d’écriture de Badults.
+Andrew Collins était le directeur d’écriture d’une série dont le titre provisoire était "La Société Secrète des Mecs" ?
+<ATTENDURESULTAT>
+Q: Andrew Collins était le directeur d'écriture d'une série dont le titre provisoire était La Société Secrète des Mecs ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_70>
+Badults est une série télévisée britannique de comédie.
+Badults met en vedette les membres de Pappy's.
+Badults a été diffusée en avant-première en juillet 2013 sur BBC Three.
+"La Société Secrète des Mecs" est le titre provisoire de Badults.
+Badults a pour titre provisoire "La Société Secrète des Mecs".
+Andrew Collins était le directeur d’écriture de Badults.
+Aucun membre de Pappy's n'a joué dans une émission diffusée sur BBC Two ou BBC Three ?
+<ATTENDURESULTAT>
+Q: Aucun membre de Pappy-s n'a joué dans une émission diffusée sur BBC Two ou BBC Three ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_71>
+Si X est une action d'une société de croissance, alors X est volatile.
+Si le prix de l'action X est volatil, alors X n'est pas adapté à un fonds de retraite.
+Certaines actions de sociétés sont des actions de sociétés de croissance.
+Si X est une action d'une société mature, alors X est adapté à un fonds de retraite.
+KO est une action d'une société mature.
+KO est une action d'une société ?
+<ATTENDURESULTAT>
+Q: KO est une action d'une société ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_72>
+Si X est une action d'une entreprise en croissance, alors X est volatile.
+Si le prix de l'action est volatile, alors il n'est pas adapté pour un fonds de retraite.
+Certaines actions d'entreprises sont des actions d'entreprises en croissance.
+Si X est une action d'une entreprise mature, alors X est adapté pour un fonds de retraite.
+KO est une action d'une entreprise mature.
+KO est une action d’une entreprise et une action d’une entreprise en croissance ?
+<ATTENDURESULTAT>
+Q: KO est une action d'une entreprise et une action d'une entreprise en croissance ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_73>
+Certaines actions de sociétés sont des actions de sociétés en croissance.
+KO est une action de société mature.
+Si X est une action d'une entreprise en croissance, alors X est volatile.
+Si le prix de X est volatile, alors X n'est pas adaptée à un fonds de retraite.
+Si X est une action d'une société mature, alors X est adaptée à un fonds de retraite.
+Si KO est une action de croissance ou si son prix est volatile, alors KO n'est ni une action de société ni n'a un prix volatile ?
+<ATTENDURESULTAT>
+Q: Si KO est une action de croissance ou si son prix est volatile, alors KO n'est pas une action de société et n'a un prix volatile ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_74>
+Si une plaque d'immatriculation est d'Istanbul, alors elle commence par le numéro 34.
+Si une plaque d'immatriculation ne commence pas par le numéro 34, alors elle n'est pas d'Istanbul.
+Si une plaque d'immatriculation commence par le numéro 35, alors elle ne commence pas par le numéro 34.
+La plaque d'immatriculation de Joe est d'Istanbul.
+La plaque d'immatriculation de Tom commence par le numéro 35.
+La plaque d'immatriculation de Joe commence-t-elle par le numéro 34 ?
+<ATTENDURESULTAT>
+Q: La plaque d'immatriculation de Joe commence-t-elle par le numéro 34 ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_75>
+Si une plaque d'immatriculation est d'Istanbul, alors elle commence par le numéro 34.
+Si une plaque d'immatriculation ne commence pas par le numéro 34, alors elle n'est pas d'Istanbul.
+Si une plaque d'immatriculation commence par le numéro 35, alors elle ne commence pas par le numéro 34.
+La plaque d'immatriculation de Joe est d'Istanbul.
+La plaque d'immatriculation de Tom commence par le numéro 35.
+La plaque d'immatriculation de Tom est d'Istanbul?
+<ATTENDURESULTAT>
+Q: La plaque d'immatriculation de Tom est d'Istanbul ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_76>
+Si X travaille dans des emplois étudiants sur le campus, alors X a besoin de gagner de l'argent pour aider à payer les frais de scolarité de X.
+Si X commande souvent des plats à emporter à l’université, alors X travaille dans des emplois étudiants sur le campus.
+X commande souvent des plats à emporter à l’université ou X apprécie les repas et les recettes de la salle à manger.
+Si X apprécie les repas et les recettes de la salle à manger, alors X n'est pas un mangeur difficile.
+Si X apprécie les repas et les recettes de la salle à manger, alors X passe beaucoup de son temps à manger et à rattraper ses amis dans les salles à manger du campus.
+Si Mary travaille dans des emplois étudiants sur le campus et a besoin de gagner de l'argent pour aider à payer ses frais de scolarité, alors Mary n'est ni difficile ni a besoin de gagner de l'argent pour aider à payer ses frais de scolarité.
+Mary a-t-elle besoin de gagner de l'argent pour aider à payer ses frais de scolarité ?
+<ATTENDURESULTAT>
+Q: Mary a-t-elle besoin de gagner de l'argent pour aider à payer ses frais de scolarité ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_77>
+Si X travaillent dans des emplois étudiants sur le campus, alors X ont besoin de gagner de l'argent pour aider à payer leurs frais de scolarité.
+Si X commandent fréquemment de la nourriture à emporter à l'université, alors X travaillent dans des emplois étudiants sur le campus.
+X commandent fréquemment de la nourriture à emporter à l'université ou X apprécient les repas et recettes de la salle à manger.
+Si X apprécient les repas et recettes de la salle à manger, alors X ne sont pas des mangeurs difficiles.
+Si X apprécient les repas et recettes de la salle à manger, alors X passent beaucoup de temps à manger et à rattraper le temps avec des amis dans les salles à manger du campus.
+Si Mary travaille dans des emplois étudiants sur le campus et a besoin de gagner de l'argent pour aider à payer ses frais de scolarité, alors Mary n'est ni difficile ni a besoin de gagner de l'argent pour aider à payer ses frais de scolarité.
+Mary n'est pas une mangeuse difficile et passe beaucoup de temps à manger et à rattraper le temps avec des amis dans les salles à manger du campus ?
+<ATTENDURESULTAT>
+Q: Mary n'est pas une mangeuse difficile et passe beaucoup de temps à manger et à rattraper le temps avec des amis dans les salles à manger du campus ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_78>
+Si X travaille dans des emplois étudiants sur le campus, alors X a besoin de gagner de l'argent pour aider à payer les frais de scolarité de X.
+Si X commande souvent des plats à emporter à l’université, alors X travaille dans des emplois étudiants sur le campus.
+X commande souvent des plats à emporter à l’université ou X apprécie les repas et les recettes de la salle à manger.
+Si X apprécie les repas et les recettes de la salle à manger, alors X n'est pas un mangeur difficile.
+Si X apprécie les repas et les recettes de la salle à manger, alors X passe beaucoup de son temps à manger et à rattraper ses amis dans les salles à manger du campus.
+Si Mary travaille dans des emplois étudiants sur le campus et a besoin de gagner de l'argent pour aider à payer ses frais de scolarité, alors Mary n'est ni difficile ni a besoin de gagner de l'argent pour aider à payer ses frais de scolarité.
+Mary n'est pas une mangeuse difficile xor Mary passe beaucoup de son temps à manger et à rattraper des amis dans les salles à manger du campus?
+<ATTENDURESULTAT>
+Q: Mary n'est pas une mangeuse difficile xor Mary passe beaucoup de son temps à manger et à rattraper des amis dans les salles à manger du campus ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_79>
+Si X est une boulangerie alors X n'est pas épicée.
+Si X est un cupcake alors X est une boulangerie.
+Si X est un hotpot alors X est épicé.
+Si X est un produit de Baked by Melissa alors X est un cupcake.
+Si les piments thaïlandais séchés sont épicés ou une boulangerie, alors les piments thaïlandais séchés sont un hotpot ou sont épicés.
+Les piments thaïlandais séchés sont un produit de Baked by Melissa?
+<ATTENDURESULTAT>
+Q: Les piments thaïlandais séchés sont un produit de Baked by Melissa ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_80>
+Si X est une boulangerie alors X n'est pas épicée.
+Si X est un cupcake alors X est une boulangerie.
+Si X est un hotpot alors X est épicé.
+Si X est un produit de Baked by Melissa alors X est un cupcake.
+Si les piments thaïlandais séchés sont épicés ou une boulangerie, alors les piments thaïlandais séchés sont un hotpot ou sont épicés.
+Les piments thaïlandais séchés ne sont pas un produit de Baked by Melissa?
+<ATTENDURESULTAT>
+Q: Les piments thaïlandais séchés ne sont pas un produit de Baked by Melissa ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_81>
+Si X est une boulangerie alors X n'est pas épicée.
+Si X est un cupcake alors X est une boulangerie.
+Si X est un hotpot alors X est épicé.
+Si X est un produit de Baked by Melissa alors X est un cupcake.
+Si les piments thaïlandais séchés sont épicés ou une boulangerie, alors les piments thaïlandais séchés sont un hotpot ou sont épicés.
+Les piments thaïlandais séchés sont un hotpot?
+<ATTENDURESULTAT>
+Q: Les piments thaïlandais séchés sont un hotpot ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_82>
+Si X est une boulangerie alors X n'est pas épicée.
+Si X est un cupcake alors X est une boulangerie.
+Si X est un hotpot alors X est épicé.
+Si X est un produit de Baked by Melissa alors X est un cupcake.
+Si les piments thaïlandais séchés sont épicés ou une boulangerie, alors les piments thaïlandais séchés sont un hotpot ou sont épicés.
+Les piments thaïlandais séchés ne sont ni un produit de Baked by Melissa ni une boulangerie?
+<ATTENDURESULTAT>
+Q: Les piments thaïlandais séchés ne sont pas un produit de Baked by Melissa et une boulangerie ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_83>
+Si X est une boulangerie alors X n'est pas épicée.
+Si X est un cupcake alors X est une boulangerie.
+Si X est un hotpot alors X est épicé.
+Si X est un produit de Baked by Melissa alors X est un cupcake.
+Si les piments thaïlandais séchés sont épicés ou une boulangerie, alors les piments thaïlandais séchés sont un hotpot ou sont épicés.
+Les piments thaïlandais séchés sont des cupcakes et un produit de Baked by Melissa?
+<ATTENDURESULTAT>
+Q: Les piments thaïlandais séchés sont des cupcakes et un produit de Baked by Melissa ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_84>
+Si X est répertorié dans les recommandations de Yelp, alors X ne reçoit pas beaucoup de critiques négatives.
+Si X a une note supérieure à 9, alors X est répertorié dans les recommandations de Yelp.
+Certains X qui ne fournissent pas de service à emporter reçoivent beaucoup de critiques négatives.
+Si X est populaire parmi les résidents locaux, alors X a une note supérieure à 9.
+Subway a une note supérieure à 9 xor Subway est populaire parmi les résidents locaux.
+((Subway ne fournit pas un service de livraison ou ne reçoit pas  beaucoup de critiques négatives) ou (Subway a une note supérieure à 9 et il ne fournit pas de service de livraison))?
+<ATTENDURESULTAT>
+Q: (  ( Subway ne fournit pas un service de livraison ou ne reçoit pas  beaucoup de critiques négatives )  ou  ( Subway a une note supérieure à 9 et il ne fournit pas de service de livraison )  ) ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_85>
+Si X est répertorié dans les recommandations de Yelp, alors X ne reçoit pas beaucoup de critiques négatives.
+Si X a une note supérieure à 9, alors X est répertorié dans les recommandations de Yelp.
+Certains X qui ne fournissent pas de service à emporter reçoivent beaucoup de critiques négatives.
+Si X est populaire parmi les résidents locaux, alors X a une note supérieure à 9.
+Subway a une note supérieure à 9 xor Subway est populaire parmi les résidents locaux.
+Subway fournit un service à emporter et ne reçoit pas beaucoup de critiques négatives?
+<ATTENDURESULTAT>
+Q: Subway fournit un service à emporter et ne reçoit pas beaucoup de critiques négatives ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_86>
+Si X est répertorié dans les recommandations de Yelp, alors X ne reçoit pas beaucoup de critiques négatives.
+Si X a une note supérieure à 9, alors X est répertorié dans les recommandations de Yelp.
+Certains X qui ne fournissent pas de service à emporter reçoivent beaucoup de critiques négatives.
+Si X est populaire parmi les résidents locaux, alors X a une note supérieure à 9.
+Subway a une note supérieure à 9 xor Subway est populaire parmi les résidents locaux.
+Subway ne fournit pas un service à emporter?
+<ATTENDURESULTAT>
+Q: Subway ne fournit pas un service à emporter ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_87>
+Dans les films de super-héros, les bons gagnent toujours.
+Les Aventures Surprenantes de Sir Digby Chicken Caesar est un film de super-héros.
+Sir Digby combat l'ennemi de Sir Digby.
+Les Aventures Surprenantes de Sir Digby Chicken Caesar est nommé d'après Sir Digby.
+Si X est un bon, alors X combat les méchants.
+Si X est un méchant, alors X combat les bons.
+ Si X est un film de super-héros et X est nommé d'après un personnage, alors ce personnage est un bon.
+Si X gagne un combat, alors la personne que X combat perd.
+Si X est un film de super-héros et X est nommé d'après un personnage, alors ce personnage apparaît dans X.
+L'ennemi de Sir Digby perd ?
+<ATTENDURESULTAT>
+Q: L'ennemi de Sir Digby perd ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_89>
+Si X est un livre alors X contient énormément de connaissances.
+Si X lit un livre alors X acquiert des connaissances.
+Si X acquiert des connaissances alors X devient plus intelligent.
+Harry a lu le livre Walden de Henry Thoreau.
+Harry est plus intelligent qu'avant ?
+<ATTENDURESULTAT>
+Q: Harry est plus intelligent qu'avant ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_90>
+Si X est un livre alors X contient énormément de connaissances.
+Si X lit un livre alors X acquiert des connaissances.
+Si X acquiert des connaissances alors X devient plus intelligent.
+Harry a lu le livre Walden de Henry Thoreau.
+Une personne qui est plus intelligente a acquis des connaissances ?
+<ATTENDURESULTAT>
+Q: Une personne plus intelligente a acquis des connaissances ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_91>
+La traduction automatique est une tâche de traitement automatique du langage naturel.
+Le résultat de la traduction automatique est une séquence de texte.
+Si X est une tâche de traitement automatique du langage naturel alors X est une tâche de génération de langage xor X est une tâche de compréhension du langage.
+Si le résultat d’une tâche de traitement automatique du langage naturel est une séquence de texte alors cette tâche est une tâche de génération de langage.
+La traduction automatique est une tâche de génération de langage ?
+<ATTENDURESULTAT>
+Q: La traduction automatique est une tâche de génération de langage ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_92>
+La traduction automatique est une tâche de traitement automatique du langage naturel.
+Le résultat de la traduction automatique est une séquence de texte.
+Si X est une tâche de traitement automatique du langage naturel alors X est une tâche de génération de langage xor X est une tâche de compréhension du langage.
+Si le résultat d’une tâche de traitement automatique du langage naturel est une séquence de texte alors cette tâche est une tâche de génération de langage.
+La traduction automatique est une tâche de compréhension du langage ?
+<ATTENDURESULTAT>
+Q: La traduction automatique est une tâche de compréhension du langage ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_93>
+Si X est un chat alors X est un animal de compagnie.
+Si X est un immeuble géré alors certains animaux de compagnie sont autorisés.
+Si on loue un appartement dans un immeuble géré alors on doit verser un dépôt.
+Le dépôt de garantie peut être égal à un mois de loyer xor supérieur à un mois de loyer.
+Si Tom est autorisé à emménager avec Fluffy et si le dépôt de garantie est inférieur ou égal à 1500 dollars alors Tom louera un appartement dans un immeuble géré.
+Si Tom loue un appartement dans un immeuble géré alors Tom est autorisé à emménager avec Fluffy et le dépôt de garantie est inférieur ou égal à 1500 dollars.
+Si X est un chat et Y possède X alors Y est le propriétaire de X.
+Tom possède Fluffy.
+Fluffy est un chat.
+L’Olivier est un immeuble géré.
+Le loyer mensuel à l’Olivier est de 2000 dollars.
+2000 dollars est supérieur à 1500 dollars.
+Tom louera un appartement à l'Olivier?
+<ATTENDURESULTAT>
+Q: Tom louera un appartement à l'Olivier ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_94>
+Si X est un chat alors X est un animal de compagnie.
+Si X est un immeuble géré alors certains animaux de compagnie sont autorisés.
+Si on loue un appartement dans un immeuble géré alors on doit verser un dépôt.
+Le dépôt de garantie peut être égal à un mois de loyer xor supérieur à un mois de loyer.
+Si Tom est autorisé à emménager avec Fluffy et si le dépôt de garantie est inférieur ou égal à 1500 dollars alors Tom louera un appartement dans un immeuble géré.
+Si Tom loue un appartement dans un immeuble géré alors Tom est autorisé à emménager avec Fluffy et le dépôt de garantie est inférieur ou égal à 1500 dollars.
+Si X est un chat et Y possède X alors Y est le propriétaire de X.
+Tom possède Fluffy.
+Fluffy est un chat.
+L’Olivier est un immeuble géré.
+Le loyer mensuel à l’Olivier est de 2000 dollars.
+2000 dollars est supérieur à 1500 dollars.
+Tom est-il autorisé à emménager dans un appartement à l'Olive Garden avec Fluffy ?
+<ATTENDURESULTAT>
+Q: Tom est-il autorisé à emménager dans un appartement à l'Olive Garden avec Fluffy ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_95>
+Si X est un chat alors X est un animal de compagnie.
+Si X est un immeuble géré alors certains animaux de compagnie sont autorisés.
+Si on loue un appartement dans un immeuble géré alors on doit verser un dépôt.
+Le dépôt de garantie peut être égal à un mois de loyer xor supérieur à un mois de loyer.
+Si Tom est autorisé à emménager avec Fluffy et si le dépôt de garantie est inférieur ou égal à 1500 dollars alors Tom louera un appartement dans un immeuble géré.
+Si Tom loue un appartement dans un immeuble géré alors Tom est autorisé à emménager avec Fluffy et le dépôt de garantie est inférieur ou égal à 1500 dollars.
+Si X est un chat et Y possède X alors Y est le propriétaire de X.
+Tom possède Fluffy.
+Fluffy est un chat.
+L’Olivier est un immeuble géré.
+Le loyer mensuel à l’Olivier est de 2000 dollars.
+2000 dollars est supérieur à 1500 dollars.
+Le dépôt de garantie à l’Olivier est-il de 2000 dollars xor plus de 2000 dollars ?
+<ATTENDURESULTAT>
+Q: Le dépôt de garantie à l’Olivier est-il de 2000 dollars xor plus de 2000 dollars ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_96>
+Si X est aimé par les touristes, alors X est un animal préféré de Max.
+Si X est un animal d'Australie, alors X est aimé par les touristes.
+Si X est un quokka, alors X est un animal d'Australie.
+Si X est un animal préféré de Max, alors X est très pelucheux.
+Si X est un animal préféré de Max, alors X aime dormir.
+Si X est un koala et X est très pelucheux, alors X n'est pas un quokka.
+Les koalas aiment dormir?
+<ATTENDURESULTAT>
+Q: Les koalas aiment dormir ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_97>
+Si X est aimé par les touristes, alors X est un animal préféré de Max.
+Si X est un animal d'Australie, alors X est aimé par les touristes.
+Si X est un quokka, alors X est un animal d'Australie.
+Si X est un animal préféré de Max, alors X est très pelucheux.
+Si X est un animal préféré de Max, alors X aime dormir.
+Si X est un koala et X est très pelucheux, alors X n'est pas un quokka.
+Les koalas aiment dormir et sont des quokkas ?
+<ATTENDURESULTAT>
+Q: Les koalas aiment dormir et sont des quokkas ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_98>
+Si X est aimé par les touristes, alors X est un animal préféré de Max.
+Si X est un animal d'Australie, alors X est aimé par les touristes.
+Si X est un quokka, alors X est un animal d'Australie.
+Si X est un animal préféré de Max, alors X est très pelucheux.
+Si X est un animal préféré de Max, alors X aime dormir.
+Si X est un koala et X est très pelucheux, alors X n'est pas un quokka.
+Si un koala est un quokka, alors le koala aime dormir xor le koala est très pelucheux ?
+<ATTENDURESULTAT>
+Q: Si un koala est un quokka, alors le koala aime dormir xor le koala est très pelucheux ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_99>
+Harry est un gentleman.
+Si X est un homme alors X est gentil xor X est méchant.
+Si X est laid alors X n'est pas beau.
+Si X est méchant alors X est laid.
+Si X est un gentleman alors X est beau.
+Si X est un PDG alors X est un gentleman.
+Harry est un PDG ?
+<ATTENDURESULTAT>
+Q: Harry est un PDG ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_100>
+Harry est un gentleman.
+Si X est un homme alors X est gentil xor X est méchant.
+Si X est laid alors X n'est pas beau.
+Si X est méchant alors X est laid.
+Si X est un gentleman alors X est beau.
+Si X est un PDG alors X est un gentleman.
+Harry est gentil xor Harry est un PDG ?
+<ATTENDURESULTAT>
+Q: Harry est gentil xor Harry est un PDG ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_102>
+Si X est un jumeau ou un triplé alors X passe beaucoup de temps à traîner avec ses frères et sœurs et X passe beaucoup de temps à jouer avec ses frères et sœurs.
+Si X a des frères et sœurs qui ont le même âge alors X est un jumeau ou un triplé.
+Si X se plaint souvent de frères et sœurs agaçants alors X a des frères et sœurs qui ont le même âge.
+Si X ne vit pas régulièrement à la maison alors X ne développe pas de liens forts avec les membres de sa famille.
+Si X passe beaucoup de temps à traîner avec ses frères et sœurs et X passe beaucoup de temps à jouer avec ses frères et sœurs alors X ne vivait souvent pas régulièrement à la maison.
+Si Luke est un jumeau ou un triplé alors Luke développe des liens forts avec les membres de sa famille.
+Si Luke développe des liens forts avec les membres de sa famille alors Luke est un jumeau ou un triplé.
+Luke passe beaucoup de temps à traîner avec ses frères et sœurs?
+<ATTENDURESULTAT>
+Q: Luke passe beaucoup de temps à traîner avec ses frères et sœurs ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_103>
+Si X est un jumeau ou un triplé alors X passe beaucoup de temps à traîner avec ses frères et sœurs et X passe beaucoup de temps à jouer avec ses frères et sœurs.
+Si X a des frères et sœurs qui ont le même âge alors X est un jumeau ou un triplé.
+Si X se plaint souvent de frères et sœurs agaçants alors X a des frères et sœurs qui ont le même âge.
+Si X ne vit pas régulièrement à la maison alors X ne développe pas de liens forts avec les membres de sa famille.
+Si X passe beaucoup de temps à traîner avec ses frères et sœurs et X passe beaucoup de temps à jouer avec ses frères et sœurs alors X ne vivait souvent pas régulièrement à la maison.
+Si Luke est un jumeau ou un triplé alors Luke développe des liens forts avec les membres de sa famille.
+Si Luke développe des liens forts avec les membres de sa famille alors Luke est un jumeau ou un triplé.
+Luke se plaint souvent de frères et sœurs agaçants ?
+<ATTENDURESULTAT>
+Q: Luke se plaint souvent de frères et sœurs agaçants ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_104>
+Si X est un jumeau ou un triplé alors X passe beaucoup de temps à traîner avec ses frères et sœurs et X passe beaucoup de temps à jouer avec ses frères et sœurs.
+Si X a des frères et sœurs qui ont le même âge alors X est un jumeau ou un triplé.
+Si X se plaint souvent de frères et sœurs agaçants alors X a des frères et sœurs qui ont le même âge.
+Si X ne vit pas régulièrement à la maison alors X ne développe pas de liens forts avec les membres de sa famille.
+Si X passe beaucoup de temps à traîner avec ses frères et sœurs et X passe beaucoup de temps à jouer avec ses frères et sœurs alors X ne vivait souvent pas régulièrement à la maison.
+Si Luke est un jumeau ou un triplé alors Luke développe des liens forts avec les membres de sa famille.
+Si Luke développe des liens forts avec les membres de sa famille alors Luke est un jumeau ou un triplé.
+Luke n’est ni un jumeau ni un triplé ni ne se plaint souvent de frères et sœurs agaçants ?
+<ATTENDURESULTAT>
+Q: Luke n'est pas un jumeau et un triplé et ne se plaint souvent de frères et sœurs agaçants ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_105>
+Le test GRE coûte 205 dollars américains.
+Tom vit dans une famille monoparentale.
+Le père de Tom est sans emploi depuis plus d’un an.
+Si X est un candidat au GRE et X prouve une difficulté économique alors ETS fournit une aide financière à X.
+Si X a trop peu d'argent alors X a une difficulté économique.
+Si X a trop peu de ressources alors X a une difficulté économique.
+Tom peut-il demander une aide financière à ETS pour passer le test GRE ?
+<ATTENDURESULTAT>
+Q: Tom peut-il demander une aide financière à ETS pour passer le test GRE ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_112>
+Les montagnes Picuris sont une chaîne de montagnes au Nouveau-Mexique xor les montagnes Picuris sont une chaîne de montagnes au Texas.
+Juan de Onate a visité les montagnes Picuris.
+La mine de pegmatite Harding est dans les montagnes Picuris.
+La mine de pegmatite Harding a été donnée.
+Si X est une chaîne de montagnes au Texas alors X n’a pas de mine qui a été donnée.
+Juan de Onate a visité une chaîne de montagnes au Nouveau-Mexique ?
+<ATTENDURESULTAT>
+Q: Juan de Onate a visité une chaîne de montagnes au Nouveau-Mexique ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_114>
+Les montagnes Picuris sont une chaîne de montagnes au Nouveau-Mexique ou les montagnes Picuris sont une chaîne de montagnes au Texas.
+Juan de Onate a visité les montagnes Picuris.
+La mine de pegmatite Harding est dans les montagnes Picuris.
+La mine de pegmatite Harding a été donnée.
+Si X est une chaîne de montagnes au Texas alors X n’a pas de mine qui a été donnée.
+La mine de pegmatite  Harding n’est pas située dans une chaîne de montagnes au Nouveau-Mexique ?
+<ATTENDURESULTAT>
+Q: La mine de pegmatite  Harding n'est pas située dans une chaîne de montagnes au Nouveau-Mexique ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_116>
+Michael est un homme.
+Peter est un homme.
+Michael est plus grand que tous les autres dans sa classe.
+Peter est plus grand que Michael.
+Michael ne peut pas bloquer le tir de Windy.
+Si X est un homme et que Y est un homme et que X est plus grand que Y alors X peut bloquer le tir de Y.
+Si X est plus grand que Y et Y est plus grand que Z alors X est plus grand que Z.
+Si X ne saute pas en tirant alors Michael peut bloquer le tir de X.
+Si X est un tireur et que X peut sauter en tirant alors X est un grand tireur.
+Windy est une grande tireuse?
+<ATTENDURESULTAT>
+Q: Windy est une grande tireuse ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_117>
+Michael est un homme.
+Peter est un homme.
+Michael est plus grand que tous les autres dans sa classe.
+Peter est plus grand que Michael.
+Michael ne peut pas bloquer le tir de Windy.
+Si X est un homme et que Y est un homme et que X est plus grand que Y alors X peut bloquer le tir de Y.
+Si X est plus grand que Y et Y est plus grand que Z alors X est plus grand que Z.
+Si X ne saute pas en tirant alors Michael peut bloquer le tir de X.
+Si X est un tireur et que X peut sauter en tirant alors X est un grand tireur.
+Peter peut bloquer le tir de Windy?
+<ATTENDURESULTAT>
+Q: Peter peut bloquer le tir de Windy ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_118>
+La crique de Barutin est nommée d'après le village bulgare de Barutin.
+La crique de Barutin est sur la côte sud-ouest de l'île Snow.
+Les îles Shetland du Sud incluent l'île Snow.
+Les îles Shetland du Sud incluent l'île Greenwich.
+Les îles Shetland du Sud incluent l'île Deception.
+Les îles Shetland du Sud sont considérées comme faisant partie de l'Antarctique.
+Si A est situé dans B et B est situé dans C, alors A est situé dans C.
+Barutin est nommé d'après toutes les îles en Antarctique ?
+<ATTENDURESULTAT>
+Q: Barutin est nommé d'après toutes les îles en Antarctique ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_119>
+La crique de Barutin est nommée d'après le village bulgare de Barutin.
+La crique de Barutin est sur la côte sud-ouest de l'île Snow.
+Les îles Shetland du Sud incluent l'île Snow.
+Les îles Shetland du Sud incluent l'île Greenwich.
+Les îles Shetland du Sud incluent l'île Deception.
+Les îles Shetland du Sud sont considérées comme faisant partie de l'Antarctique.
+Si A est situé dans B et B est situé dans C, alors A est situé dans C.
+Y a-t-il au moins une crique en Antarctique nommée d'après un lieu en Bulgarie ?
+<ATTENDURESULTAT>
+Q: X est au moins une crique en Antarctique nommée d'après un lieu en Bulgarie ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_120>
+La crique de Barutin est nommée d'après le village bulgare de Barutin.
+La crique de Barutin est sur la côte sud-ouest de l'île Snow.
+Les îles Shetland du Sud incluent l'île Snow.
+Les îles Shetland du Sud incluent l'île Greenwich.
+Les îles Shetland du Sud incluent l'île Deception.
+Les îles Shetland du Sud sont considérées comme faisant partie de l'Antarctique.
+Si A est situé dans B et B est situé dans C, alors A est situé dans C.
+Barutin n'est pas situé en Antarctique ?
+<ATTENDURESULTAT>
+Q: Barutin n'est pas situé en Antarctique ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_121>
+Certaines affections sont de l'amour.
+Certains amour est positif.
+Certaines affections sont positives ?
+<ATTENDURESULTAT>
+Q: Certaines affections sont positives ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_122>
+Si X peut transporter plusieurs passagers, alors X n'est pas vide.
+Si X est une compagnie aérienne, alors X peut transporter plusieurs passagers.
+Si X est un avion, alors X est vide.
+Si X est un Boeing 707, alors X est un avion.
+Si Greyhound n'est pas une compagnie aérienne, alors X n'est pas un avions Greyhound.
+Greyhound est une compagnie aérienne ?
+<ATTENDURESULTAT>
+Q: Greyhound est une compagnie aérienne ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_123>
+Si X peut transporter plusieurs passagers, alors X n'est pas vide.
+Si X est une compagnie aérienne, alors X peut transporter plusieurs passagers.
+Si X est un avion, alors X est vide.
+Si X est un Boeing 707, alors X est un avion.
+Si Greyhound n'est pas une compagnie aérienne, alors il n'y a pas d'avions Greyhound.
+Un Greyhound est un Boeing 707 ?
+<ATTENDURESULTAT>
+Q: Un Greyhound est un Boeing 707 ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_124>
+Si X peut transporter plusieurs passagers, alors X n'est pas vide.
+Si X est une compagnie aérienne, alors X peut transporter plusieurs passagers.
+Si X est un avion, alors X est vide.
+Si X est un Boeing 707, alors X est un avion.
+Si Greyhound n'est pas une compagnie aérienne, alors il n'y a pas d'avions Greyhound.
+Un Greyhound n'est pas un Boeing 707 ?
+<ATTENDURESULTAT>
+Q: Un Greyhound n'est pas un Boeing 707 ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_125>
+Si X est un mammifère alors X est un animal.
+Si X est un singe alors X est un mammifère.
+Si X est un animal alors (X est un singe xor X est un oiseau).
+Si X est un oiseau alors X vole.
+Si X est un animal alors X respire.
+Si X peut voler alors X a des ailes.
+Si Rock n'est pas une mouche et Rock n'est pas un oiseau alors Rock ne vole pas et Rock ne respire pas.
+Rock est un singe?
+<ATTENDURESULTAT>
+Q: Rock est un singe ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_126>
+Si X est un mammifère alors X est un animal.
+Si X est un singe alors X est un mammifère.
+Si X est un animal alors (X est un singe xor X est un oiseau).
+Si X est un oiseau alors X vole.
+Si X est un animal alors X respire.
+Si X peut voler alors X a des ailes.
+Si Rock n'est pas une mouche et Rock n'est pas un oiseau alors Rock ne vole pas et Rock ne respire pas.
+Rock a-t-il des ailes ?
+<ATTENDURESULTAT>
+Q: Rock a-t-il des ailes ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_127>
+Si X est un mammifère alors X est un animal.
+Si X est un singe alors X est un mammifère.
+Si X est un animal alors (X est un singe xor X est un oiseau).
+Si X est un oiseau alors X vole.
+Si X est un animal alors X respire.
+Si X peut voler alors X a des ailes.
+Si Rock n'est pas une mouche et Rock n'est pas un oiseau alors Rock ne vole pas et Rock ne respire pas.
+Rock n'a pas d'ailes ?
+<ATTENDURESULTAT>
+Q: Rock n'a pas d'ailes ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_128>
+Certains mariages en juillet sont bien fréquentés.
+Si X a un mariage, alors X a certains enfants.
+Si X voyage à Paris pour sa lune de miel, alors X a un mariage.
+Si X a un mariage qui a lieu en juillet, alors X voyage à Paris pour sa lune de miel.
+Si John a certains enfants, alors John ne voyage pas à Paris pour sa lune de miel et John n'a pas de mariage.
+Si John a un mariage qui est bien fréquenté, alors John a un mariage en juillet ou, sinon, alors John voyage à Paris pour sa lune de miel.
+John a-t-il un mariage qui est bien fréquenté ?
+<ATTENDURESULTAT>
+Q: John a-t-il un mariage qui est bien fréquenté ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_129>
+Certains mariages en juillet sont bien fréquentés.
+Si X a un mariage, alors X a certains enfants.
+Si X voyage à Paris pour sa lune de miel, alors X a un mariage.
+Si X a un mariage qui a lieu en juillet, alors X voyage à Paris pour sa lune de miel.
+Si John a certains enfants, alors John ne voyage pas à Paris pour sa lune de miel et John n'a pas de mariage.
+Si John a un mariage qui est bien fréquenté, alors John a un mariage en juillet ou, sinon, alors John voyage à Paris pour sa lune de miel.
+John n'a pas un mariage qui est bien fréquenté ?
+<ATTENDURESULTAT>
+Q: John n'a pas un mariage qui est bien fréquenté ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_130>
+Certains mariages en juillet sont bien fréquentés.
+Si X a un mariage, alors X a certains enfants.
+Si X voyage à Paris pour sa lune de miel, alors X a un mariage.
+Si un mariage a lieu en juillet, alors X voyage à Paris pour sa lune de miel.
+Certains mariages en juillet sont bien fréquentés.
+Si John a certains enfants, alors John ne voyage pas à Paris pour sa lune de miel.
+Si John a certains enfants, alors John n'a pas de mariage.
+Si John a un mariage qui est bien fréquenté, alors John a un mariage en juillet ou, sinon, alors John voyage à Paris pour sa lune de miel.
+John a certains enfants ?
+<ATTENDURESULTAT>
+Q: John a certains enfants ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_131>
+Certains mariages en juillet sont bien fréquentés.
+Si X a un mariage, alors X a certains enfants.
+Si X voyage à Paris pour sa lune de miel, alors X a un mariage.
+Si un mariage a lieu en juillet, alors X voyage à Paris pour sa lune de miel.
+Certains mariages en juillet sont bien fréquentés.
+Si John a certains enfants, alors John ne voyage pas à Paris pour sa lune de miel.
+Si John a certains enfants, alors John n'a pas de mariage.
+Si John a un mariage qui est bien fréquenté, alors John a un mariage en juillet ou, sinon, alors John voyage à Paris pour sa lune de miel.
+John n'a ni un mariage qui est bien fréquenté ni ne voyage à Paris pour sa lune de miel ?
+<ATTENDURESULTAT>
+Q: John n'a pas un mariage qui est bien fréquenté et ne voyage à Paris pour sa lune de miel ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_132>
+Certains mammifères ont des dents.
+Les ornithorynques n'ont pas de dents.
+Les ornithorynques sont des mammifères.
+Les humains ont des dents.
+Les ornithorynques sont des mammifères sans dents ?
+<ATTENDURESULTAT>
+Q: Les ornithorynques sont des mammifères sans dents ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_133>
+Certains mammifères ont des dents.
+Les ornithorynques n'ont pas de dents.
+Les ornithorynques sont des mammifères.
+Les humains ont des dents.
+Les ornithorynques sont des reptiles ?
+<ATTENDURESULTAT>
+Q: Les ornithorynques sont des reptiles ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_134>
+Certains mammifères ont des dents.
+Les ornithorynques n'ont pas de dents.
+Les ornithorynques sont des mammifères.
+Les humains ont des dents.
+Les humains sont des mammifères ?
+<ATTENDURESULTAT>
+Q: Les humains sont des mammifères ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_135>
+Les plongeurs sucent.
+Le vide suce.
+Les vampires sucent.
+L'espace est un vide.
+Un chiffon à poussière est un appareil ménager.
+Un chiffon à poussière ne suce pas.
+L'espace suce ?
+<ATTENDURESULTAT>
+Q: L'espace suce ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_136>
+Les plongeurs sucent.
+Le vide suce.
+Les vampires sucent.
+L'espace est un vide.
+Un chiffon à poussière est un appareil ménager.
+Un chiffon à poussière ne suce pas.
+L'espace est un vampire ?
+<ATTENDURESULTAT>
+Q: L'espace est un vampire ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_137>
+Les plongeurs sucent.
+Le vide suce.
+Les vampires sucent.
+L'espace est un vide.
+Un chiffon à poussière est un appareil ménager.
+Un chiffon à poussière ne suce pas.
+Si quelque chose est un appareil ménager,  est-ce qu'il suce ?
+<ATTENDURESULTAT>
+Q: Si quelque chose est un appareil ménager,  est-ce qu'il suce ?
+R: Inconnu.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_138>
+Si X est un algorithme de Machine Learning alors X peut être catégorisé comme apprentissage supervisé.
+Si X est un algorithme de Machine Learning alors X peut être catégorisé comme apprentissage non supervisé.
+Si X est un algorithme de Machine Learning alors X peut être catégorisé comme apprentissage par renforcement.
+Si X est un apprentissage non supervisé alors X ne nécessite pas de données étiquetées.
+Le modèle de pointe de résumé de texte est entraîné avec des algorithmes de Machine Learning.
+L'apprentissage par renforcement n'est pas utilisé pour entraîner le modèle de pointe de résumé de texte.
+Si X est un algorithme de Machine Learning pour entraîner le modèle de résumé de texte alors X nécessite des données étiquetées.
+L'apprentissage supervisé est-il utilisé pour entraîner le modèle de pointe de résumé de texte ?
+<ATTENDURESULTAT>
+Q: L'apprentissage supervisé est-il utilisé pour entraîner le modèle de pointe de résumé de texte ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_141>
+Si X est drôle alors X est populaire.
+Si X est laid alors X n’est pas populaire.
+Si X est aimé des enfants alors X est drôle.
+Si X est issu des Simpson alors X est aimé des enfants.
+Si X est jaune alors X est issu des Simpson.
+Ben est issu des Simpson xor Ben est drôle.
+Ben est laid ou Ben est jaune ?
+<ATTENDURESULTAT>
+Q: Ben est laid ou Ben est jaune ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_142>
+Si X est drôle alors X est populaire.
+Si X est laid alors X n’est pas populaire.
+Si X est aimé des enfants alors X est drôle.
+Si X est issu des Simpson alors X est aimé des enfants.
+Si X est jaune alors X est issu des Simpson.
+Ben est issu des Simpson xor Ben est drôle.
+Ben est jaune et Ben est laid xor Ben n’est pas jaune et Ben n’est pas laid ?
+<ATTENDURESULTAT>
+Q: Ben est jaune et Ben est laid xor Ben n'est pas jaune et Ben n'est pas laid ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_143>
+L'élevage de reconstitution est une forme de sélection artificielle.
+L'élevage de reconstitution est par l'élevage sélectif délibéré d'animaux domestiques.
+Le bétail de Heck a été élevé de manière rétrograde dans les années 1920.
+Le bétail de Heck a été élevé de manière rétrograde pour ressembler à l'aurochs.
+Le bétail de Heck sont des animaux.
+Les aurochs sont des animaux.
+Certains animaux à élever de manière rétrograde ressemblent à des animaux qui sont éteints.
+Si X est un bétail de Heck alors X est un animal.
+Si X est un aurochs alors X est un animal.
+Certains bétail de Heck sont artificiellement sélectionnés ?
+<ATTENDURESULTAT>
+Q: Certains bétail de Heck sont artificiellement sélectionnés ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_144>
+L'élevage de reconstitution est une forme de sélection artificielle.
+L'élevage de reconstitution est par l'élevage sélectif délibéré d'animaux domestiques.
+Le bétail de Heck a été élevé de manière rétrograde dans les années 1920.
+Le bétail de Heck a été élevé de manière rétrograde pour ressembler à l'aurochs.
+Le bétail de Heck sont des animaux.
+Les aurochs sont des animaux.
+Certains animaux à élever de manière rétrograde ressemblent à des animaux qui sont éteints.
+Si X est un bétail de Heck alors X est un animal.
+Si X est un aurochs alors X est un animal.
+Les aurochs sont éteints ?
+<ATTENDURESULTAT>
+Q: Les aurochs sont éteints ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_145>
+Si X est un étudiant, alors X est un humain.
+Si X étudie, alors X est un étudiant.
+X étudie xor X enseigne.
+Si X est jeune, alors X n'enseigne pas.
+Jerry n'enseigne pas et Jerry n'est pas un manager.
+Rose est jeune ou Rose est une étudiante.
+Jerry est jeune?
+<ATTENDURESULTAT>
+Q: Jerry est jeune ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_146>
+Si X est un étudiant, alors X est un humain.
+Si X étudie, alors X est un étudiant.
+X étudie xor X enseigne.
+Si X est jeune, alors X n'enseigne pas.
+Jerry n'enseigne pas et Jerry n'est pas un manager.
+Rose est jeune ou Rose est une étudiante.
+Jerry n'est pas jeune?
+<ATTENDURESULTAT>
+Q: Jerry n'est pas jeune ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_147>
+Si X est un étudiant, alors X est un humain.
+Si X étudie, alors X est un étudiant.
+X étudie xor X enseigne.
+Si X est jeune, alors X n'enseigne pas.
+Jerry n'enseigne pas et Jerry n'est pas un manager.
+Rose est jeune ou Rose est une étudiante.
+Rose est un humain ou un manager ?
+<ATTENDURESULTAT>
+Q: Rose est un humain ou un manager ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_148>
+Si X est un étudiant, alors X est un humain.
+Si X est jeune, alors X n'enseigne pas.
+X étudie xor X enseigne.
+Jerry n'enseigne pas et Jerry n'est pas un manager.
+Rose est jeune ou Rose est une étudiante.
+Rose est un humain ou Jerry est un manager ?
+<ATTENDURESULTAT>
+Q: Rose est un humain ou Jerry est un manager ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_149>
+Jerry n'enseigne pas et Jerry n'est pas un manager.
+Rose est jeune ou Rose est une étudiante.
+Si X est un étudiant, alors X est un humain.
+Si X est jeune, alors X n'enseigne pas.
+X étudie xor X enseigne.
+Si quelqu'un étudie, alors il est un étudiant.
+(Rose n'est pas une étudiante ou Jerry n'est pas un humain)?
+<ATTENDURESULTAT>
+Q: ( Rose n'est pas une étudiante ou Jerry n'est pas un humain ) ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_150>
+New Vessel Press est une maison d'édition.
+New Vessel Press se spécialise dans la traduction de littérature étrangère en anglais.
+Les Chroniques napolitaines sont un livre.
+Les Chroniques napolitaines sont publiées par New Vessel Press.
+Les Chroniques napolitaines ont été traduites de l'italien.
+Le Palais des mouches est un livre.
+Le Palais des mouches est publié par New Vessel Press.
+Si X est un livre publié par New Vessel Press alors X est en anglais.
+Les Chroniques napolitaines sont un livre en anglais ?
+<ATTENDURESULTAT>
+Q: Les Chroniques napolitaines sont un livre en anglais ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_151>
+New Vessel Press est une maison d'édition.
+New Vessel Press se spécialise dans la traduction de littérature étrangère en anglais.
+Les Chroniques napolitaines sont un livre.
+Les Chroniques napolitaines sont publiées par New Vessel Press.
+Les Chroniques napolitaines ont été traduites de l'italien.
+Le Palais des mouches est un livre.
+Le Palais des mouches est publié par New Vessel Press.
+Si X est un livre publié par New Vessel Press alors X est en anglais.
+Harry Potter a été publié par New Vessel Press ?
+<ATTENDURESULTAT>
+Q: Harry Potter a été publié par New Vessel Press ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_152>
+New Vessel Press est une maison d'édition.
+New Vessel Press se spécialise dans la traduction de littérature étrangère en anglais.
+Les Chroniques napolitaines sont un livre.
+Les Chroniques napolitaines sont publiées par New Vessel Press.
+Les Chroniques napolitaines ont été traduites de l'italien.
+Le Palais des mouches est un livre.
+Le Palais des mouches est publié par New Vessel Press.
+Si X est un livre publié par New Vessel Press, alors X est en anglais.
+Le Palais des mouches a-t-il été traduit de l'italien ?
+<ATTENDURESULTAT>
+Q: Le Palais des mouches a-t-il été traduit de l'italien ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_153>
+Si X possède un grand moniteur de bureau à la maison, alors X travaille régulièrement à la maison et X travaille souvent à la maison.
+Si X a un bureau à domicile entièrement approvisionné et impressionnant, alors X possède un grand moniteur de bureau à la maison.
+Si X travaille régulièrement à la maison et X travaille souvent à la maison, alors X passe son temps libre à ranger et organiser les espaces de sa maison.
+Si X travaille régulièrement à la maison et X travaille souvent à la maison, alors X visite régulièrement le magasin de fournitures de bureau.
+Si X passe son temps libre à ranger et organiser les espaces de sa maison, alors X ne se couche pas tard et X ne se lève pas tous les jours après midi.
+Si Rémi se couche tard et Rémi se lève tous les jours après midi alors Rémi passe son temps libre à ranger et organiser les espaces de sa maison.
+Si Rémi passe son temps libre à ranger et organiser les espaces de sa maison alors Rémi se couche tard et Rémi se lève tous les jours après midi.
+Rémi visite-t-il régulièrement le magasin de fournitures de bureau ?
+<ATTENDURESULTAT>
+Q: Rémi visite-t-il régulièrement le magasin de fournitures de bureau ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_154>
+Si X possède un grand moniteur d'ordinateur de bureau à la maison, alors X travaille régulièrement à la maison et X travaille souvent à la maison.
+Si X a un bureau à domicile entièrement approvisionné et impressionnant, alors X possède un grand moniteur d'ordinateur de bureau à la maison.
+Si X travaille régulièrement à la maison et X travaille souvent à la maison, alors X passe son temps libre à ranger et organiser les espaces de sa maison.
+Si X travaille régulièrement à la maison et X travaille souvent à la maison, alors X visite régulièrement le magasin de fournitures de bureau.
+Si X passe son temps libre à ranger et organiser les espaces de sa maison, alors X ne se couche pas tard et X ne se lève pas tous les jours après midi.
+Si Rémi se couche tard alors Rémi se lève tous les jours après midi.
+Si Rémi se lève tous les jours après midi alors Rémi passe son temps libre à ranger et organiser les espaces de sa maison.
+Rémi a un bureau à domicile entièrement approvisionné et impressionnant et visite aussi régulièrement le magasin de fournitures de bureau ?
+<ATTENDURESULTAT>
+Q: Rémi a un bureau à domicile entièrement approvisionné et impressionnant et visite aussi régulièrement le magasin de fournitures de bureau ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_155>
+Si X possède un grand moniteur d’ordinateur de bureau à son domicile, alors X travaille régulièrement et souvent à domicile.
+Si X a un bureau à domicile bien équipé et impressionnant, alors X possède un grand moniteur d’ordinateur de bureau à son domicile.
+Si X travaille régulièrement et souvent à domicile, alors X passe son temps libre à ranger et organiser les espaces dans sa maison.
+Si X travaille régulièrement et souvent à domicile, alors X va régulièrement au magasin de fournitures de bureau.
+Si X passe son temps libre à ranger et organiser les espaces dans sa maison, alors X ne va pas se coucher tard et ne se réveille pas chaque jour après midi.
+Remy passe son temps libre à ranger et organiser les espaces dans sa maison et va se coucher tard et se réveille chaque jour après midi xor Remy ne passe pas son temps libre à ranger et organiser les espaces dans sa maison et ne va pas se coucher tard et ne se réveille pas chaque jour après midi.
+((non (Remy va se coucher tard et se réveille chaque jour après midi) xor Remy va régulièrement au magasin de fournitures de bureau) ou (Remy ne passe pas son temps libre à ranger et organiser les espaces dans sa maison et Remy ne possède pas un bureau à domicile bien équipé et impressionnant))?
+<ATTENDURESULTAT>
+Q: (  ( non  ( Remy va se coucher tard et se réveille chaque jour après midi )  xor Remy va régulièrement au magasin de fournitures de bureau )  ou  ( Remy ne passe pas son temps libre à ranger et organiser les espaces dans sa maison et Remy ne possède pas un bureau à domicile bien équipé et impressionnant )  ) ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_156>
+Si X est un humain alors X est mortel.
+Si X est un Grec alors X est un humain.
+Certains Grecs sont mortels ?
+<ATTENDURESULTAT>
+Q: Certains Grecs sont mortels ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_157>
+James est un étudiant qui travaille au laboratoire.
+Jack n'a pas d'emploi à temps partiel offert par l'université et Jack ne travaille pas au laboratoire.
+Si X travaille à la bibliothèque, alors X n'est pas du département d'informatique.
+Si X a un emploi à temps partiel offert par l'université, alors X travaille à la bibliothèque.
+Si X suit le cours de base de données, alors X est du département d'informatique.
+Si X est encadré par le professeur David, alors X suit le cours de base de données.
+Si X travaille au laboratoire, alors X est encadré par le professeur David.
+James a  un emploi à temps partiel offert par l'université ?
+<ATTENDURESULTAT>
+Q: James a  un emploi à temps partiel offert par l'université ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_158>
+James est un étudiant qui travaille au laboratoire.
+Jack n'a pas d'emploi à temps partiel offert par l'université et Jack ne travaille pas au laboratoire.
+Si X travaille à la bibliothèque, alors X n'est pas du département d'informatique.
+Si X a un emploi à temps partiel offert par l'université, alors X travaille à la bibliothèque.
+Si X suit le cours de base de données, alors X est du département d'informatique.
+Si X est encadré par le professeur David, alors X suit le cours de base de données.
+Si X travaille au laboratoire, alors X est encadré par le professeur David.
+James n'a pas un emploi à temps partiel offert par l'université ?
+<ATTENDURESULTAT>
+Q: James n'a pas un emploi à temps partiel offert par l'université ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_159>
+James est un étudiant travaillant dans le laboratoire.
+Jack n'a pas d'emploi à temps partiel offert par l'université et Jack ne travaille pas dans le laboratoire.
+Si X travaille à la bibliothèque alors X n'est pas du département d'informatique.
+Si X a un emploi à temps partiel offert par l'université alors X travaille à la bibliothèque.
+Si X suit le cours de bases de données alors X est du département d'informatique.
+Si X est enseigné par le professeur David alors X suit le cours de bases de données.
+Si X travaille dans le laboratoire alors X est enseigné par le professeur David.
+James suit le cours de bases de données xor James a un emploi à temps partiel offert par l'université ?
+<ATTENDURESULTAT>
+Q: James suit le cours de bases de données xor James a un emploi à temps partiel offert par l'université ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_160>
+James est un étudiant travaillant dans le laboratoire.
+Jack n'a pas d'emploi à temps partiel offert par l'université et Jack ne travaille pas dans le laboratoire.
+Si X travaille à la bibliothèque alors X n'est pas du département d'informatique.
+Si X a un emploi à temps partiel offert par l'université alors X travaille à la bibliothèque.
+Si X suit le cours de bases de données alors X est du département d'informatique.
+Si X est enseigné par le professeur David alors X suit le cours de bases de données.
+Si X travaille dans le laboratoire alors X est enseigné par le professeur David.
+James suit le cours de bases de données ?
+<ATTENDURESULTAT>
+Q: James suit le cours de bases de données ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_161>
+Si X aime la musique, X veut composer.
+Si X a accès à un programme, X peut composer.
+Si X peut composer et X veut composer, X composera.
+Si George aime la musique et a accès à un programme, il composera ?
+<ATTENDURESULTAT>
+Q: Si George aime la musique et a accès à un programme, il composera ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_162>
+Si George aime la musique, George veut composer.
+Si George a accès à un programme, George peut composer.
+Si George peut composer et George veut composer, George composera.
+Si George n'a pas composé, George ne peut pas composer ?
+<ATTENDURESULTAT>
+Q: Si George n'a pas composé, George ne peut pas composer ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_163>
+Si X est un faucon alors X ne se pose jamais.
+Certains oiseaux sont des faucons.
+Si X est un oiseau alors X se pose?
+<ATTENDURESULTAT>
+Q: Si X est un oiseau alors X se pose ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_164>
+Certains lundis à 20h, des roses sont distribuées à la télévision.
+Breaking Bad n'est pas une émission de télé-réalité.
+Si X est une rose distribuée à la télévision, alors X est dans le Bachelor.
+Si X est dans le Bachelor, alors X décrit la vie de personnes réelles.
+Si X décrit la vie de personnes réelles, alors X est une émission de télé-réalité.
+Breaking Bad est diffusé le lundi à 20h ?
+<ATTENDURESULTAT>
+Q: Breaking Bad est diffusé le lundi à 20h ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_165>
+Certains lundis à 20h, des roses sont distribuées à la télévision.
+Breaking Bad n'est pas une émission de télé-réalité.
+Si X est une rose distribuée à la télévision, alors X est dans le Bachelor.
+Si X est dans le Bachelor, alors X décrit la vie de personnes réelles.
+Si X décrit la vie de personnes réelles, alors X est une émission de télé-réalité.
+Breaking Bad est une émission de télévision dans laquelle des roses sont distribuées le lundi à 20h ?
+<ATTENDURESULTAT>
+Q: Breaking Bad est une émission de télévision dans laquelle des roses sont distribuées le lundi à 20h ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_167>
+Heinrich Schmidt était un homme politique nazi allemand.
+Heinrich Schmidt était membre du Parlement d'État prussien.
+Heinrich Schmidt était membre du Reichstag nazi.
+Heinrich Schmidt était allemand xor Heinrich Schmidt était russe ?
+<ATTENDURESULTAT>
+Q: Heinrich Schmidt était allemand xor Heinrich Schmidt était russe ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_168>
+Heinrich Schmidt était un homme politique nazi allemand.
+Heinrich Schmidt était membre du Parlement d'État prussien.
+Heinrich Schmidt était membre du Reichstag nazi.
+Certains hommes politiques nazis allemands faisaient partie à la fois du Parlement d'État prussien et du Reichstag nazi ?
+<ATTENDURESULTAT>
+Q: Certains hommes politiques nazis allemands faisaient partie du Parlement d'État prussien et du Reichstag nazi ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_169>
+Heinrich Schmidt était un politicien nazi allemand.
+Heinrich Schmidt était membre du Parlement d'État prussien.
+Heinrich Schmidt était membre du Reichstag nazi.
+Aucun politicien ne fait partie du Reichstag nazi ?
+<ATTENDURESULTAT>
+Q: Aucun politicien ne fait partie du Reichstag nazi ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_170>
+Si X est une maladie mortelle, alors le taux de survie de X est faible.
+Si X est un cancer sévère, alors X est une maladie mortelle.
+Le cancer des voies biliaires est un cancer sévère.
+Si X est un cholangiocarcinome, alors X est un cancer des voies biliaires.
+Si une personne a une grippe légère, alors la personne n'a pas un faible taux de survie.
+Si le cancer colorectal est un cancer des voies biliaires et le taux de survie est faible, alors le cancer colorectal n'est pas un cancer des voies biliaires.
+Le cancer colorectal est un cancer sévère ?
+<ATTENDURESULTAT>
+Q: Le cancer colorectal est un cancer sévère ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_171>
+Si X est une maladie mortelle, alors le taux de survie de X est faible.
+Si X est un cancer grave, alors X est une maladie mortelle.
+Le cancer des voies biliaires est un cancer grave.
+Si X est un cholangiocarcinome, alors X est un cancer des voies biliaires.
+Si une personne a une grippe légère, alors la personne n'a pas un taux de survie faible.
+Si le cancer colorectal est un cancer des voies biliaires et le taux de survie est faible, alors le cancer colorectal n'est pas un cancer des voies biliaires.
+Si le cancer colorectal est un cancer des voies biliaires xor le cancer colorectal est un cholangiocarcinome alors le cancer colorectal est un cancer des voies biliaires et une grippe légère?
+<ATTENDURESULTAT>
+Q: Si le cancer colorectal est un cancer des voies biliaires xor le cancer colorectal est un cholangiocarcinome alors le cancer colorectal est un cancer des voies biliaires et une grippe légère ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_172>
+Si X est une maladie mortelle, alors le taux de survie de X est faible.
+Si X est un cancer sévère, alors X est une maladie mortelle.
+Si X est un cholangiocarcinome, alors X est un cancer des voies biliaires.
+Si X a une grippe légère, alors X n'a pas un faible taux de survie.
+Si le cancer colorectal est un cancer des voies biliaires et le taux de survie est faible, alors le cancer colorectal n'est pas un cancer des voies biliaires.
+Le cancer des voies biliaires est un cancer sévère.
+Si le cancer colorectal n'est pas une grippe légère et un cholangiocarcinome, alors le cancer colorectal est un cancer des voies biliaires xor le cancer colorectal est un cholangiocarcinome ?
+<ATTENDURESULTAT>
+Q: Si le cancer colorectal n'est pas une grippe légère et un cholangiocarcinome, alors le cancer colorectal est un cancer des voies biliaires xor le cancer colorectal est un cholangiocarcinome ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_173>
+Taylor a grandi dans un foyer d’enfance soucieux de la santé et Taylor a une bonne relation avec ses parents xor Taylor n’a pas grandi dans un foyer d’enfance soucieux de la santé et Taylor n’a pas une bonne relation avec ses parents.
+Si X mange des salades régulièrement alors X est très conscient de sa santé.
+Si X mange des salades régulièrement alors X est très conscient de ses habitudes alimentaires.
+Si X a grandi dans un foyer d’enfance soucieux de la santé alors X mange des salades régulièrement.
+Si X remplit ses apports nutritionnels quotidiens alors X a grandi dans un foyer d’enfance soucieux de la santé.
+Si X a une bonne relation avec ses parents alors X remplit ses apports nutritionnels quotidiens.
+Si X a une bonne relation avec ses parents alors X ne mange pas des salades régulièrement.
+Si X va à la salle de sport au moins une fois par jour alors X remplit toujours ses apports nutritionnels quotidiens.
+Taylor mange des salades régulièrement ?
+<ATTENDURESULTAT>
+Q: Taylor mange des salades régulièrement ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_177>
+Les Jeux Olympiques sont un événement sportif.
+Les derniers Jeux Olympiques étaient à Tokyo.
+Les États-Unis ont remporté le plus de médailles à Tokyo.
+Les derniers Jeux Olympiques n'étaient pas à Tokyo ?
+<ATTENDURESULTAT>
+Q: Les derniers Jeux Olympiques n'étaient pas à Tokyo ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_178>
+Les Jeux Olympiques sont un événement sportif.
+Les derniers Jeux Olympiques étaient à Tokyo.
+Les États-Unis ont remporté le plus de médailles à Tokyo.
+Les États-Unis ont remporté le plus de médailles lors des derniers Jeux Olympiques ?
+<ATTENDURESULTAT>
+Q: Les États-Unis ont remporté le plus de médailles lors des derniers Jeux Olympiques ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_179>
+Si X est un cheval alors X a des sabots.
+Si X est un humain alors X n'a pas de sabots.
+Certains humains sont des chevaux ?
+<ATTENDURESULTAT>
+Q: Certains humains sont des chevaux ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_180>
+Susan vole vers l'aéroport LGA.
+Le départ xor l'arrivée est LGA.
+John vole de l'aéroport LGA.
+Susan vole de l'aéroport LGA ?
+<ATTENDURESULTAT>
+Q: Susan vole de l'aéroport LGA ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_181>
+Susan vole vers l'aéroport LGA.
+Le départ xor l'arrivée est LGA.
+John vole de l'aéroport LGA.
+John vole vers l'aéroport LGA ?
+<ATTENDURESULTAT>
+Q: John vole vers l'aéroport LGA ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_182>
+Certaines personnes grincheuses sont méchantes avec les animaux.
+Tom est propriétaire d'un animal de compagnie.
+Si X est gentil avec les animaux, alors X n'est pas méchant avec les animaux.
+Si X est un amoureux des animaux, alors X est gentil avec les animaux.
+Tom est une personne grincheuse ?
+<ATTENDURESULTAT>
+Q: Tom est une personne grincheuse ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_183>
+Certaines personnes grincheuses sont méchantes avec les animaux.
+Tom est propriétaire d'un animal de compagnie.
+Si X est gentil avec les animaux, alors X n'est pas méchant avec les animaux.
+Si X est un amoureux des animaux, alors X est gentil avec les animaux.
+Si X possède un animal de compagnie, alors X aime les animaux.
+Tom n'est pas une personne grincheuse et méchante avec les animaux ?
+<ATTENDURESULTAT>
+Q: Tom n'est pas une personne grincheuse et méchante avec les animaux ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_184>
+Certaines personnes grincheuses sont méchantes avec les animaux.
+Tom est propriétaire d'un animal de compagnie.
+Si X est gentil avec les animaux, alors X n'est pas méchant avec les animaux.
+Si X est un amoureux des animaux, alors X est gentil avec les animaux.
+Si X possède un animal de compagnie, alors X aime les animaux.
+Si Tom n'est pas une personne grincheuse et méchant avec les animaux, alors Tom n'est ni une personne grincheuse ni un amoureux des animaux ?
+<ATTENDURESULTAT>
+Q: Si Tom n'est pas une personne grincheuse et méchant avec les animaux, alors Tom n'est pas une personne grincheuse et un amoureux des animaux ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_185>
+Un podcast n'est pas un roman.
+Si X est née dans une ville américaine, alors X est américaine.
+Si X est un roman et X est écrit par Y, alors Y est un écrivain de romans.
+Dani Shapiro est une écrivaine américaine.
+Histoire de famille est écrit par Dani Shapiro.
+Histoire de famille est un roman.
+Histoire de famille est écrit en 2003.
+Dani Shapiro a créé un podcast.
+Le podcast est appelé Secrets de famille.
+Boston est une ville américaine.
+Dani Shapiro est une écrivaine de romans ?
+<ATTENDURESULTAT>
+Q: Dani Shapiro est une écrivaine de romans ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_186>
+Un podcast n'est pas un roman.
+Si X est née dans une ville américaine, alors X est américaine.
+Si X est un roman et X est écrit par Y, alors Y est un écrivain de romans.
+Dani Shapiro est une écrivaine américaine.
+Histoire de famille est écrit par Dani Shapiro.
+Histoire de famille est un roman.
+Histoire de famille est écrit en 2003.
+Dani Shapiro a créé un podcast.
+Le podcast est appelé Secrets de famille.
+Boston est une ville américaine.
+Secrets de famille est un roman ?
+<ATTENDURESULTAT>
+Q: Secrets de famille est un roman ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_187>
+Un podcast n'est pas un roman.
+Si X est née dans une ville américaine, alors X est américaine.
+Si X est un roman et X est écrit par Y, alors Y est un écrivain de romans.
+Dani Shapiro est une écrivaine américaine.
+Histoire de famille est écrit par Dani Shapiro.
+Histoire de famille est un roman.
+Histoire de famille est écrit en 2003.
+Dani Shapiro a créé un podcast.
+Le podcast est appelé Secrets de famille.
+Boston est une ville américaine.
+Dani Shapiro est née à Boston ?
+<ATTENDURESULTAT>
+Q: Dani Shapiro est née à Boston ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_188>
+Certains joueurs de basket ne sont pas américains.
+Yuri ne porte pas de vêtements de grande taille.
+Si X est un joueur de basket, alors X est grand.
+Si X est grand, alors X porte des chaussures de grande taille.
+Si X porte des chaussures de grande taille, alors X porte des vêtements de grande taille.
+Yuri est un américain?
+<ATTENDURESULTAT>
+Q: Yuri est un américain ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_189>
+Certains joueurs de basket ne sont pas américains.
+Yuri ne porte pas de vêtements de grande taille.
+Si X est un joueur de basket, alors X est grand.
+Si X est grand, alors X porte des chaussures de grande taille.
+Si X porte des chaussures de grande taille, alors X porte des vêtements de grande taille.
+Yuri n’est pas un joueur de basket américain ?
+<ATTENDURESULTAT>
+Q: Yuri n'est pas un joueur de basket américain ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_190>
+Certains joueurs de basket ne sont pas américains.
+Yuri ne porte pas de vêtements de grande taille.
+Si X est un joueur de basket, alors X est grand.
+Si X est grand, alors X porte des chaussures de grande taille.
+Si X porte des chaussures de grande taille, alors X porte des vêtements de grande taille.
+Yuri est  un joueur de basket américain ?
+<ATTENDURESULTAT>
+Q: Yuri est  un joueur de basket américain ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_191>
+Certains joueurs de basket ne sont pas américains.
+Yuri ne porte pas de vêtements de grande taille.
+Si X est un joueur de basket, alors X est grand.
+Si X est grand, alors X porte des chaussures de grande taille.
+Si X porte des chaussures de grande taille, alors X porte des vêtements de grande taille.
+Si Yuri ne porte pas des chaussures de grande taille, alors Yuri est  un joueur de basket américain ?
+<ATTENDURESULTAT>
+Q: Si Yuri ne porte pas des chaussures de grande taille, alors Yuri est  un joueur de basket américain ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_192>
+Certains joueurs de basket ne sont pas américains.
+Yuri ne porte pas de vêtements de grande taille.
+Si X est un joueur de basket, alors X est grand.
+Si X est grand, alors X porte des chaussures de grande taille.
+Si X porte des chaussures de grande taille, alors X porte des vêtements de grande taille.
+Si Yuri n'est  pas un joueur de basket américain, alors Yuri est un joueur de basket?
+<ATTENDURESULTAT>
+Q: Si Yuri n'est  pas un joueur de basket américain, alors Yuri est un joueur de basket ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_193>
+Certains événements sont heureux.
+Si X est un événement, alors X est heureux xor X est triste.
+Tous les événements sont tristes ?
+<ATTENDURESULTAT>
+Q: Tous les événements sont tristes ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_194>
+La gagnante du Classique du Maurier 1992 était Steinhauer.
+Steinhauer a participé au Classique du Maurier 1992.
+Certains sur le tableau des scores du Classique du Maurier 1992 étaient en égalité à six.
+Certains parmi ces six sur le tableau des scores du Classique du Maurier 1992 étaient belges.
+Descampe est belge.
+Descampe figure sur le tableau des scores du Classique du Maurier 1992.
+Si X figure sur le tableau des scores du Classique du Maurier 1992, alors X a participé au Classique du Maurier 1992.
+Steinhauer était la gagnante du Classique du Maurier 1992?
+<ATTENDURESULTAT>
+Q: Steinhauer était la gagnante du Classique du Maurier 1992 ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_195>
+La gagnante du Classic du Maurier 1992 était Steinhauer.
+Steinhauer a participé au Classic du Maurier 1992.
+Il y avait une égalité à six sur le tableau des scores du Classic du Maurier 1992.
+Une personne de l'égalité à six sur le tableau des scores du Classic du Maurier 1992 était belge.
+Descampe est belge.
+Descampe est sur le tableau des scores du Classic du Maurier 1992.
+Si X est sur le tableau des scores du Classic du Maurier 1992 alors X a participé au Classic du Maurier 1992.
+Descampe fait partie de l'égalité à six sur le tableau des scores du Classic du Maurier 1992 ?
+<ATTENDURESULTAT>
+Q: Descampe fait partie de l'égalité à six sur le tableau des scores du Classic du Maurier 1992 ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_196>
+Si X aboie, alors Jane ne aime pas X.
+Si X est un chien alors X aboie.
+Si X saute, alors Jane aime X.
+Si X a des pattes, alors X saute.
+Si X est terrestre, alors X a des pattes.
+Si KiKi ne saute pas et KiKi n'a pas de pattes, alors KiKi est terrestre xor KiKi a des pattes.
+KiKi est terrestre?
+<ATTENDURESULTAT>
+Q: KiKi est terrestre ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_197>
+Si X aboie, alors Jane ne aime pas X.
+Si X est un chien alors X aboie.
+Si X saute, alors Jane aime X.
+Si X a des pattes, alors X saute.
+Si X est terrestre, alors X a des pattes.
+Si KiKi ne saute pas et KiKi n'a pas de pattes, alors KiKi est terrestre xor KiKi a des pattes.
+KiKi aboie et KiKi est  un chien ?
+<ATTENDURESULTAT>
+Q: KiKi aboie et KiKi est  un chien ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_198>
+Si X aboie, alors Jane ne aime pas X.
+Si X est un chien alors X aboie.
+Si X saute, alors Jane aime X.
+Si X a des pattes, alors X saute.
+Si X est terrestre, alors X a des pattes.
+Si KiKi ne saute pas et KiKi n'a pas de pattes, alors KiKi est terrestre xor KiKi a des pattes.
+KiKi n'aboie pas et KiKi n'est pas un chien ?
+<ATTENDURESULTAT>
+Q: KiKi n'aboie pas et KiKi n'est pas un chien ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_199>
+Ailton Silva est né en 1995.
+Ailton Silva est communément connu sous le nom d'Ailton.
+Ailton est un joueur de football.
+Ailton a été prêté à Braga.
+Ailton est un footballeur brésilien.
+Ailton joue pour Nautico.
+Nautico est un club de football.
+Braga est un club de football.
+Fluminense est un club de football.
+Ailton ne joue pas pour un club de football ?
+<ATTENDURESULTAT>
+Q: Ailton ne joue pas pour un club de football ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_200>
+Ailton Silva est communément connu sous le nom d'Ailton.
+Ailton est un joueur de football.
+Ailton a été prêté à Braga.
+Ailton est un footballeur brésilien.
+Ailton joue pour Nautico.
+Nautico est un club de football.
+Braga est un club de football.
+Fluminense est un club de football.
+Ailton ne joue pas pour un club de football ?
+<ATTENDURESULTAT>
+Q: Ailton ne joue pas pour un club de football ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_201>
+Ailton Silva est né en 1995.
+Ailton Silva est communément connu sous le nom d'Ailton.
+Ailton est un joueur de football.
+Ailton a été prêté à Braga.
+Ailton est un footballeur brésilien.
+Ailton joue pour Nautico.
+Nautico est un club de football.
+Braga est un club de football.
+Fluminense est un club de football.
+Ailton n'a pas été prêté à un club de football ?
+<ATTENDURESULTAT>
+Q: Ailton n'a pas été prêté à un club de football ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_202>
+Ailton Silva est né en 1995.
+Ailton Silva est communément connu sous le nom d'Ailton.
+Ailton est un joueur de football.
+Ailton a été prêté à Braga.
+Ailton est un footballeur brésilien.
+Ailton joue pour Nautico.
+Nautico est un club de football.
+Braga est un club de football.
+Fluminense est un club de football.
+Ailton a joué pour Fluminense ?
+<ATTENDURESULTAT>
+Q: Ailton a joué pour Fluminense ?
+R: Non.
+</ATTENDURESULTAT>
+</TEST>
+
+<TEST dev_203>
+Ailton Silva est né en 1995.
+Ailton Silva est communément connu sous le nom d'Ailton.
+Ailton est un joueur de football.
+Ailton a été prêté à Braga.
+Ailton est un footballeur brésilien.
+Ailton joue pour Nautico.
+Nautico est un club de football.
+Braga est un club de football.
+Fluminense est un club de football.
+Ailton a été prêté à un club de football ?
+<ATTENDURESULTAT>
+Q: Ailton a été prêté à un club de football ?
+R: Oui.
+</ATTENDURESULTAT>
+</TEST>
