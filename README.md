@@ -17,7 +17,8 @@ and ProntoQA.
 
 **eXa** integrates:
 -  **Symbolic parser:** `eXaSem` module (semantic analysis)  
--  **Prolog meta-interpreter:** `eXaLog` module (logical reasoning)  
+-  **Prolog meta-interpreter:** `eXaLog` module (logical reasoning)
+-  **Second order interpreter:** `eXaMeta` module (metalogical reasoning)
 -  **Relational learner:** `eXaGol` module (optional hypothesis generation)
 
 ---
