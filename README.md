@@ -7,20 +7,15 @@
 
 ---
 
-##  What is eXa-LM?
+##  What is eXa?
 
-eXa is a controlled natural language interface
+`eXa` is a controlled natural language interface
 that translates controlled French text into executable First-Order Logic programs.
 It connects natural-language reasoning with symbolic inference
 and supports evaluation on logic benchmarks such as FOLIO, ProofWriter,
 and ProntoQA.
 
-Modules included:
-- eXaSem: symbolic parser for semantic analysis
-- eXaLog: Prolog meta-interpreter for logical reasoning
-- eXaGol: optional relational learner for hypothesis generation
-
-Internally, eXa integrates:
+`eXa` integrates:
 -  **Symbolic parser:** `eXaSem` module (semantic analysis)  
 -  **Prolog meta-interpreter:** `eXaLog` module (logical reasoning)  
 -  **Relational learner:** `eXaGol` module (optional hypothesis generation)
