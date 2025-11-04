@@ -1,0 +1,43 @@
+Merci d'effectuer les actions suivantes en respectant strictement l'ordre indiqué. A chaque étape, appliquer les instructions au résultat complet de l'étape précédente.
+Traduire le texte ci-dessous en français, en utilisant toujours la même traduction pour chaque mot et expression. Lorsque deux formes sont équivalentes, conserver la plus simple. 
+Lorsque plusieurs expressions plus ou moins spécifiques sont, dans le contexte, synonymes, uniformiser en conservant l'expression la plus spécifique.
+Exemple: carte, identité, carte d'identité, carte nationale d'identité -> carte nationale d'identité.
+Traduire le titre des oeuvres mentionnées.
+
+
+I - TRAITEMENT DE LA QUESTION:
+I.1 - Isoler la question traduite.
+I.2 - Lorsqu'une expression de la question correspond à un ou exclusif, la réécrire en utilisant "xor".
+      Exemple 1 : "Un véhicule est soit une voiture soit un vélo ?" -> Un véhicule est une voiture xor un véhicule est un vélo ?"
+  Exemple 2 : "Si Jean aime soit la viande soit les légumes alors Jean aime soit les fraises soit les pommes ? ->  Si Jean aime la viande xor Jean aime les légumes alors Jean aime les fraises xor Jean aime les pommes ?"
+I.3 - Lorsque la question est une règle "Si ...  alors ... ", et que sa conclusion contient une conjontion ("et"), une disjonction ("ou"), ou une conjonction de négations ("ni"), il faut la réécrire en utilisant : "Si a alors b -> (( négation de a ) ou ( b )).". Il faut conserver ce parenthésage, tout en distribuant la négation au niveau le plus interne.
+I.4 - Lorsque la question contient un opérateur propositionnel (p.ex : "Il est vrai que...", "Il est faux de dire que..."), il faut l'appliquer à la question,  puis supprimer l'opérateur propositionnel.
+
+Mettre de côté le résultat. Les traitements suivants ne doivent pas affecter la question.
+
+II - TRAITEMENT DES ASSERTIONS:
+II.1 - Décomposer les affirmations du texte traduit en phrases élémentaires, c'est-à-dire comportant un seul verbe (hors verbe auxiliaire), ou en règles (Si ... alors).
+II.2 - Réécrire les phrases commençant par "Tous les" et "Aucun", ainsi que celles dont le sujet est une catégorie générale, sous forme de règle "Si ... alors".
+II.3 - Remplacer les règles de la forme : "Si et seulement si a alors b" par : 
+    Si a alors b. 
+    Si b alors a.
+II.4 - Lorsqu'une expression correspond à un ou exclusif, la réécrire en utilisant "xor".
+II.5 - Remplacer les faits de la forme " a et b et ... xor non a et non b ..." par des règles "Si a alors b. Si b alors a. ..."
+II.6 - Remplacer le sujet de chaque règle "Si ... alors ..." et de chaque fait contenant un xor  par "X" uniquement lorsqu'il désigne une catégorie générale, tout en conservant la structure exacte de la règle.
+II.7- lorsqu'une règle contient des conjonctions (et) de la forme <sujet> <verbe> <complément1> et <complément2>... , les réécrire en suivant la règle:
+    	<sujet> <verbe> <complément1> et <complément2> -> <sujet> <verbe> <complément1> et <sujet> <verbe> <complément2>.
+II.8 - Remplacer "Au moins un" par "Certains".
+II.9 - Dans chaque règle, remplacer les pronoms par le nom ou la variable correspondant et présent dans cette règle.
+II.10 - Eliminer les règles tautologiques, dont l'une des conditions est exactement identique à la conclusion. 
+II.11 - S'il y a des règles de la forme :
+	Si X est un <terme générique2> alors <terme générique1> <verbe d'action> X.
+	ajouter:
+	Si X est un <terme générique2> et Y <verbe d'action> X alors Y est un X.
+II.12 - Lorsqu'une condition d'une règle est une généralisation d'une autre condition de la même règle, la supprimer.
+II.13 - Réunir le résultat complet: faits, règles et question après traitement.
+II.14 - lorsque deux expressions représentent l'une un état (<Verbe être> <Prépostion de lieu> <Groupe nominal>), l'autre une action aboutissant au même état(<Verbe être> <Verbe au participe passé> <Prépostion de lieu> <groupe nominal>),  simplifier en remplaçant la seconde forme par la première. 
+Exemple: "[...] la boîte est posée sur la table [...]" est remplacé par "[...] la boîte est sur la table [...]".
+II.15 - Lorsqu'il n'y a aucun fait dans les assertions (que des règles), et que la question est de la forme "Tous les A sont des B.", réécrire la question sous la forme de règle: "Si X est un A alors X est un B."
+II.16 - Lorsqu'une une équivalence, une synonymie ou un alias entre deux dénominations sont explicités, unifier dans toutes les règles, faits et question.
+
+[INSERT THE TEXT TO PROCESS HERE]
