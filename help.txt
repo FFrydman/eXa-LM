@@ -19,11 +19,6 @@ LICENSE INFORMATION
 eXa-LM is distributed under the MIT License.
 You may use, modify, and redistribute it provided this notice is retained.
 
-The package includes an embedded SWI-Prolog executable.
-SWI-Prolog is © Jan Wielemaker and contributors,
-distributed under the Simplified BSD License.
-See: https://www.swi-prolog.org/license.html
-
 ============================================================
 REQUIREMENTS
 ============================================================
@@ -32,6 +27,10 @@ REQUIREMENTS
   If not installed, download:
   Microsoft Access Database Engine 2016 (ACE, x64)
   https://www.microsoft.com/en-us/download/details.aspx?id=54920
+- SWI-Prolog 9.2 or later
+  If not installed, download:
+  SWI-Prolog for Microsoft Windows (64 bit)
+  https://www.swi-prolog.org/download/stable
 
 ============================================================
 INSTALLATION

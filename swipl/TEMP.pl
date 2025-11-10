@@ -7,20 +7,28 @@
 
 :- include('LIBRARY.pl').
 
-estun('Ailton','joueur_de_football',[[],[]],[['NC/NPP'],['NC']],[],[[],[]],'Ailton/NPP Silva/Silva/NPP est/être/V communément/communément/ADV connu/connaître/ADJ|connaître/VPP-* sous/sous/P|sou le nom/nom de Ailton/Ailton/NPP','l').
-estun('Ailton','footballeur',[[],[]],[['NC/NPP'],['NC']],[],[[],[brésilien]],'Ailton/NPP estun/MHYPONYME footballeur/footballeur brésilien/brésilien|brésilien/ADJ-*','l').
-estun('Nautico','club_de_football',[[],[]],[['NC/NPP'],['NC']],[],[[],[]],'Nautico/NPP estun/MHYPONYME club/club de football/football','l').
-estun('Braga','club_de_football',[[],[]],[['NC/NPP'],['NC']],[],[[],[]],'Braga/NPP estun/MHYPONYME club/club de football/football','l').
-estun('Fluminense','club_de_football',[[],[]],[['NC/NPP'],['NC']],[],[[],[]],'Fluminense/NPP estun/MHYPONYME club/club de football/football','l').
-naître('Ailton_Silva',1995,[[],[en]],[['NC/NPP'],['NUM']],[],[[],[]],'Ailton/NPP Silva/Silva/NPP est/être/V né/naître/VPP en/cll/CLO|en/P 1995/1995/NUM','l').
-être('Ailton_Silva','connaître',[[],[sous]],[['NC/NPP'],['ADJ']],['communément'],[[],[]],'Ailton/NPP Silva/Silva/NPP est/être/V communément/communément/ADV connu/connaître/ADJ|connaître/VPP-* sous/sous/P|sou le nom/nom de Ailton/Ailton/NPP','l').
-être('Ailton_Silva','nom_de_Ailton',[[],[sous]],[['NC/NPP'],['NC']],['communément'],[[],[]],'Ailton/NPP Silva/Silva/NPP est/être/V communément/communément/ADV connu/connaître/ADJ|connaître/VPP-* sous/sous/P|sou le nom/nom de Ailton/Ailton/NPP','l').
-prêter('Ailton','Braga',[[],[à]],[['NC/NPP'],['NC/NPP']],[],[[],[]],'Ailton/NPP a/avoir/V été/été|être/VPP prêté/prêter/VPP|prêter/ADJ|prêté à/à/P Braga/Braga/NPP','l').
-jouer('Ailton','Nautico',[[],[pour]],[['NC/NPP'],['NC/NPP']],[],[[],[]],'Ailton/NPP joue/joue|jouer/VS|jouer/V pour/pour/P Nautico/Nautico/NPP','l').
+estun('numpus','wumpus',[[],[]],[['NC'],['NC']],[],[[],[]],'chaque/chaque/DET numpus estun/MHYPONYME wumpus','l').
+estun('wumpus','tumpus',[[],[]],[['NC'],['NC']],[],[[],[]],'chaque/chaque/DET numpus estun/MHYPONYME wumpus','l').
+estun('tumpus','dumpus',[[],[]],[['NC'],['NC']],[],[[],[]],'chaque/chaque/DET tumpus estun/MHYPONYME dumpus','l').
+estun('dumpus','yumpus',[[],[]],[['NC'],['NC']],[],[[],[]],'chaque/chaque/DET dumpus estun/MHYPONYME yumpus','l').
+estun('yumpus','zumpus',[[],[]],[['NC'],['NC']],[],[[],[]],'chaque/chaque/DET yumpus estun/MHYPONYME zumpus','l').
+estun('zumpus','impus',[[],[]],[['NC'],['NC']],[],[[],[]],'chaque/chaque/DET yumpus estun/MHYPONYME zumpus','l').
+estun('impus','rumpus',[[],[]],[['NC'],['NC']],[],[[],[]],'chaque/chaque/DET rumpus estun/MHYPONYME vumpus','l').
+estun('rumpus','vumpus',[[],[]],[['NC'],['NC']],[],[[],[]],'chaque/chaque/DET rumpus estun/MHYPONYME vumpus','l').
+estun('Sam','dumpus',[[],[]],[['NC/NPP'],['NC']],[],[[],[]],'Sam/NPP estun/MHYPONYME dumpus','l').
+not(être('numpus','opaque',[[],[]],[['NC'],['ADJ']],[],[[],[]],'chaque/chaque/DET numpus ne/ne/ADV est/être/V pas/pas|pas/ADV-* opaque/opaque/ADJ','l')).
+être('wumpus','fougueux',[[],[]],[['NC'],['ADJ']],[],[[],[]],'chaque/chaque/DET wumpus est/être/V fougueux/fougueux/ADJ','l').
+être('tumpus','fruité',[[],[]],[['NC'],['ADJ']],[],[[],[]],'les tumpus sont/être/V fruité/fruité/ADJ','l').
+être('dumpus','bois',[[],[en]],[['NC'],['NC']],[],[[],[]],'chaque/chaque/DET dumpus est/être/V en/cll/CLO|en/P bois/boire/V|bois|boire/VIMP','l').
+être('yumpus','bleu',[[],[]],[['NC'],['ADJ']],[],[[],[]],'les yumpus sont/être/V bleus/bleu|bleu/ADJ-*','l').
+épicer('zumpus',[[]],[['NC']],[],[[chaque]],'chaque/chaque/DET zumpus est/être/V épicé/épicer/ADJ|épicer/VPP-*','l').
+not(être('impus','gentil',[[],[]],[['NC'],['ADJ']],[],[[],[]],'chaque/chaque/DET impus ne/ne/ADV est/être/V pas/pas|pas/ADV-* gentil/gentil/ADJ|gentil-*','l')).
+not(être('jompus','terne',[[],[]],[['NC'],['ADJ']],[],[[],[]],'les jompus ne/ne/ADV sont/être/V pas/pas|pas/ADV-* terne/terne/ADJ','l')).
+être('rumpus','terne',[[],[]],[['NC'],['ADJ']],[],[[],[]],'chaque/chaque/DET rumpus est/être/V terne/terne/ADJ','l').
 
 a :-
 setup_call_cleanup(
 open('C:\\Users\\ffff_\\source\\repos\\WindowsApp1\\bin\\x64\\Release\\Installable pour article eXa\\swipl\\output.txt', write, Out),
-forall((exalog(prêter('Ailton','club_de_football',[[],[à]],[['NC/NPP'],['NC']],[],[_,[]],_,'l'),PL,PM,PT,Rep,[],Trace)),
-csv_write_stream(Out, [row('Ailton','club_de_football',Rep), row('TRACE=',Trace)], [])),
+forall((exalog(être('Sam','terne',[[],[]],[['NC/NPP'],['ADJ']],[],[[],[]],_,'l'),PL,PM,PT,Rep,[],Trace)),
+csv_write_stream(Out, [row('Sam','terne',Rep), row('TRACE=',Trace)], [])),
 close(Out)).

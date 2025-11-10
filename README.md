@@ -29,10 +29,6 @@ and ProntoQA.
   You may use, modify, and redistribute it under these terms, provided the copyright
   notice and permission statement are retained.  
 
-- The package includes an embedded **SWI-Prolog** executable.  
-  SWI-Prolog is © *Jan Wielemaker* and contributors, distributed under the **Simplified BSD License**.  
-  See the full text here: [https://www.swi-prolog.org/license.html](https://www.swi-prolog.org/license.html)
-
 ---
 
 ##  Requirements
@@ -42,7 +38,10 @@ and ProntoQA.
   - Microsoft **Access 2016** or later  
   - *If Access is not installed*, please install:  
     [**Microsoft Access Database Engine 2016 (ACE, x64)**](https://www.microsoft.com/en-us/download/details.aspx?id=54920)
-
+- **Prolog Engine:** 
+	- **SWI-Prolog 9.2** or later
+	- *If not installed*, please install, with *include in PATH* checked:
+	[**SWI-Prolog for Microsoft Windows (64 bit)**] (https://www.swi-prolog.org/download/stable)
 ---
 
 ##  Installation
