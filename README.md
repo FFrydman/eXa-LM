@@ -1,7 +1,7 @@
 # eXa-LM  
 *A Controlled Natural Language Bridge between Large Language Models and First-Order Logic Solvers*  
 
-https://10.5281/zenodo.17573374
+[https://10.5281/zenodo.17573374](https://doi.org/10.5281/zenodo.17573374)
 
 **Version:** 1.0  
 **License:** MIT  
