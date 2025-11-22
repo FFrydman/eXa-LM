@@ -1,6 +1,8 @@
 # eXa-LM  
 *A Controlled Natural Language Bridge between Large Language Models and First-Order Logic Solvers*  
 
+10.5281/zenodo.17573374
+
 **Version:** 1.0  
 **License:** MIT  
 © 2025 Francis Frydman  
